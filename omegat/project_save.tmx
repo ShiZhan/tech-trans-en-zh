@@ -120,8 +120,8 @@
       <tuv lang="EN-US">
         <seg>An interesting question for the future from the paper is “... whether storage capacity growth will fall behind data-growth rates, meaning that the standard model of storing all data forever will no longer be sustainable because of a shortage of available storage resources.” The chances of that are, in my estimation, close to certain.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T015753Z" creationid="Zhan" creationdate="20160427T015753Z">
-        <seg>这篇论文向未来提出一个有趣的问题 "... 存储容量增长是否将落后数据增长率，意味着，由于可用的存储资源短缺，永远存储所有数据的标准模型将不可持续。" 其可能性是，据我估计，近乎明确。</seg>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T095232Z" creationid="Zhan" creationdate="20160427T015753Z">
+        <seg>这篇论文向未来提出一个有趣的问题 "... 存储容量增长是否将落后于数据增长率，这意味着，由于可用存储资源的短缺，这种永远存储所有数据的标准模型将不可持续。" 其可能性是，据我估计，近乎必然。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1027,8 +1027,8 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       <tuv lang="EN-US">
         <seg>While the applications of machine intelligence are many, they aren’t infinite.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T023238Z" creationid="Zhan" creationdate="20160427T023238Z">
-        <seg>虽然机器智能的应用很丰富，却并非无限。</seg>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T094911Z" creationid="Zhan" creationdate="20160427T023238Z">
+        <seg>机器智能的应用虽然很丰富，却并非无限。</seg>
       </tuv>
     </tu>
     <tu>
