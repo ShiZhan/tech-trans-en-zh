@@ -135,6 +135,14 @@ boost.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For an interesting overview of the Gödel Machine, deep learning, and how a program can rewrite itself while running, Schmidhuber’s lecture is an excellent introduction.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T044527Z" creationid="Zhan" creationdate="20160427T044527Z">
+        <seg>Schmidhuber 的讲座为哥德尔机、深度学习，以及程序如何在运行时重写自身提供了一个不错的有趣介绍。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For those coming in late, the upcoming NVM technologies, of which Xpoint is only one, promise faster writes, higher endurance, and greater longevity than the NAND flash used in today’s SSDs.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T013747Z" creationid="Zhan" creationdate="20160322T090801Z">
@@ -268,6 +276,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004745Z" creationid="Zhan" creationdate="20160427T002338Z">
         <seg>其基于这样一个想法，就是越重要的事情越容易记住，比方说在大峡谷上的日落，之于上一次等红灯。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>I’m curious about the system architecture running the Gödel Machine and the I/O workload the machine generates.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T044728Z" creationid="Zhan" creationdate="20160427T044728Z">
+        <seg>我很好奇哥德尔机运行的系统体系结构及其生成的 I/O 工作负载。</seg>
       </tuv>
     </tu>
     <tu>
@@ -458,6 +474,16 @@ The full paper is a must-read for anyone professionally concerned with integrati
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T020412Z" creationid="Zhan" creationdate="20160323T020412Z">
         <seg>StorageMojo 评述
 这篇论文对那些将 NVM 技术向系统进行整合有专业性考虑的人士而言是必读之作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The StorageMojo take
+This is StorageMojo, not AIMojo.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T044614Z" creationid="Zhan" creationdate="20160427T044614Z">
+        <seg>StorageMojo 体会
+这里是 StorageMojo，不是 AIMojo。</seg>
       </tuv>
     </tu>
     <tu>
