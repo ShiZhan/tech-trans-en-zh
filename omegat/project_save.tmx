@@ -486,6 +486,14 @@ The full paper is a must-read for anyone professionally concerned with integrati
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The implication of the former is that since at least one improvement cannot be proved by the searcher, the AI will remain less than optimal.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T044242Z" creationid="Zhan" creationdate="20160427T044242Z">
+        <seg>前者的引申含义是，因为至少一个改进不能通过搜索者证明，AI 将仍然弱于最优。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The key is using machine learning to determine data value.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004105Z" creationid="Zhan" creationdate="20160427T004105Z">
