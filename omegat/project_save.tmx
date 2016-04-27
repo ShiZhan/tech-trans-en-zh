@@ -38,6 +38,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All graph processing systems can implement these algorithms, so in order to "have a fair comparison", a requirement of getting most papers published, you have to restrict your attention to this sort of problem.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T072017Z" creationid="Zhan" creationdate="20160427T072017Z">
+        <seg>所有的图处理系统均可以实现这些算法，因此，为"有一个公平的比较"，作为多数论文发表的条件，你必须将注意力局限到这类问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An interesting question for the future from the paper is “... whether storage capacity growth will fall behind data-growth rates, meaning that the standard model of storing all data forever will no longer be sustainable because of a shortage of available storage resources.” The chances of that are, in my estimation, close to certain.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T015753Z" creationid="Zhan" creationdate="20160427T015753Z">
@@ -99,6 +107,14 @@ boost.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004721Z" creationid="Zhan" creationdate="20160427T003024Z">
         <seg>然而即便是用上新工具，比方说图数据库，去处海量原始数据的难度依然与日俱增。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By fixating only on the easiest of problems, researchers spiral into over-optimized and under-capable systems.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T072231Z" creationid="Zhan" creationdate="20160427T072231Z">
+        <seg>由于仅聚焦于这类最简化问题，研究者们一直在过于优化与能力不足系统之间转圈。</seg>
       </tuv>
     </tu>
     <tu>
