@@ -102,6 +102,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Because the benchmark only requires the result, not a specific implementation, research and progress happened.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T075308Z" creationid="Zhan" creationdate="20160427T075308Z">
+        <seg>由于这项基准测试只需要结果，不考察特定实现、研究乃至相应进展。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Being a crap algorithm isn't the worst thing.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T073136Z" creationid="Zhan" creationdate="20160427T073136Z">
@@ -281,6 +289,14 @@ If, like me, you’re interested in AI and deep learning, you’ll like this.</s
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T070834Z" creationid="Zhan" creationdate="20160427T070834Z">
         <seg>这里我谈一些我的想法，为什么这个区域没有实现什么进展，并且在某些情况下还有所退步，以及提几个改进建议。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, in my mind the most interesting thing to happen with graph500 was [Scott Beamer](http://www.cs.berkeley.edu/~sbeamer/research.html) and friends observing that a tweaked algorithm could traverse fewer edges, accomplishing the same result but moving less data over the memory subsystem.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T075206Z" creationid="Zhan" creationdate="20160427T075206Z">
+        <seg>然而，在我的印象中发生在 graph500 上最有趣的事情莫过于 [Scott Beamer] (http://www.cs.berkeley.edu/~sbeamer/research.html)，据朋友们观察，一项调整的算法可以通过遍历更少的边以实现相同的结果，从而在内存子系统移动较少的数据。</seg>
       </tuv>
     </tu>
     <tu>
