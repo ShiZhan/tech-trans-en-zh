@@ -38,6 +38,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#### Community detection</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T080114Z" creationid="Zhan" creationdate="20160427T080114Z">
+        <seg>#### 社区发现</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#### Graph coloring</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T075858Z" creationid="Zhan" creationdate="20160427T075858Z">
@@ -58,6 +66,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T005252Z" creationid="Zhan" creationdate="20160427T005252Z">
         <seg>......一种监督的学习技术，被用于密切相关上下文的文档分类，并比其他的学习方法显示出较低的复杂度和更高的鲁棒性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A graph coloring is an assignment of colors (think small integers) to graph nodes so that no edge references two nodes of the same color.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T080033Z" creationid="Zhan" creationdate="20160427T080033Z">
+        <seg>图的着色是给图节点上色（可理解为小整数），同时保证没有一条边连接相同颜色的两个节点。</seg>
       </tuv>
     </tu>
     <tu>
