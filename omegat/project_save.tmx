@@ -22,6 +22,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>### Graph problems not graph algorithms.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T072502Z" creationid="Zhan" creationdate="20160427T072502Z">
+        <seg>### 图问题不同于图算法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>... a supervised learning technique that has been used in the closely related context of document classication, where it has been shown to have lower complexity and higher robustness than other learning methods.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T005252Z" creationid="Zhan" creationdate="20160427T005252Z">
@@ -471,6 +479,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>So many papers confuse graph "problems" and graph "algorithms".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T072523Z" creationid="Zhan" creationdate="20160427T072523Z">
+        <seg>很多论文混淆图"问题"和图"算法"。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Solver.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T045551Z" creationid="Zhan" creationdate="20160427T043247Z">
@@ -507,6 +523,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T021502Z" creationid="Zhan" creationdate="20160427T021502Z">
         <seg>当然，你能将不太可能被用到的数据转移进低成本磁带上— — IBM 是领先的磁带驱动器供应商 — — 但"永远存储一切"算法无法扩展 — — 只要有什么不能持续扩展，那就不会。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>That is my view of the main issue with graph processing research at the moment, but it shows up a few different ways.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T072442Z" creationid="Zhan" creationdate="20160427T072442Z">
+        <seg>这是我认为此刻在图处理研究中存在的主要问题，也揭示出一些不同的途径。</seg>
       </tuv>
     </tu>
     <tu>
