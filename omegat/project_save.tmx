@@ -428,6 +428,14 @@ From the paper:
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Gödel Machine was invented by Jürgen Schmidhuber in 2003.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T043913Z" creationid="Zhan" creationdate="20160427T043913Z">
+        <seg>哥德尔机由 Jürgen Schmidhuber 在 2003 年发明。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The NVMW is a production of UCSD’s Non-Volatile Research Lab and the Center for Memory Recording Research.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T013800Z" creationid="Zhan" creationdate="20160322T103815Z">
@@ -486,6 +494,16 @@ The full paper is a must-read for anyone professionally concerned with integrati
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The limits of AI
+As Gödel proved, any formal system that includes arithmetic, either allows for unprovable but true statements, or is flawed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T044107Z" creationid="Zhan" creationdate="20160427T044107Z">
+        <seg>人工智能的极限
+正如哥德尔 (Gödel) 所证明的，任何形式系统，包括算术，或者包含无法证明的永真命题，或者不完备。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The other issue – beyond the scope of the paper – is also scale-related: how large will the storage system need to be to justify the cost and overhead of cognition?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T022420Z" creationid="Zhan" creationdate="20160427T022420Z">
@@ -520,8 +538,8 @@ The full paper is a must-read for anyone professionally concerned with integrati
       <tuv lang="EN-US">
         <seg>The searcher seeks to improve the entire Gödel machine in a provably – subject to Gödel’s limits of provability, of course – optimal way.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T043818Z" creationid="Zhan" creationdate="20160427T043801Z">
-        <seg>搜索者旨在从整体上以可证明最优的方式改善哥德尔整机 — — 针对哥德尔受到的可证明性限制。</seg>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T043846Z" creationid="Zhan" creationdate="20160427T043801Z">
+        <seg>搜索者旨在从整体上以可证明最优的方式改善哥德尔机 — — 针对哥德尔受到的可证明性限制。</seg>
       </tuv>
     </tu>
     <tu>
