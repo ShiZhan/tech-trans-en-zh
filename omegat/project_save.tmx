@@ -215,6 +215,14 @@ boost.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For an alternate approach, consider the [graph500 benchmark](http://www.graph500.org), originally conceived as a way to evaluate memory subsystems.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T074344Z" creationid="Zhan" creationdate="20160427T074344Z">
+        <seg>作为另一种方法，请考虑 [graph500 基准] (http://www.graph500.org)，最初被视为一种内存子系统评价方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For an interesting overview of the Gödel Machine, deep learning, and how a program can rewrite itself while running, Schmidhuber’s lecture is an excellent introduction.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T044527Z" creationid="Zhan" creationdate="20160427T044527Z">
@@ -675,6 +683,14 @@ This is StorageMojo, not AIMojo.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T045655Z" creationid="Zhan" creationdate="20160427T044242Z">
         <seg>前者的引申含义是，因为至少一个改进不能通过搜索者证明，人工智能将仍然弱于最优。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The issue with crap algorithms is when they become benchmark computations for research areas.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T074246Z" creationid="Zhan" creationdate="20160427T074246Z">
+        <seg>在没用算法成为研究领域计算性能评估的基准时，这就成为了问题。</seg>
       </tuv>
     </tu>
     <tu>
