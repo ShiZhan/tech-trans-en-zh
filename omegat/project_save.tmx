@@ -359,6 +359,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It made a lot of sense for the authors, because they could compute what they needed and be done with it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T073558Z" creationid="Zhan" creationdate="20160427T073558Z">
+        <seg>就作者而言这还是挺有意义，因为他们可以完成他们需要的计算。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It’s based on the idea that it’s easier to remember important, like a sunset over the Grand Canyon, than the last time you waited for a traffic light.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004745Z" creationid="Zhan" creationdate="20160427T002338Z">
@@ -829,6 +837,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T041745Z" creationid="Zhan" creationdate="20160427T041745Z">
         <seg>什么是哥德尔机？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>What's missing and what needs to get done next?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T073712Z" creationid="Zhan" creationdate="20160427T073712Z">
+        <seg>还缺少什么，以及下一步还需要做什么？</seg>
       </tuv>
     </tu>
     <tu>
