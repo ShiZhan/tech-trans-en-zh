@@ -30,6 +30,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>### Think like a computer scientist not a vertex</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T075838Z" creationid="Zhan" creationdate="20160427T075838Z">
+        <seg>### 像计算机科学家一样思考而非一个顶点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#### Graph coloring</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T075858Z" creationid="Zhan" creationdate="20160427T075858Z">
+        <seg>#### 图的着色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>**Recommendation 1**: Authors of graph processing systems should be obliged to evaluate their implementations against other algorithms for the same problems.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T075601Z" creationid="Zhan" creationdate="20160427T075601Z">
@@ -106,6 +122,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T015006Z" creationid="Zhan" creationdate="20160427T015006Z">
         <seg>随着训练集变得更大，较小分类精度持续提高，在训练数据的 30%左右可以达到近 100%的准确率。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Authors should go and check out the [GAP benchmark suite](https://github.com/sbeamer/gapbs), which targets simpler problems like those above, but provides optimized implementations using algorithms you probably haven't ever heard of.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T075815Z" creationid="Zhan" creationdate="20160427T075815Z">
+        <seg>作者应该去查阅 [GAP benchmark suite] (https://github.com/sbeamer/gapbs)，其不仅以上面的那些简单问题为目标，更提供你可能还没听说过的优化算法。</seg>
       </tuv>
     </tu>
     <tu>
