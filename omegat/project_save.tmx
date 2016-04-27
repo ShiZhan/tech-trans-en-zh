@@ -181,10 +181,10 @@ boost.</seg>
 by ROBIN HARRIS on WEDNESDAY, 13 JANUARY, 2016
 If, like me, you’re interested in AI and deep learning, you’ll like this.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T031213Z" creationid="Zhan" creationdate="20160427T031213Z">
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T045452Z" creationid="Zhan" creationdate="20160427T031213Z">
         <seg>哥德尔机器、深度学习和人工智能的极限
-罗宾 · 哈里斯 在星期三 2016 年 1 月 13 日
-如果像我一样，你感对人工智能(AI)和深入学习感兴趣，你会喜欢这篇。</seg>
+罗宾 · 哈里斯 星期三 2016 年 1 月 13 日
+如果像我一样，你感对人工智能(AI)和深度学习感兴趣，你会喜欢这篇。</seg>
       </tuv>
     </tu>
     <tu>
@@ -215,8 +215,8 @@ If, like me, you’re interested in AI and deep learning, you’ll like this.</s
       <tuv lang="EN-US">
         <seg>IBM’s Watson runs on a massively parallel system, and I assume a Gödel Machine can too.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T044750Z" creationid="Zhan" creationdate="20160427T044750Z">
-        <seg>IBM 的沃森 (Watson) 运行在大规模并行系统上，我认为哥德尔机也可以。</seg>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T045713Z" creationid="Zhan" creationdate="20160427T044750Z">
+        <seg>IBM 的沃森(Watson)运行在大规模并行系统上，我认为哥德尔机也可以。</seg>
       </tuv>
     </tu>
     <tu>
@@ -402,8 +402,8 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
       <tuv lang="EN-US">
         <seg>Solver.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T043247Z" creationid="Zhan" creationdate="20160427T043247Z">
-        <seg>规划求解。</seg>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T045551Z" creationid="Zhan" creationdate="20160427T043247Z">
+        <seg>求解器。</seg>
       </tuv>
     </tu>
     <tu>
@@ -538,8 +538,8 @@ This is StorageMojo, not AIMojo.</seg>
       <tuv lang="EN-US">
         <seg>The implication of the former is that since at least one improvement cannot be proved by the searcher, the AI will remain less than optimal.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T044242Z" creationid="Zhan" creationdate="20160427T044242Z">
-        <seg>前者的引申含义是，因为至少一个改进不能通过搜索者证明，AI 将仍然弱于最优。</seg>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T045655Z" creationid="Zhan" creationdate="20160427T044242Z">
+        <seg>前者的引申含义是，因为至少一个改进不能通过搜索者证明，人工智能将仍然弱于最优。</seg>
       </tuv>
     </tu>
     <tu>
@@ -555,9 +555,9 @@ This is StorageMojo, not AIMojo.</seg>
         <seg>The limits of AI
 As Gödel proved, any formal system that includes arithmetic, either allows for unprovable but true statements, or is flawed.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T044107Z" creationid="Zhan" creationdate="20160427T044107Z">
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T045645Z" creationid="Zhan" creationdate="20160427T044107Z">
         <seg>人工智能的极限
-正如哥德尔 (Gödel) 所证明的，任何形式系统，包括算术，或者包含无法证明的永真命题，或者不完备。</seg>
+正如哥德尔(Gödel)所证明的，任何形式系统，包括算术，或者包含无法证明的永真命题，或者不完备。</seg>
       </tuv>
     </tu>
     <tu>
@@ -604,8 +604,8 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       <tuv lang="EN-US">
         <seg>The solver interacts with some environment and determines utility using a reward function embedded in the machine.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T043451Z" creationid="Zhan" creationdate="20160427T043451Z">
-        <seg>规划求解与一些环境进行交互，并使用机器内嵌的奖励函数来确定效用。</seg>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T045555Z" creationid="Zhan" creationdate="20160427T043451Z">
+        <seg>求解器与一些环境进行交互，并使用机器内嵌的奖励函数来确定效用。</seg>
       </tuv>
     </tu>
     <tu>
