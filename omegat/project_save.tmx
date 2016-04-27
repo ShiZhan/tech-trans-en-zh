@@ -30,6 +30,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>**Recommendation 1**: Authors of graph processing systems should be obliged to evaluate their implementations against other algorithms for the same problems.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T075601Z" creationid="Zhan" creationdate="20160427T075601Z">
+        <seg>** 建议 1 **: 图处理系统的作者们应该有义务将其系统与解决同样的问题的其他算法相比较。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>... a supervised learning technique that has been used in the closely related context of document classication, where it has been shown to have lower complexity and higher robustness than other learning methods.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T005252Z" creationid="Zhan" creationdate="20160427T005252Z">
