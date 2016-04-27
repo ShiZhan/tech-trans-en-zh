@@ -46,6 +46,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Are these algorithms actually "representative graph problems", like the papers claim, and should we continue to improve the performance of these algorithms, assuming good general graph processing will come out of this work?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T071531Z" creationid="Zhan" creationdate="20160427T071531Z">
+        <seg>这些算法是否确实如同这些论文所述 "代表图问题"，而且我们是否应该继续提高这些算法的性能，并认为一般性图处理可以由此改善？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As 2015 draws to a close, the research published at top venues still targets pretty much pagerank, connected components via label propagation, and breadth-first distance labeling.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T071017Z" creationid="Zhan" creationdate="20160427T071017Z">
@@ -383,6 +391,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>No.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T071539Z" creationid="Zhan" creationdate="20160427T071539Z">
+        <seg>不。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Nonetheless, the IBM team is doing important work.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T023209Z" creationid="Zhan" creationdate="20160427T023209Z">
@@ -669,6 +685,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T023003Z" creationid="Zhan" creationdate="20160427T023003Z">
         <seg>几十年来已有零星尝试将智能性添加到存储系统，然而由于其成本高过直接追加存储所以并不成功。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These algorithms are not representative of graph processing problems.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T071552Z" creationid="Zhan" creationdate="20160427T071552Z">
+        <seg>这些算法不是图形处理问题的代表。</seg>
       </tuv>
     </tu>
     <tu>
