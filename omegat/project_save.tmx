@@ -625,6 +625,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The research in graph processing systems has (to my reading) largely focused on these problems as their core evaluation metrics, and consequently worked primarily to improve their performance on these problems.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T071244Z" creationid="Zhan" creationdate="20160427T071244Z">
+        <seg>在图处理系统方向上的研究仍 （就我的阅读而言） 主要集中在以这些问题作为其核心的评价指标，也因此主要是为了提高他们在这些问题上的表现。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The researchers use a learning algorithm known as the “Information Bottleneck” (IB)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T005043Z" creationid="Zhan" creationdate="20160427T005043Z">
