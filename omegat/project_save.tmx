@@ -518,6 +518,14 @@ The full paper is a must-read for anyone professionally concerned with integrati
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The searcher seeks to improve the entire Gödel machine in a provably – subject to Gödel’s limits of provability, of course – optimal way.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T043801Z" creationid="Zhan" creationdate="20160427T043801Z">
+        <seg>搜索者旨在从整体上以可证明最优的方式改善哥德尔整机 — — 针对哥德尔受到的可证明性限制 — — 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The solver interacts with some environment and determines utility using a reward function embedded in the machine.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T043451Z" creationid="Zhan" creationdate="20160427T043451Z">
