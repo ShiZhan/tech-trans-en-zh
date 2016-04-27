@@ -1039,6 +1039,38 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
         <seg>在相对较小的数据集上，研究小组发现，</seg>
       </tuv>
     </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>[Original Post](http://storagemojo.com/2016/01/13/godel-machines-deep-learning-and-the-limits-of-ai/)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T093429Z" creationid="Zhan" creationdate="20160427T093429Z">
+        <seg>[原文](http://storagemojo.com/2016/01/13/godel-machines-deep-learning-and-the-limits-of-ai/)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>[Original Post](http://storagemojo.com/2016/03/21/integrating-3d-xpoint-with-dram/)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T093456Z" creationid="Zhan" creationdate="20160427T093456Z">
+        <seg>[原文](http://storagemojo.com/2016/03/21/integrating-3d-xpoint-with-dram/)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>[Original Post](http://storagemojo.com/2016/04/15/smart-storage-for-big-data/)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T093357Z" creationid="Zhan" creationdate="20160427T093357Z">
+        <seg>[原文](http://storagemojo.com/2016/04/15/smart-storage-for-big-data/)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>[Original Post](https://github.com/frankmcsherry/blog/blob/master/posts/2015-12-24.md)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T093414Z" creationid="Zhan" creationdate="20160427T093414Z">
+        <seg>[原文](https://github.com/frankmcsherry/blog/blob/master/posts/2015-12-24.md)</seg>
+      </tuv>
+    </tu>
 <!-- Alternative translations -->
   </body>
 </tmx>
