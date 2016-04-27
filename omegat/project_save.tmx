@@ -288,6 +288,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Neural networks are all the rage in AI, but there is a newer technology – Gödel machines – that is now a standard part of the AI toolset.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T041730Z" creationid="Zhan" creationdate="20160427T041730Z">
+        <seg>神经网络在人工智能领域正广受关注，然而还有新技术 — — 哥德尔机 — — 现在也成为 AI 工具集的一个标准部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Nonetheless, the IBM team is doing important work.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T023209Z" creationid="Zhan" creationdate="20160427T023209Z">
@@ -506,6 +514,14 @@ The full paper is a must-read for anyone professionally concerned with integrati
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T002453Z" creationid="Zhan" creationdate="20160427T002417Z">
         <seg>我们正面临一场我们从未见过的数据倾泻.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>What is a Gödel machine?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T041745Z" creationid="Zhan" creationdate="20160427T041745Z">
+        <seg>什么是哥德尔机？</seg>
       </tuv>
     </tu>
     <tu>
