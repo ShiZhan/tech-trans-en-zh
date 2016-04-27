@@ -173,6 +173,14 @@ If, like me, you’re interested in AI and deep learning, you’ll like this.</s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gödel machines run on von Neumann architectures – they are not a new computer architecture.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T043231Z" creationid="Zhan" creationdate="20160427T043231Z">
+        <seg>哥德尔机可以在冯 · 诺依曼体系结构上运行 — — 他们不是一个新的计算机体系结构。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>IB, essentially, relates the information’s metadata values to cognitive system relevance values with the goal of preserving the mutual information between the two.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T005545Z" creationid="Zhan" creationdate="20160427T005545Z">
@@ -344,6 +352,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Solver.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T043247Z" creationid="Zhan" creationdate="20160427T043247Z">
+        <seg>规划求解。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Some are forecasting that we’ll be generating more data than we’ll have capacity to store once IoT gets rolling.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T002652Z" creationid="Zhan" creationdate="20160427T002652Z">
@@ -392,6 +408,14 @@ From the paper:
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004714Z" creationid="Zhan" creationdate="20160427T003113Z">
         <seg>这就是为何数据科学家面临急需。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Gödel Machine is a universal problem solver encoded as a completely self-referential program capable of rewriting any part of itself, provided it can prove that the rewrite is useful according to some utility function, encoded within itself.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T043159Z" creationid="Zhan" creationdate="20160427T043159Z">
+        <seg>哥德尔机是一种通用问题求解器，其被编码为完全自引用程序，能够改写自身任一部分，通过一些实用函数，在其内进行自编码，可以证明重写用途。</seg>
       </tuv>
     </tu>
     <tu>
@@ -498,6 +522,14 @@ The full paper is a must-read for anyone professionally concerned with integrati
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T023003Z" creationid="Zhan" creationdate="20160427T023003Z">
         <seg>几十年来已有零星尝试将智能性添加到存储系统，然而由于其成本高过直接追加存储所以并不成功。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>They consist of two main parts:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T043238Z" creationid="Zhan" creationdate="20160427T043238Z">
+        <seg>它们由两个主要部分组成 ︰</seg>
       </tuv>
     </tu>
     <tu>
