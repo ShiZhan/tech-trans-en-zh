@@ -94,6 +94,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Being a crap algorithm isn't the worst thing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T073136Z" creationid="Zhan" creationdate="20160427T073136Z">
+        <seg>作为一种没用算法还不是最糟糕的事情。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>But NVM is not a perfect replacement for DRAM, even ignoring latency.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T015404Z" creationid="Zhan" creationdate="20160323T015404Z">
@@ -555,6 +563,14 @@ From the paper:
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The *problem* of undirected graph connectivity is to identify connected components, whereas the *algorithm* of label propagation is a specific approach based on repeatedly circulating the smallest known node identifiers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T072931Z" creationid="Zhan" creationdate="20160427T072931Z">
+        <seg>无向图联通性 *问题* 是为找出联通子图，在这里这种标签传播 *算法* 是一种基于反复散布最小已知节点标记的特殊方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Gödel Machine is a universal problem solver encoded as a completely self-referential program capable of rewriting any part of itself, provided it can prove that the rewrite is useful according to some utility function, encoded within itself.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T043159Z" creationid="Zhan" creationdate="20160427T043159Z">
@@ -757,6 +773,22 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T043238Z" creationid="Zhan" creationdate="20160427T043238Z">
         <seg>它们由两个主要部分组成 ︰</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This algorithm, however, is pretty crap.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T073107Z" creationid="Zhan" creationdate="20160427T073107Z">
+        <seg>而这种算法，是漂亮的垃圾。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This problem has many solutions developed over the years with a variety of interesting trade-offs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T073047Z" creationid="Zhan" creationdate="20160427T073047Z">
+        <seg>多年来就这个问题已开发出很多解决方案，有着各种有趣的权衡取舍。</seg>
       </tuv>
     </tu>
     <tu>
