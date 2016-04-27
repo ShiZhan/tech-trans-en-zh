@@ -431,6 +431,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Rather, they are representative of algorithms that can be expressed in the lowest-common-denominator systems.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T071731Z" creationid="Zhan" creationdate="20160427T071731Z">
+        <seg>相反，他们是代表着最低共性特征的算法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Searcher.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T043457Z" creationid="Zhan" creationdate="20160427T043457Z">
@@ -693,6 +701,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T071552Z" creationid="Zhan" creationdate="20160427T071552Z">
         <seg>这些算法不是图形处理问题的代表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These three algorithms (and minor variations) are ubiquitous because they are easy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T071759Z" creationid="Zhan" creationdate="20160427T071743Z">
+        <seg>这些三种算法 （和一些小变体） 是无处不在因为他们很容易。</seg>
       </tuv>
     </tu>
     <tu>
