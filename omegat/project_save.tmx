@@ -78,6 +78,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As a fun exercise, perhaps you could write down what you think would constitute progress?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T073846Z" creationid="Zhan" creationdate="20160427T073846Z">
+        <seg>作个有趣的作业，也许你可以写下那些你认为可以促成进步的内容？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As the system watches human interaction with the data set, it learns what is important and tiers, protects and stores data according to user needs.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004925Z" creationid="Zhan" creationdate="20160427T004556Z">
@@ -821,6 +829,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T023437Z" creationid="Zhan" creationdate="20160427T023437Z">
         <seg>以任意数字文化为基础来理解其限制 — — 存储 — — 对我们文化的基础设施至关重要。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Unfortunately, it caught on.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T073937Z" creationid="Zhan" creationdate="20160427T073937Z">
+        <seg>不幸的是，问题上钩啰。</seg>
       </tuv>
     </tu>
     <tu>
