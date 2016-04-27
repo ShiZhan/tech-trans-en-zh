@@ -1,0 +1,23 @@
+Gödel Machines, deep learning and the limits of AI
+by ROBIN HARRIS on WEDNESDAY, 13 JANUARY, 2016
+If, like me, you’re interested in AI and deep learning, you’ll like this. Neural networks are all the rage in AI, but there is a newer technology – Gödel machines – that is now a standard part of the AI toolset.
+
+What is a Gödel machine? From the abstract of the paper A Family of Gödel Machine Implementations by Bas R. Steunebrink and Jürgen Schmidhuber of the IDSIA & University of Lugano:
+
+The Gödel Machine is a universal problem solver encoded as a completely self-referential program capable of rewriting any part of itself, provided it can prove that the rewrite is useful according to some utility function, encoded within itself.
+
+Gödel machines run on von Neumann architectures – they are not a new computer architecture. They consist of two main parts:
+
+Solver. The solver interacts with some environment and determines utility using a reward function embedded in the machine.
+Searcher. The searcher seeks to improve the entire Gödel machine in a provably – subject to Gödel’s limits of provability, of course – optimal way.
+The Gödel Machine was invented by Jürgen Schmidhuber in 2003.
+
+The limits of AI
+As Gödel proved, any formal system that includes arithmetic, either allows for unprovable but true statements, or is flawed. The implication of the former is that since at least one improvement cannot be proved by the searcher, the AI will remain less than optimal.
+
+For an interesting overview of the Gödel Machine, deep learning, and how a program can rewrite itself while running, Schmidhuber’s lecture is an excellent introduction.
+
+The StorageMojo take
+This is StorageMojo, not AIMojo. I’m curious about the system architecture running the Gödel Machine and the I/O workload the machine generates. IBM’s Watson runs on a massively parallel system, and I assume a Gödel Machine can too.
+
+I’m also pleased – probably unjustifiably – by the notion that however smart Ais become, they won’t be perfect. Fallibility will always be part of an AI’s nature.

@@ -1,0 +1,20 @@
+﻿Integrating 3D Xpoint with DRAM
+by Robin Harris on Monday, 21 March, 2016
+Intel is promising availability of 3D Xpoint non-volatile memory (NVM) this year, at least in their Optane SSDs. But Xpoint DIMMS are coming soon, and neither will give you anything close to 1,000x performance
+boost.
+In a recent paper, NOVA: A Log-structured File System for Hybrid Volatile/Non-volatile Main Memories Jian Xu and Steven Swanson of the University of California, San Diego, discuss NVM integration issues. For those coming in late, the upcoming NVM technologies, of which Xpoint is only one, promise faster writes, higher endurance, and greater longevity than the NAND flash used in today’s SSDs.
+The paper was presented at the Non-Volatile Memory Workshop last week at UCSD. The NVMW is a production of UCSD’s Non-Volatile Research Lab and the Center for Memory Recording Research. The event attracts researchers from all over the world to present their work and make academic and commercial connections.
+All good, right? Except each storage medium has its issues and NVM is no exception. From Jian’s abstract:
+... managing, accessing, and maintaining consistency for data stored in NVM raises a host of challenges. Existing file systems built for spinning or solid-state disks introduce software overheads that would obscure the performance that NVMs should provide, but proposed file systems for NVMs either incur similar overheads or fail to provide the strong consistency guarantees that applications require.
+That, in a nutshell, is why systems won’t be able to advantage of NVM technology until their DRAM and disk I/O stacks are re-engineered for the specific advantages and quirks of NVM. The paper offers a smart way to adapt existing techniques to the brave new world of NVM.
+From the paper:
+... NOVA adapts conventional log-structured file system techniques to exploit the fast random access that NVMs provide. In particular, it maintains separate logs for each inode to improve concurrency, and stores file data outside the log to minimize log size and reduce garbage collection costs. ... Experimental results show that in write-intensive workloads, NOVA provides 22% to 216× throughput improvement compared to state-of-the-art file systems, and 3.1× to 13.5× improvement compared to file systems that provide equally strong data consistency guarantees.
+The paper assumes, correctly, that the big win for new NVM technologies will be as an adjunct to DRAM, rather than as flash SSD replacements – despite the fact that the first Xpoint product will be an Optane SSD. Placing a much-faster-than-flash-but-slower-and-cheaper-than-DRAM NVM on the processor's memory bus makes perfect sense.
+But NVM is not a perfect replacement for DRAM, even ignoring latency.
+Providing strong consistency guarantees is particularly challenging for memory-based file systems because maintaining data consistency in NVMM can be costly. Modern CPU and memory systems may reorder stores to memory to improve performance, breaking consistency in case of system failure. To compensate, the file system needs to explicitly flush data from the CPU’s caches to enforce orderings, adding significant overhead and squandering the improved performance that NVMM can provide.
+The StorageMojo take
+The full paper is a must-read for anyone professionally concerned with integrating new NVM technologies into systems.
+More importantly, I expect that several NVM types will be coming to market over the next 5 years. The trade-off analysis has to become more nuanced than the IOPS/endurance/latency discussions we have today.
+The hyperscale guys have the incentive and the resources to perform deep analysis on new technologies.
+Commoditizing novel implementations of NVM – such as the hybrid memories this paper examines – will be a longer and more fraught process, but essential if we are to improve the efficiency and performance of all kinds of computer systems.
+Courteous comments welcome, of course.

@@ -1,0 +1,44 @@
+IBM researchers are proposing – and demoing – an intelligent storage system that works something like your brain. It’s based on the idea that it’s easier to remember important, like a sunset over the Grand Canyon, than the last time you waited for a traffic light.
+
+We’re facing a data onslaught like we’ve never seen before. Some are forecasting that we’ll be generating more data than we’ll have capacity to store once IoT gets rolling.
+
+But even with new tools, such as graph databases, making sense of massive amounts of raw data is getting harder every day. That’s why data scientists are in high demand.
+
+Just as any software problem can be solved by adding a layer of indirection, any analytics problem can be solved by adding a layer of intelligence. Of course, we know a lot more about indirection than we do intelligence.
+
+For IBM, a world leader in AI, as their success with Watson has demonstrated, applying intelligence to the problem of storage is a natural application.
+
+Wheat vs chaff
+
+In Cognitive Storage for Big Data (paywall), IBM researchers Giovanni Cherubini, Jens Jelitto, and Vinodh Venkatesan, of IBM Research—Zurich, described their prototype system. The key is using machine learning to determine data value.
+
+If you’re processing IoT data sets, the storage system’s AI would have processed what is important about prior data sets and apply those criteria – access frequency, protection level, divergence from norms, time value, – to the incoming data. As the system watches human interaction with the data set, it learns what is important and tiers, protects and stores data according to user needs.
+
+Experimental results
+
+The researchers use a learning algorithm known as the “Information Bottleneck” (IB)
+
+  ... a supervised learning technique that has been used in the closely related context of document classication, where it has been shown to have lower complexity and higher robustness than other learning methods. 
+
+IB, essentially, relates the information’s metadata values to cognitive system relevance values with the goal of preserving the mutual information between the two. The greater the mutual information, the more valuable the data and, hence, the higher the level of protection, access, and so on.
+
+With relatively small data sets, the team found that
+
+  As the training set got larger, the accuracy for the smaller classes improved, reaching nearly 100 percent accuracy at around 30 percent of the training data included. 
+
+Sounds workable!
+
+The StorageMojo take
+
+An interesting question for the future from the paper is “... whether storage capacity growth will fall behind data-growth rates, meaning that the standard model of storing all data forever will no longer be sustainable because of a shortage of available storage resources.” The chances of that are, in my estimation, close to certain.
+
+So enabling machine intelligence to trash data is probably the most essential issue and value of cognitive storage – and the capability most likely to frighten users. Establishing human trust in machine intelligence is a major domain problem – see Will Smith’s character in I, Robot.
+
+Sure, you can schlep unlikely-to-be-needed data off to low cost tape – IBM is a leading tape drive vendor – but the “store everything forever” algorithm doesn’t scale – and if something won’t scale forever, it won’t.
+
+The other issue – beyond the scope of the paper – is also scale-related: how large will the storage system need to be to justify the cost and overhead of cognition? Is this going to work at enterprise scale or will it be a purely web-scale service?
+
+There have been sporadic attempts over the decades to add intelligence to storage systems, and they’ve all come to grief because the cost of the intelligence was higher than the cost of additional storage. Storage costs continue to fall faster than computational costs, creating a difficult economic dynamic for cognitive storage.
+
+Nonetheless, the IBM team is doing important work. While the applications of machine intelligence are many, they aren’t infinite. Understanding its limits with respect to the foundation of any digital civilization – storage – is critical to our cultural infrastructure.
+
