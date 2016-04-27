@@ -777,6 +777,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This algorithm came to popularity when folks were forced to use Hadoop, because writing sophisticated algorithims in Hadoop is really painful.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T073341Z" creationid="Zhan" creationdate="20160427T073341Z">
+        <seg>当人们被迫使用 Hadoop 之时，这种算法就被普及，因为在 Hadoop 上编写精致复杂算法真的很棘手。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This algorithm, however, is pretty crap.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T073107Z" creationid="Zhan" creationdate="20160427T073107Z">
