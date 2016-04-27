@@ -153,6 +153,14 @@ boost.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>From the abstract of the paper A Family of Gödel Machine Implementations by Bas R. Steunebrink and Jürgen Schmidhuber of the IDSIA &amp; University of Lugano:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T042408Z" creationid="Zhan" creationdate="20160427T042408Z">
+        <seg>这篇论文《一类哥德尔机的实现》(A Family of Gödel Machine Implementations) 由来分别来自于 IDSIA 和 Lugano 大学的 Bas R. Steunebrink 和 Jürgen Schmidhuber 完成，其摘要里说：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gödel Machines, deep learning and the limits of AI
 by ROBIN HARRIS on WEDNESDAY, 13 JANUARY, 2016
 If, like me, you’re interested in AI and deep learning, you’ll like this.</seg>
