@@ -127,6 +127,14 @@ boost.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Fallibility will always be part of an AI’s nature.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T044850Z" creationid="Zhan" creationdate="20160427T044850Z">
+        <seg>易错性总会是人工智能本质的一部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For IBM, a world leader in AI, as their success with Watson has demonstrated, applying intelligence to the problem of storage is a natural application.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004653Z" creationid="Zhan" creationdate="20160427T003649Z">
@@ -201,6 +209,14 @@ If, like me, you’re interested in AI and deep learning, you’ll like this.</s
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T002120Z" creationid="Zhan" creationdate="20160427T002120Z">
         <seg>IBM 提出 – 和展示 – 一款可以如大脑一般运作的智能存储系统.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>IBM’s Watson runs on a massively parallel system, and I assume a Gödel Machine can too.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T044750Z" creationid="Zhan" creationdate="20160427T044750Z">
+        <seg>IBM 的沃森 (Watson) 运行在大规模并行系统上，我认为哥德尔机也可以。</seg>
       </tuv>
     </tu>
     <tu>
