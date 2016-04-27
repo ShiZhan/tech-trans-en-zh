@@ -527,6 +527,14 @@ This is StorageMojo, not AIMojo.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The class of graph algorithms modern systems typically express is quite limited, and as [we've seen before](https://github.com/frankmcsherry/blog/blob/master/posts/2015-01-15.md), many modern graph processors don't outperform a laptop on their intended computations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T070652Z" creationid="Zhan" creationdate="20160427T070626Z">
+        <seg>现代系统通常表达的这类图论算法实际上有相当局限性 [我们以前见过] (https://github.com/frankmcsherry/blog/blob/master/posts/2015-01-15.md)，在其专属计算任务上，许多现代图形处理器甚至还不比笔记本电脑更强。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The event attracts researchers from all over the world to present their work and make academic and commercial connections.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T013807Z" creationid="Zhan" creationdate="20160322T104151Z">
