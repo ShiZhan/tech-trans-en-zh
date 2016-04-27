@@ -647,6 +647,14 @@ This is StorageMojo, not AIMojo.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The benchmark requires one to compute the breadth-first distances and labels for a class of random graphs, and report the elapsed time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T074513Z" creationid="Zhan" creationdate="20160427T074513Z">
+        <seg>这项基准测试需要在随机图上计算广度优先遍历的距离和标签，然后报告所用时间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The class of graph algorithms modern systems typically express is quite limited, and as [we've seen before](https://github.com/frankmcsherry/blog/blob/master/posts/2015-01-15.md), many modern graph processors don't outperform a laptop on their intended computations.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T070652Z" creationid="Zhan" creationdate="20160427T070626Z">
