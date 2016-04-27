@@ -21,3 +21,5 @@ The StorageMojo take
 This is StorageMojo, not AIMojo. I’m curious about the system architecture running the Gödel Machine and the I/O workload the machine generates. IBM’s Watson runs on a massively parallel system, and I assume a Gödel Machine can too.
 
 I’m also pleased – probably unjustifiably – by the notion that however smart Ais become, they won’t be perfect. Fallibility will always be part of an AI’s nature.
+
+[Original Post](http://storagemojo.com/2016/01/13/godel-machines-deep-learning-and-the-limits-of-ai/)

@@ -42,3 +42,4 @@ There have been sporadic attempts over the decades to add intelligence to storag
 
 Nonetheless, the IBM team is doing important work. While the applications of machine intelligence are many, they aren’t infinite. Understanding its limits with respect to the foundation of any digital civilization – storage – is critical to our cultural infrastructure.
 
+[Original Post](http://storagemojo.com/2016/04/15/smart-storage-for-big-data/)

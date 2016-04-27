@@ -217,3 +217,5 @@ Let's be clear, all the research to be published in 2016 has already been done a
 **Goal 3**: I want people to give a crap about incrementally maintaining graph computations. This may look self-serving because differential dataflow does this, but I'd love for anyone else to be working in this space. I have no reason to believe this is useful for anything other than the US government being even more disappointing than it already is, but I'd love to be corrected.
 
 As a fun exercise, perhaps you could write down what you think would constitute progress? What's missing and what needs to get done next?
+
+[Original Post](https://github.com/frankmcsherry/blog/blob/master/posts/2015-12-24.md)

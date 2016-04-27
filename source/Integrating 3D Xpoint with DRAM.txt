@@ -18,3 +18,5 @@ More importantly, I expect that several NVM types will be coming to market over 
 The hyperscale guys have the incentive and the resources to perform deep analysis on new technologies.
 Commoditizing novel implementations of NVM – such as the hybrid memories this paper examines – will be a longer and more fraught process, but essential if we are to improve the efficiency and performance of all kinds of computer systems.
 Courteous comments welcome, of course.
+
+[Original Post](http://storagemojo.com/2016/03/21/integrating-3d-xpoint-with-dram/)
