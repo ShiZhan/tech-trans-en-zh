@@ -14,6 +14,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>## Goals for 2016</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T080547Z" creationid="Zhan" creationdate="20160427T080547Z">
+        <seg>## 2016年目标</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>## Progress in graph processing</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T070123Z" creationid="Zhan" creationdate="20160427T070123Z">
@@ -46,10 +54,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#### Differential dataflow</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T080517Z" creationid="Zhan" creationdate="20160427T080517Z">
+        <seg>#### 微分数据流</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#### Graph coloring</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T075858Z" creationid="Zhan" creationdate="20160427T075858Z">
         <seg>#### 图的着色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#### Label propagation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T080406Z" creationid="Zhan" creationdate="20160427T080406Z">
+        <seg>#### 标签传播</seg>
       </tuv>
     </tu>
     <tu>
@@ -138,6 +162,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T015006Z" creationid="Zhan" creationdate="20160427T015006Z">
         <seg>随着训练集变得更大，较小分类精度持续提高，在训练数据的 30%左右可以达到近 100%的准确率。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>At CIDR 2013, the [GRACE graph processing system](http://wenleix.github.io/paper/grace_cidr2013.pdf), no relation to [the other Grace graph processing system](https://www.usenix.org/system/files/conference/atc12/atc12-final182.pdf), presented a way to relax synchrony requirements in programs that otherwise look like bulk synchronous processors.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T080354Z" creationid="Zhan" creationdate="20160427T080354Z">
+        <seg>在 CIDR 2013 上, [GRACE 图处理系统](http://wenleix.github.io/paper/grace_cidr2013.pdf), 与 [另外一个 Grace 图处理系统](https://www.usenix.org/system/files/conference/atc12/atc12-final182.pdf) 无关，提出一种方法来缓解同步需求，有别于成批同步处理模式 (bulk synchronous processors)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -479,6 +511,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Let's talk about that now.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T080444Z" creationid="Zhan" creationdate="20160427T080444Z">
+        <seg>我们现在谈谈这个问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Modern CPU and memory systems may reorder stores to memory to improve performance, breaking consistency in case of system failure.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T015808Z" creationid="Zhan" creationdate="20160323T015808Z">
@@ -563,6 +603,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T071731Z" creationid="Zhan" creationdate="20160427T071731Z">
         <seg>相反，他们是代表着最低共性特征的算法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Remember label propagation for connected components?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T080426Z" creationid="Zhan" creationdate="20160427T080426Z">
+        <seg>还记得联通子图所用的标签传播吗？</seg>
       </tuv>
     </tu>
     <tu>
