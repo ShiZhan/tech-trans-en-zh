@@ -344,6 +344,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Searcher.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T043457Z" creationid="Zhan" creationdate="20160427T043457Z">
+        <seg>搜索者。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>So enabling machine intelligence to trash data is probably the most essential issue and value of cognitive storage – and the capability most likely to frighten users.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T020458Z" creationid="Zhan" creationdate="20160427T020458Z">
@@ -506,6 +514,14 @@ The full paper is a must-read for anyone professionally concerned with integrati
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T005043Z" creationid="Zhan" creationdate="20160427T005043Z">
         <seg>研究人员使用了一项被称作“信息瓶颈 (Information Bottleneck, IB)”的学习算法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The solver interacts with some environment and determines utility using a reward function embedded in the machine.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T043451Z" creationid="Zhan" creationdate="20160427T043451Z">
+        <seg>规划求解与一些环境进行交互，并使用机器内嵌的奖励函数来确定效用。</seg>
       </tuv>
     </tu>
     <tu>
