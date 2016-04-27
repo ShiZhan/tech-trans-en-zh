@@ -479,6 +479,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Presumably the original assumption was that folks would use breadth-first graph traversal, which exercised the memory subsystem in the way the benchmark authors intended (a mix of bulk memory access and pointer chasing).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T074831Z" creationid="Zhan" creationdate="20160427T074831Z">
+        <seg>是初的假设大概是，人们会使用广度优先遍历图，由此内存子系统访问将按照基准测试作者的意图 （大块内存访问和指针追逐的混合） 的方式进行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Providing strong consistency guarantees is particularly challenging for memory-based file systems because maintaining data consistency in NVMM can be costly.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T015554Z" creationid="Zhan" creationdate="20160323T015554Z">
