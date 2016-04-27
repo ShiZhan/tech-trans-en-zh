@@ -6,6 +6,22 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN-US">
+        <seg>"Graph processing" is one of many areas of big data research that make you feel like we've gone backwards in time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T070256Z" creationid="Zhan" creationdate="20160427T070256Z">
+        <seg>在大数据研究的众多领域中，"图处理" 是其中一个让你感觉好像我们返回旧时光的方向。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>## Progress in graph processing</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T070123Z" creationid="Zhan" creationdate="20160427T070123Z">
+        <seg>## 图形处理进展</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>... a supervised learning technique that has been used in the closely related context of document classication, where it has been shown to have lower complexity and higher robustness than other learning methods.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T005252Z" creationid="Zhan" creationdate="20160427T005252Z">
