@@ -1,0 +1,221 @@
+## 图形处理进展
+
+在大数据研究的众多领域中，"图处理" 是其中一个让你感觉好像我们返回旧时光的方向。现代系统通常表达的这类图论算法实际上有相当局限性 [我们以前见过] (https://github.com/frankmcsherry/blog/blob/master/posts/2015-01-15.md)，在其专属计算任务上，许多现代图形处理器甚至还不比笔记本电脑更强。
+
+这里我谈一些我的想法，为什么这个区域没有实现什么进展，并且在某些情况下还有所退步，以及提几个改进建议。
+
+---
+
+随着 2015 年临近尾声，发表在顶级会议上的研究仍然相当多的聚焦于 pagerank，基于标签传播的联通子图，和广度优先距离标签。在图处理系统方向上的研究仍 （就我的阅读而言） 主要集中在以这些问题作为其核心的评价指标，也因此主要是为了提高他们在这些问题上的表现。这些算法是否确实如同这些论文所述 "代表图问题"，而且我们是否应该继续提高这些算法的性能，并认为一般性图处理可以由此改善？
+
+不。这些算法不是图形处理问题的代表。相反，他们是代表着最低共性特征的算法。这些三种算法 （和一些小变体） 是无处不在因为他们很容易。所有的图处理系统均可以实现这些算法，因此，为"有一个公平的比较"，作为多数论文发表的条件，你必须将注意力局限到这类问题。 
+
+由于仅聚焦于这类最简化问题，研究者们一直在过于优化与能力不足系统之间转圈。这是我认为此刻在图处理研究中存在的主要问题，也揭示出一些不同的途径。
+
+### 图问题不同于图算法。
+
+很多论文混淆图"问题"和图"算法"。 
+
+无向图联通性 *问题* 是为找出联通子图，在这里这种标签传播 *算法* 是一种基于反复散布最小已知节点标记的特殊方法。多年来就这个问题已开发出很多解决方案，有着各种有趣的权衡取舍。而这种算法，是漂亮的垃圾。
+
+作为一种没用算法还不是最糟糕的事情。当人们被迫使用 Hadoop 之时，这种算法就被普及，因为在 Hadoop 上编写精致复杂算法真的很棘手。就作者而言这还是挺有意义，因为他们可以完成他们需要的计算。不幸的是，问题上钩啰。
+
+在没用算法成为研究领域计算性能评估的基准时，这就成为了问题。 
+
+作为另一种方法，请考虑 [graph500 基准] (http://www.graph500.org)，最初被视为一种内存子系统评价方法。这项基准测试需要在随机图上计算广度优先遍历的距离和标签，然后报告所用时间。是初的假设大概是，人们会使用广度优先遍历图，由此内存子系统访问将按照基准测试作者的意图 （大块内存访问和指针追逐的混合） 的方式进行。 
+
+然而，在我的印象中发生在 graph500 上最有趣的事情莫过于 [Scott Beamer] (http://www.cs.berkeley.edu/~sbeamer/research.html)，据朋友们观察，一项调整的算法可以通过遍历更少的边以实现相同的结果，从而在内存子系统移动较少的数据。由于这项基准测试只需要结果，不考察特定实现、研究乃至相应进展。
+
+** 建议 1 **: 图处理系统的作者们应该有义务将其系统与解决同样的问题的其他算法相比较。
+
+作者应该去查阅 [GAP benchmark suite] (https://github.com/sbeamer/gapbs)，其不仅以上面的那些简单问题为目标，更提供你可能还没听说过的优化算法。 
+
+### 像计算机科学家一样思考而非一个顶点
+
+Graph processing systems have introduced progressively more restrictive APIs in the name of performance, creating a race to the bottom with respect to expressivity.
+
+The programming model introduced by Pregel was "think like a vertex", meaning: write a small program that could be run repeatedly by each graph vertex. It is a cute idea that has some cachet, and appears to make the complexity of graph processing a bit more manageable. The programs are delightfully simple for the tasks they considered; what's not to like?
+
+Trading expressivity for manageabality can be a false economy. Semih Salihoglu and Jennifer Widom have [a paper in VLDB](http://ilpubs.stanford.edu:8090/1077/3/p535-salihoglu.pdf) detailing what they had to do to get non-trivial graph algorithms working well in a Pregel-like system. The take-away is that they occasionally need to break out of vertex-centric computation into a centralized computation model. Anecdotally, a great deal of Giraph (an open-source version of Pregel) vertex "programs" look more like state machines driven by decisions made by the computation's master node; the vertices do constitute a massively parallel data plane, but the program logic is still centralized.
+
+It seems that most graph processing systems are looking for similar sorts of interfaces that make graph processing easy, and high performance possible. However, the fixation on known problems (pagerank, connectivity, etc) leads us towards more and more restrictive programming models. These systems seem to be optimizing the implementation of known algorithms, and then describing their APIs as the pluggable bits of their systems.
+
+For example, [PowerGraph](https://www.usenix.org/system/files/conference/osdi12/osdi12-final-167.pdf) introduced the Gather, Apply, Scatter (GAS) interface, which allows one to program input combiners, vertex logic, and disemination.  This is totally great if you want to do something like pagerank or breadth-first search; there is a bunch of boiler plate you don't have to rewrite each time. It's less helpful if you still need to do one of those tasks of Semih's up above. 
+
+The [XStream paper](http://infoscience.epfl.ch/record/188535/files/paper.pdf) continues this specialization a bit more to an edge-centric Gather-Scatter interface, which allows the authors even greater flexibility in system implementation by further restricting the programming API. Again, this is a not-unreasonable trade-off if your algorithmic needs match the narrower interface, but not very helpful if you need to do something else. 
+
+I do not think the main problem with graph processing systems is that they do not yet compute PageRank fast enough; I think the problem is that they mostly just compute PageRank.
+
+**Recommendation 2**: Authors of graph processing systems should be obliged to clearly distinguish the expressivity of their system from others.
+
+Authors and reviewers should treat reduced expressivity as a serious concern, and expanded expressivity as a real contribution. It is harder to evaluate expressivity than raw performance, but it is absolutely the most interesting research direction at the moment.
+
+### Synchronous vs asynchronous graph processing
+
+This section is a bit of a rant.
+
+Note: I'm not going to touch asynchronous machine learning stuff, because I'm not personally into computations without crisp semantics; it strikes me currently as more art than science. So, what follows is about combinatorial graph problems only. 
+
+Asyncronous graph processing is a recently popular modification to graph processing systems, where the idea is that many "representative" algorithms can in fact be implemented with no synchronization. Removing synchronization will obviously make the computations go much faster, because synchronization is just computerscience-ese for "to slow down". Synchronization is what dim people use to prevent computations from going too quickly. 
+
+Actually, what we will see is some confusion about what "asynchronous" means. There are at least two axes that are often confused:
+
+1. Synchronous vs asynchronous execution: can bits of computation be retired immediately without awaiting a global barrier?
+
+2. Sequential vs parallel iteration: should a loop be executed one element at a time, or all elements at the same time.
+
+The former is about relaxing the order in which computation can happen, whereas the latter is about chosing between two very specific orders (one parallel, one not).
+
+We will also see also a few cases where (suprise!) synchronization actually improves performance. Most of these systems are throughput-bound rather than latency-bound; asynchronous execution often creates busy-work that needs to be corrected, despite arriving very quickly.
+
+Let's work through a few specific examples.
+
+#### 图的着色
+
+图的着色是给图节点上色（可理解为小整数），同时保证没有一条边连接相同颜色的两个节点。A greedy algorithm for graph coloring walks through each node, and assigns it the smallest color not held by any of its neighbors:
+
+```rust
+for node in graph.nodes() {
+	for candidate in 0.. {
+		if !graph.edges(node)
+				 .map(|n| color[n])
+				 .contains(candidate) {
+			color[node] = candidate;
+		}
+	}
+}
+```
+
+The GraphLab papers have graph coloring as one of their problems of interest, I think mostly because it is an important precursor to doing efficient synchronous scheduling. If you color each vertex of a graph so that no vertices are adjacent to others with the same color, then the vertices of each color can be executed in parallel without fear of races on the vertex state.
+
+At the same time, the papers invoke coloring as a poster-child application for asynchronous computation. If you rewrite the above sequential loop as a parallel loop over `graph.nodes()`, you don't necessarily get a coloring. This is because if each node looks at the colors of its neighbors in parallel, it will make a decision based on possibly stale information.
+
+So you don't necessarily get a coloring. Even if you repeat the process, you don't necessarily converge to a coloring. If you have a graph with just two vertices, each connected to the other, you might just keep flopping between both being colored `0` and colored `1`. 
+
+At this point, the flaw is identified as synchrony. The problem is that by executing synchronously, you *force* the algorithm to use stale data. If you remove the synchronicity requirement, moving into asynchronous territory, you allow the algorithm to converge.
+
+This strikes me as totally deranged.
+
+Imagine you are in charge of some project, and a dev comes to you with a hunk of code for something important. Unfortunately, sometimes it deadlocks. Where on the list of advice you would give is "well, just remove the locks"?
+
+The problem in this case isn't that synchronous computation is bad, it is that the algorithm has a bug. In the sequential computation above, the color of a node is being picked based on uninitialized values: the colors of nodes *after* it in the sequential order. If we change it to be more correct: 
+
+
+```rust
+for node in graph.nodes() {
+	for candidate in 0.. {
+		if !graph.edges(node)
+				 .filter(|n| n < node)	// <-- look!
+				 .map(|n| color[n])
+				 .contains(candidate) {
+			color[node] = candidate;
+		}
+	}
+}
+```
+
+then the synchronous parallel execution works out just fine. It does take multiple rounds, but in each round more and more nodes lock in the value that they would have in the sequential execution; once all of a node's adjacent predecesors have locked in their values, that node will lock in its value. It also can be written to send data along each undirected edge only once (a node awaits all inputs from lower id'd neighbors, then updates and sends its color to higher id'd neighbors) which is probably as little communication as you could hope to do.
+
+The iterated synchronous execution also results in exactly the same coloring as the sequential execution, unlike the asynchronous implemention.
+
+Perhaps the asynchronous implementation can exploit its flexibility to find a coloring faster---it certainly has more options to chose from than the correctly implemented synchronous version---but that should be the reason to use it rather than "buggy code doesn't work synchronously".
+
+#### 社区发现
+
+在 CIDR 2013 上, [GRACE 图处理系统](http://wenleix.github.io/paper/grace_cidr2013.pdf), 与 [另外一个 Grace 图处理系统](https://www.usenix.org/system/files/conference/atc12/atc12-final182.pdf) 无关，提出一种方法来缓解同步需求，有别于成批同步处理模式 (bulk synchronous processors)。 
+
+They consider several problems, but we will look at the problem of community detection, which they address using [an algorithm based on label propagation](http://arxiv.org/pdf/0709.2938v1.pdf), written by some other folks: Raghavan et al. The algorithm is pretty simple: every node gets a label, and then you repeatedly update the label of each node to be the most frequent label among its neighbors. The intent is that locally dense regions agree on some label, but reject the introduction of other foreign labels. There is some topical political analogy to make here, but I'd like to be allowed to fly to and from the US in the coming year.
+
+The algorithm makes some sense when executed synchronously, but the GRACE authors are interested in removing synchronization to make it go faster. Indeed, they observe that the authors of the algorithm itself (Raghavan et al.) found the asynchronous form of their algorithm to converge faster and be more stable. We will get back to that in a second, but let's first look at the actual quote from Raghavan et al:
+
+> In synchronous updating, node x at the tth iteration updates its label based on the labels of its neighbors at iteration t − 1. Hence, Cx(t) = f(Cx1 (t − 1), ..., Cxk (t − 1)), where cx(t) is the label of node x at time t. The problem however is that subgraphs in the network that are bi-partite or nearly bi-partite in structure lead to oscillations of labels (see figure 3). This is especially true in cases where communities take the form of a star graph. Hence we use asynchronous updating where Cx(t)=f(Cxi1(t),...,Cxim(t),Cxi(m+1)(t−1),...,Cxik(t−1)) and xi1,...,xim are neighbors of x that have already been updated in the current iteration while xi(m+1),...,xik are neighbors that are not yet updated in the current iteration.
+
+I'm not sure if it comes across crystal clear, but when the authors say "asynchronous" here they mean "sequential execution". I don't want to claim they are mis-using the term, but it isn't the same meaning as the GRACE authors use when they use asynchronous to mean "without synchronization".
+
+Well, what's the problem? 
+
+The problem is that when you take an algorithm whose stable states are based on a careful balancing act (labels are initially distinct, ties between "most frequent" are broken randomly), you risk making the system's scheduler into a king-maker.
+
+Let's take a simple update rule with good performance: if a node acquires a new label, re-evaluate its peers. That is so smart, and legit because asynchrony! What happens when we have a label that has started to take over a community? Why, it floods through the community and all nodes therein gets the same label. That is the point, right?
+
+It's great, except that the immediately adjacent community, which hasn't had a chance to run yet and has a bunch of random labels, gets presented with just a few edges to the unified community and is completely overwhelmed. Had the adjacent community also had a chance to perform about the same amount of work, it could plausibly have developed a consensus on a different label, and held out as a distinct community. 
+
+At this rate, the smart asynchronous update rule (that I just made up, not one that GRACE advocates) can easily give the whole graph the same color, whereas a more measured evaluation would have teased out actual distinct communities, like it was supposed to. Actually, who knows what it is going to do?
+
+Although asynchronous execution can go fast, if your algorithm doesn't actually compute a specific function of the input, you really should check the quality of the result. Or, just use the trick up above with graph coloring and compute the exacty same answer as sequential execution would (what the authors of the algorithm *actually* say performs well), in parallel, with synchronization.
+
+#### 标签传播
+
+还记得联通子图所用的标签传播吗？我们现在谈谈这个问题。
+
+Label propagation for connected components is an algorithm in which each graph node has a label (initially its own name) and each node repeatedly exchanges the smallest label it has yet seen with each of its neighbors. After enough iterations, everyone in the same connected component has the same label.
+
+This algorithm has some issues. Mainly, nodes with large labels spend some amount of time bickering about whose large label is the best, before eventually receiving the smallest label in their component and shutting up. These graphs have small diameter so it wouldn't take long for the smallest label to reach them, but they fill the air with pointless blather that keeps workers busy and the small labels buried in some message queue.
+
+What would have been smarter is to have only the smallest label in each component announce its name, and flood its component. This would be smarter, but it sounds like we would already have to have solved the graph connectivity problem.
+
+Fortunately, there is a neat trick that does mostly the same thing. If you randomly assign labels, and then flood the labels in batches of geometrically increasing size, e.g. flood `{0}`, then flood `{1,2}`, then flood `{3,4,5,6}`, etc, you get the property that when the first label in a component is flooded, there are only a constant number of other labels in expectation.
+
+Or. Or!!! Or we could just do things asynchronously. Like, circulate labels asynchronously and mostly hope that small labels win out over large labels and then have a party. This is roughly what the [PrIter paper](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.353.4772&rep=rep1&type=pdf) did back in 2011. At the time, the PrIter paper was a great example of doing something new and different that other systems didn't do; it's not cited nearly as much as much less interesting papers. 
+
+We totally stole that idea when we did the above algorithm in Naiad. I mean, we cited them and called it "prioritized iteration", but from my point of view it was all them. Here is a plot of the difference un-prioritized (`Incremental`) and a prioritized (`Prioritized`) iteration as a function of the round of flooding (the times per iteration are aggregated across batches):
+
+![prioritization](https://github.com/frankmcsherry/blog/blob/master/assets/review/prioritization.png)
+
+So, we thought this was progress. You have an improved form of an algorithm that still distributes and is just better. People will probably start using it, right?
+
+Nope. As far as I can tell, no one.
+
+As best as I can see, there are few papers recently re-discovering that asynchrony works well for label propagation, but only [Wang et al](http://homes.cs.washington.edu/~magda/papers/wang-vldb15.pdf) have started to look into *why*. Their conclusion seems to be that when you compare asynchronous execution and synchronous (but non-prioritized) execution, 
+
+1. Async goes up to 2x faster than sync because, obviously, right?
+
+2. Async can also go much slower than sync, if you use the wrong scheduler to determine what data to work on next. 
+
+The analysis makes sense, in that one of their rules circulates smaller ids faster than larger ones (the rules are like: "prefer to work on this input over that input", where one input is roughly the "successfully propagated labels" input), and their other rules don't.
+
+Why not just make the prioritization part of the program, rather than a vagary of the scheduler? Their asynchronous execution got about 2x over non-prioritized synchronous, whereas synchronous prioritized execution got us (a totally different system, to be clear) about 5x end-to-end. 
+
+It seems a bit early to call it in favor of asynchronous systems yet (which is one of Wang et al's conclusions, too, but I wish they would have compared with syncronous prioritized execution as well).
+
+Not to mention that the prioritized version has a clear functional definition that allows us to write it in differential dataflow, and incrementally update it (something the async systems are really bad at).
+
+#### 微分数据流
+
+Lol, wut?
+
+This might be a bit of a surprise, but when we first did differential dataflow, back before anyone would publish it, it was a totally asynchronous system. The update rules allow updates at arbitrary logical times, and each operator can always respond with the appropriate output updates no matter what order they arrive in. You could just move a bit of logic around in [the current implementation](https://github.com/frankmcsherry/differential-dataflow) and make it asynchronous again! Please don't.
+
+We added synchronization because it went faster with synchronization.
+
+Two things happen when you run differential dataflow that don't happen to the same degree if you have a sufficiently simple program: 
+
+1.  You send a bunch of speculative records that need to be corrected. 
+
+    Perhaps some of the records are correct and giving other workers a head start makes sense. We thought this would be true, but there were enough incorrect records that the work done in correcting them overwhelmed any gains. This was something that Wang et al observed in one of their other workloads, a least-common-ancestor computation, and something I expect you would see more of the more sophisticated your computation gets.
+
+2.  With non-monotonic operators, you risk non-termination.
+
+    Differential dataflow updates can cancel, but to do so they have to be present in the same place at the same time. If one update is first propagated and then canceled, a new cancelation needs to chase the update down. In an iterative computation this may never happen, with `+` and `-` instances of a record circulating in a loop trying to meet up. Fortunately, this is a non-issue in simple computations.
+
+There are other horrible issues, like if you speculatively start executing an iterative computation with bad input (for example, graph coloring above with edges that don't point from large id to small id), you may diverge and exhaust resources before you learn "lol my bad; edge was wrong". Although the math says what to correct, you've already run out of memory and exited.
+
+**Recommendation 3**: Authors need to argue that asynchronous graph processing, as in "without synchronization", is not a mis-feature. 
+
+In many cases it seems that one can identify the improvements asynchronicity makes to your synchronous computation and incorporate them into the synchronous algorithm, gaining a clearer specification of what you compute and occasionally even improved running times.
+
+Obviously some times asynchrony is going to be important. Timely dataflow progress tracking (both in Naiad and Rust) are asynchronous, because we want to avoid coordinating workers at microsecond timescales. We want to allow local decision making about what work to do; early versions of Naiad didn't do that (workers moved through operators in the dataflow graph in synchrony) but we changed it because it worked better. If we were better scientists we would have written a paper (or notes at least) about this, to explain why we made the decisions.
+
+## 2016年目标
+
+我们应该清楚，所有要在 2016 年发表的研究成果必须已经完成，而且已经写好。Nonetheless, ima explain three things I think it would be nice to see. 
+
+**Goal 1**: I want to see algorithms I don't expect to see. I want to see computations and approaches that are suprising and new and thought provoking. I want more papers where my conclusion is "I *need* to try that out in timely" rather than "I already wrote that in [timely / your 2nd favorite system]". I want to see someone else implement push-relabel, or find 5-cliques, or do stable matching.
+
+**Goal 2**: I want people to explain their papers as if they were scientists rather than salesmen. I don't care *that* your system goes 10x faster than some other system, I care about *why* it goes 10x faster. I want to know if there is anything to learn here other than "someone (else) should hire you". Skip writing a bullshit related work section and instead clearly explain what you do differently and what you learned from it.
+
+**Goal 3**: I want people to give a crap about incrementally maintaining graph computations. This may look self-serving because differential dataflow does this, but I'd love for anyone else to be working in this space. I have no reason to believe this is useful for anything other than the US government being even more disappointing than it already is, but I'd love to be corrected.
+
+作个有趣的作业，也许你可以写下那些你认为可以促成进步的内容？还缺少什么，以及下一步还需要做什么？
+
+[原文](https://github.com/frankmcsherry/blog/blob/master/posts/2015-12-24.md)
