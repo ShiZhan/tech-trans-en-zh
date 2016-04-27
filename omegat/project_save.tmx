@@ -46,6 +46,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As 2015 draws to a close, the research published at top venues still targets pretty much pagerank, connected components via label propagation, and breadth-first distance labeling.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T071017Z" creationid="Zhan" creationdate="20160427T071017Z">
+        <seg>随着 2015 年临近尾声，发表在顶级会议上的研究仍然相当多的聚焦于 pagerank，基于标签传播的联通子图，和广度优先距离标签。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As the system watches human interaction with the data set, it learns what is important and tiers, protects and stores data according to user needs.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004925Z" creationid="Zhan" creationdate="20160427T004556Z">
@@ -209,6 +217,14 @@ If, like me, you’re interested in AI and deep learning, you’ll like this.</s
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T043231Z" creationid="Zhan" creationdate="20160427T043231Z">
         <seg>哥德尔机可以在冯 · 诺依曼体系结构上运行 — — 他们不是一个新的计算机体系结构。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here are my thoughts on why the area isn't making very much progress, and is in some cases regressing, as well as a few proposals for making thing better.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T070834Z" creationid="Zhan" creationdate="20160427T070834Z">
+        <seg>这里我谈一些我的想法，为什么这个区域没有实现什么进展，并且在某些情况下还有所退步，以及提几个改进建议。</seg>
       </tuv>
     </tu>
     <tu>
