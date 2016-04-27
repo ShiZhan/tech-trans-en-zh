@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-3.6.0" segtype="sentence" srclang="EN-US"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="EN-US">
+        <seg>... a supervised learning technique that has been used in the closely related context of document classication, where it has been shown to have lower complexity and higher robustness than other learning methods.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T005252Z" creationid="Zhan" creationdate="20160427T005252Z">
+        <seg>......一种监督的学习技术，被用于密切相关上下文的文档分类，并比其他的学习方法显示出较低的复杂度和更高的鲁棒性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All good, right?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T013812Z" creationid="Zhan" creationdate="20160322T104204Z">
+        <seg>挺不错，是吧?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An interesting question for the future from the paper is “... whether storage capacity growth will fall behind data-growth rates, meaning that the standard model of storing all data forever will no longer be sustainable because of a shortage of available storage resources.” The chances of that are, in my estimation, close to certain.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T015753Z" creationid="Zhan" creationdate="20160427T015753Z">
+        <seg>这篇论文向未来提出一个有趣的问题 "... 存储容量增长是否将落后数据增长率，意味着，由于可用的存储资源短缺，永远存储所有数据的标准模型将不可持续。" 其可能性是，据我估计，近乎明确。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As the system watches human interaction with the data set, it learns what is important and tiers, protects and stores data according to user needs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004925Z" creationid="Zhan" creationdate="20160427T004556Z">
+        <seg>随着系统观察人与数据集的交互，它学会如何判断重要性并根据用户需要来分层、保护和存储数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As the training set got larger, the accuracy for the smaller classes improved, reaching nearly 100 percent accuracy at around 30 percent of the training data included.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T015006Z" creationid="Zhan" creationdate="20160427T015006Z">
+        <seg>随着训练集变得更大，较小分类精度持续提高，在训练数据的 30%左右可以达到近 100%的准确率。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>But NVM is not a perfect replacement for DRAM, even ignoring latency.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T015404Z" creationid="Zhan" creationdate="20160323T015404Z">
+        <seg>然而 NVM 并非 DRAM 的理想替换品，就算不考虑延迟。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>But Xpoint DIMMS are coming soon, and neither will give you anything close to 1,000x performance
+boost.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T013511Z" creationid="Zhan" creationdate="20160322T090211Z">
+        <seg>不过 Xpoint DIMMS 也快到来，而且没有哪个可以向你提供近 1,000 倍性能提升。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>But even with new tools, such as graph databases, making sense of massive amounts of raw data is getting harder every day.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004721Z" creationid="Zhan" creationdate="20160427T003024Z">
+        <seg>然而即便是用上新工具，比方说图数据库，去处海量原始数据的难度依然与日俱增。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Commoditizing novel implementations of NVM – such as the hybrid memories this paper examines – will be a longer and more fraught process, but essential if we are to improve the efficiency and performance of all kinds of computer systems.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T022359Z" creationid="Zhan" creationdate="20160323T021942Z">
+        <seg>将 NVM 的新颖实现商品化 – 比如说文中分析的混合存储 – 将会是一项长期且艰巨的任务，不过若我们希望改善各种计算机系统的效率与性能，那也非常关键。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Courteous comments welcome, of course.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T022014Z" creationid="Zhan" creationdate="20160323T022014Z">
+        <seg>欢迎讨论，当然。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Establishing human trust in machine intelligence is a major domain problem – see Will Smith’s character in I, Robot.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T020930Z" creationid="Zhan" creationdate="20160427T020930Z">
+        <seg>建立人类对机器智能的信任是一个主要的领域问题 — — 看看在《我，机器人》里面威尔 · 史密斯的角色。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Except each storage medium has its issues and NVM is no exception.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T013817Z" creationid="Zhan" creationdate="20160322T104247Z">
+        <seg>只不过每一种存储媒介都有它的问题，NVM 也不例外。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Existing file systems built for spinning or solid-state disks introduce software overheads that would obscure the performance that NVMs should provide, but proposed file systems for NVMs either incur similar overheads or fail to provide the strong consistency guarantees that applications require.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T013837Z" creationid="Zhan" creationdate="20160322T104805Z">
+        <seg>现有用于旋转磁盘或固态盘的文件系统所带来的软件开销将会削弱 NVM 原本应该提供的性能，然而现在为 NVM 设计的文件系统要么也有相似的开销，要么无法提供应用需要的强一致性保证。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Experimental results</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004934Z" creationid="Zhan" creationdate="20160427T004934Z">
+        <seg>实验结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Experimental results show that in write-intensive workloads, NOVA provides 22% to 216× throughput improvement compared to state-of-the-art file systems, and 3.1× to 13.5× improvement compared to file systems that provide equally strong data consistency guarantees.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T014523Z" creationid="Zhan" creationdate="20160323T014523Z">
+        <seg>实验结果展示出就写密集负载而言，NOVA 可以提供比现有文件系统高出 22% 直至 216 倍的性能提升，而且即便与提供相同强一致性保障的文件系统相比，性能也有 3.1 倍到 13.5 倍的提升。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For IBM, a world leader in AI, as their success with Watson has demonstrated, applying intelligence to the problem of storage is a natural application.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004653Z" creationid="Zhan" creationdate="20160427T003649Z">
+        <seg>就 IBM 而言，作为人工智能 (AI) 的领导者，基于在 Watson 上所展现出来的成功，将智能性应用在存储问题上是自然之选。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For those coming in late, the upcoming NVM technologies, of which Xpoint is only one, promise faster writes, higher endurance, and greater longevity than the NAND flash used in today’s SSDs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T013747Z" creationid="Zhan" creationdate="20160322T090801Z">
+        <seg>如果原来不是很清楚，发展中的 NVM 技术里，Xpoint 只是其中之一，具备更快的写操作，更高的耐久性，以及比现在固态盘中使用的 NAND flash 更高的使用寿命。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>From Jian’s abstract:
+... managing, accessing, and maintaining consistency for data stored in NVM raises a host of challenges.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T013827Z" creationid="Zhan" creationdate="20160322T104359Z">
+        <seg>在 Jian 的摘要中:
+... 管理，访问，和维护保存在 NVM 中数据的一致性引出不少挑战。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gödel Machines, deep learning and the limits of AI
+by ROBIN HARRIS on WEDNESDAY, 13 JANUARY, 2016
+If, like me, you’re interested in AI and deep learning, you’ll like this.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T031213Z" creationid="Zhan" creationdate="20160427T031213Z">
+        <seg>哥德尔机器、深度学习和人工智能的极限
+罗宾 · 哈里斯 在星期三 2016 年 1 月 13 日
+如果像我一样，你感对人工智能(AI)和深入学习感兴趣，你会喜欢这篇。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>IB, essentially, relates the information’s metadata values to cognitive system relevance values with the goal of preserving the mutual information between the two.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T005545Z" creationid="Zhan" creationdate="20160427T005545Z">
+        <seg>IB，本质上，为信息的元数据价值，与认知系统相关值建立关联，目的是保持两者之间的互信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>IBM researchers are proposing – and demoing – an intelligent storage system that works something like your brain.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T002120Z" creationid="Zhan" creationdate="20160427T002120Z">
+        <seg>IBM 提出 – 和展示 – 一款可以如大脑一般运作的智能存储系统.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you’re processing IoT data sets, the storage system’s AI would have processed what is important about prior data sets and apply those criteria – access frequency, protection level, divergence from norms, time value, – to the incoming data.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004622Z" creationid="Zhan" creationdate="20160427T004126Z">
+        <seg>如果您正在处理物联网数据集, 存储系统 AI 将在处理之前的数据集时分析出其重要性并且将有关特性 — — 访问频率、保护级别、偏离度、时间价值 — — 应用于未来的数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In Cognitive Storage for Big Data (paywall), IBM researchers Giovanni Cherubini, Jens Jelitto, and Vinodh Venkatesan, of IBM Research—Zurich, described their prototype system.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004638Z" creationid="Zhan" creationdate="20160427T004046Z">
+        <seg>在《认知存储大数据》 （付费）上，来自 IBM 苏黎世研究所的研究人员 Giovanni Cherubini, Jens Jelitto 和 Vinodh Venkatesan，描述了其原型系统。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In a recent paper, NOVA: A Log-structured File System for Hybrid Volatile/Non-volatile Main Memories Jian Xu and Steven Swanson of the University of California, San Diego, discuss NVM integration issues.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T013719Z" creationid="Zhan" creationdate="20160322T090321Z">
+        <seg>在最近一篇论文，NOVA: A Log-structured File System for Hybrid Volatile/Non-volatile Main Memories 中，来自加州大学圣迭戈分校的 Jian Xu 与 Steven Swanson 探讨了 NVM 集成问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In particular, it maintains separate logs for each inode to improve concurrency, and stores file data outside the log to minimize log size and reduce garbage collection costs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T014214Z" creationid="Zhan" creationdate="20160323T014214Z">
+        <seg>特别的，它还为每一个 inode 分别维护日志以提高并行性，而且将文件数据保存在日志之外来最小化日志尺寸，减少垃圾回收代价。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Integrating 3D Xpoint with DRAM
+by Robin Harris on Monday, 21 March, 2016
+Intel is promising availability of 3D Xpoint non-volatile memory (NVM) this year, at least in their Optane
+SSDs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160322T085000Z" creationid="Zhan" creationdate="20160322T085000Z">
+        <seg>将 3D Xpoint 与 DRAM 整合
+作者 Robin Harris 于 星期一, 2016 年 3 月 21 日
+Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM), 至少在他们的 Optane
+固态盘中.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Integrating 3D Xpoint with DRAM
+by Robin Harris on Monday, 21 March, 2016
+Intel is promising availability of 3D Xpoint non-volatile memory (NVM) this year, at least in their Optane SSDs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T013501Z" creationid="Zhan" creationdate="20160322T090032Z">
+        <seg>将 3D Xpoint 与 DRAM 整合
+作者 Robin Harris 于 星期一，2016 年 3 月 21 日
+Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他们的 Optane
+固态盘中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Is this going to work at enterprise scale or will it be a purely web-scale service?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T022537Z" creationid="Zhan" creationdate="20160427T022537Z">
+        <seg>是否在在企业规模适用或它将成为一个纯粹的互联网尺寸服务？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It’s based on the idea that it’s easier to remember important, like a sunset over the Grand Canyon, than the last time you waited for a traffic light.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004745Z" creationid="Zhan" creationdate="20160427T002338Z">
+        <seg>其基于这样一个想法，就是越重要的事情越容易记住，比方说在大峡谷上的日落，之于上一次等红灯。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Just as any software problem can be solved by adding a layer of indirection, any analytics problem can be solved by adding a layer of intelligence.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004711Z" creationid="Zhan" creationdate="20160427T003350Z">
+        <seg>如同任何软件问题都可以通过增加一个间接层来解决一样，任何一项分析问题也可以通过补充一个智能层来处理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Modern CPU and memory systems may reorder stores to memory to improve performance, breaking consistency in case of system failure.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T015808Z" creationid="Zhan" creationdate="20160323T015808Z">
+        <seg>当代 CPU 与主存系统常将重组数据存储于主存以改善性能，系统出现故障时一致性将被破坏。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>More importantly, I expect that several NVM types will be coming to market over the next 5 years.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T020522Z" creationid="Zhan" creationdate="20160323T020522Z">
+        <seg>更为重要的是，我期待着在未来5年里有几种类型的 NVM 能够进入市场。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>NOVA adapts conventional log-structured file system techniques to exploit the fast random access that NVMs provide.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T014031Z" creationid="Zhan" creationdate="20160323T014031Z">
+        <seg>NOVA 采用常规的日志文件系统技术，以发挥 NVM 提供的高速随机访问优势。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Nonetheless, the IBM team is doing important work.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T023209Z" creationid="Zhan" creationdate="20160427T023209Z">
+        <seg>然而，IBM 团队正做着做重要的工作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Of course, we know a lot more about indirection than we do intelligence.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004703Z" creationid="Zhan" creationdate="20160427T003456Z">
+        <seg>无疑，相比于智能，我们更理解间接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Placing a much-faster-than-flash-but-slower-and-cheaper-than-DRAM NVM on the processor's memory bus makes perfect sense.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T015251Z" creationid="Zhan" creationdate="20160323T015251Z">
+        <seg>将显著快过闪存且稍慢、稍便宜于 DRAM 的 NVM 放置在处理器的主存总线上更有意义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Providing strong consistency guarantees is particularly challenging for memory-based file systems because maintaining data consistency in NVMM can be costly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T015554Z" creationid="Zhan" creationdate="20160323T015554Z">
+        <seg>提供强一致性保证就基于内存的文件系统而言颇具挑战性，因为在 NVMM 中维护数据一致性代价不菲。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>So enabling machine intelligence to trash data is probably the most essential issue and value of cognitive storage – and the capability most likely to frighten users.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T020458Z" creationid="Zhan" creationdate="20160427T020458Z">
+        <seg>启用机器智能来舍弃数据可能是认知存储最基本的问题和价值所在 — — 也是最有可能让用户害怕的能力。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some are forecasting that we’ll be generating more data than we’ll have capacity to store once IoT gets rolling.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T002652Z" creationid="Zhan" creationdate="20160427T002652Z">
+        <seg>已有预测指出，一旦物联网广泛运用，我们产生的数据将超过我们所拥有的存储容量.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sounds workable!</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T015025Z" creationid="Zhan" creationdate="20160427T015025Z">
+        <seg>听起来可行！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Storage costs continue to fall faster than computational costs, creating a difficult economic dynamic for cognitive storage.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T023144Z" creationid="Zhan" creationdate="20160427T023144Z">
+        <seg>相比计算成本，存储成本持续下降更快，也因此给认知存储造成一种困难的经济环境。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sure, you can schlep unlikely-to-be-needed data off to low cost tape – IBM is a leading tape drive vendor – but the “store everything forever” algorithm doesn’t scale – and if something won’t scale forever, it won’t.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T021502Z" creationid="Zhan" creationdate="20160427T021502Z">
+        <seg>当然，你能将不太可能被用到的数据转移进低成本磁带上— — IBM 是领先的磁带驱动器供应商 — — 但"永远存储一切"算法无法扩展 — — 只要有什么不能持续扩展，那就不会。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>That, in a nutshell, is why systems won’t be able to advantage of NVM technology until their DRAM and disk I/O stacks are re-engineered for the specific advantages and quirks of NVM. The paper offers a smart way to adapt existing techniques to the brave new world of NVM.
+From the paper:
+...</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T013857Z" creationid="Zhan" creationdate="20160322T105518Z">
+        <seg>那么，归纳起来，这也就是为什么除非将 DRAM 与磁盘 I/O 栈针对 NVM 的特殊优势与问题进行重新设计，系统将不可能发挥出 NVM 技术的先进性。这篇论文提供了一种聪明的方法来将现有技术适配到 NVM 的全新领域中。
+文中还提到:
+...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>That’s why data scientists are in high demand.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004714Z" creationid="Zhan" creationdate="20160427T003113Z">
+        <seg>这就是为何数据科学家面临急需。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The NVMW is a production of UCSD’s Non-Volatile Research Lab and the Center for Memory Recording Research.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T013800Z" creationid="Zhan" creationdate="20160322T103815Z">
+        <seg>非易失存储器研讨会 NVMW 是由加州大学圣迭戈分校 UCSD 的非易失研究实验室与存储记录研究中心主办的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The StorageMojo take</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T015040Z" creationid="Zhan" creationdate="20160427T015040Z">
+        <seg>StorageMojo 评论</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The StorageMojo take
+The full paper is a must-read for anyone professionally concerned with integrating new NVM technologies into systems.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T020412Z" creationid="Zhan" creationdate="20160323T020412Z">
+        <seg>StorageMojo 评述
+这篇论文对那些将 NVM 技术向系统进行整合有专业性考虑的人士而言是必读之作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The event attracts researchers from all over the world to present their work and make academic and commercial connections.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T013807Z" creationid="Zhan" creationdate="20160322T104151Z">
+        <seg>这个会议吸引了来自全世界的研究人员介绍他们的成果，建立起学术界与商业界之间的联系。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The greater the mutual information, the more valuable the data and, hence, the higher the level of protection, access, and so on.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T005652Z" creationid="Zhan" creationdate="20160427T005652Z">
+        <seg>互信息越大，就意味着数据更有价值，因此，就需要越高的保护级别，访问控制，等等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The hyperscale guys have the incentive and the resources to perform deep analysis on new technologies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T021424Z" creationid="Zhan" creationdate="20160323T021424Z">
+        <seg>那些高杆们具备动机与资源来深入分析新技术。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The key is using machine learning to determine data value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004105Z" creationid="Zhan" creationdate="20160427T004105Z">
+        <seg>其关键在于使用机器学习来确定数据价值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The other issue – beyond the scope of the paper – is also scale-related: how large will the storage system need to be to justify the cost and overhead of cognition?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T022420Z" creationid="Zhan" creationdate="20160427T022420Z">
+        <seg>另一个问题 — — 超出论文主题 — — 也与规模相关︰ 存储系统要多大才足以给出认知所需成本和开销的充分理由？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The paper assumes, correctly, that the big win for new NVM technologies will be as an adjunct to DRAM, rather than as flash SSD replacements – despite the fact that the first Xpoint product will be an Optane SSD.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T015019Z" creationid="Zhan" creationdate="20160323T015019Z">
+        <seg>论文提出，正确的做法是，将新型 NVM 技术附加于 DRAM，而非用作闪存或者替换固态盘 – 尽管首款 Xpoint 产品仍是 Optane 固态盘。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The paper was presented at the Non-Volatile Memory Workshop last week at UCSD.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T013754Z" creationid="Zhan" creationdate="20160322T090900Z">
+        <seg>这篇论文上周发表于 UCSD 召开的非易失存储器研讨会。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The researchers use a learning algorithm known as the “Information Bottleneck” (IB)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T005043Z" creationid="Zhan" creationdate="20160427T005043Z">
+        <seg>研究人员使用了一项被称作“信息瓶颈 (Information Bottleneck, IB)”的学习算法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The trade-off analysis has to become more nuanced than the IOPS/endurance/latency discussions we have today.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T021252Z" creationid="Zhan" creationdate="20160323T021252Z">
+        <seg>这个如何协调的分析比起我们现在讨论的 IOPS/endurance/latency 这些更为细致。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There have been sporadic attempts over the decades to add intelligence to storage systems, and they’ve all come to grief because the cost of the intelligence was higher than the cost of additional storage.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T023003Z" creationid="Zhan" creationdate="20160427T023003Z">
+        <seg>几十年来已有零星尝试将智能性添加到存储系统，然而由于其成本高过直接追加存储所以并不成功。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To compensate, the file system needs to explicitly flush data from the CPU’s caches to enforce orderings, adding significant overhead and squandering the improved performance that NVMM can provide.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T020208Z" creationid="Zhan" creationdate="20160323T020208Z">
+        <seg>相应的，文件系统就需要显式的将数据从 CPU 缓存中刷回以强制重组数据，造成显著开销、浪费 NVMM 本可提供的性能提升。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Understanding its limits with respect to the foundation of any digital civilization – storage – is critical to our cultural infrastructure.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T023437Z" creationid="Zhan" creationdate="20160427T023437Z">
+        <seg>以任意数字文化为基础来理解其限制 — — 存储 — — 对我们文化的基础设施至关重要。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We’re facing a data onslaught like we’ve never seen before.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T002453Z" creationid="Zhan" creationdate="20160427T002417Z">
+        <seg>我们正面临一场我们从未见过的数据倾泻.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Wheat vs chaff</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T003740Z" creationid="Zhan" creationdate="20160427T003731Z">
+        <seg>小麦 对 谷壳</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>While the applications of machine intelligence are many, they aren’t infinite.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T023238Z" creationid="Zhan" creationdate="20160427T023238Z">
+        <seg>虽然机器智能的应用很丰富，却并非无限。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With relatively small data sets, the team found that</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T014830Z" creationid="Zhan" creationdate="20160427T014830Z">
+        <seg>在相对较小的数据集上，研究小组发现，</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>
