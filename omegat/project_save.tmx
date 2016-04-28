@@ -152,6 +152,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All of this adds up to complexity that is hard to imagine and that people have spent careers trying to model.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T084401Z" creationid="Zhan" creationdate="20160428T084401Z">
+        <seg>所有这一切加起来构成难以想象的复杂性，足以让人们用整个职业生涯来分析。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An interesting question for the future from the paper is “... whether storage capacity growth will fall behind data-growth rates, meaning that the standard model of storing all data forever will no longer be sustainable because of a shortage of available storage resources.” The chances of that are, in my estimation, close to certain.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T095232Z" creationid="Zhan" creationdate="20160427T015753Z">
@@ -200,6 +208,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As systems get bigger and namespaces get flatter, this problem is going to get even worse.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T084446Z" creationid="Zhan" creationdate="20160428T084446Z">
+        <seg>随着系统变得更大和命名空间变得更宽阔，这个问题将变得更糟。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As the system watches human interaction with the data set, it learns what is important and tiers, protects and stores data according to user needs.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004925Z" creationid="Zhan" creationdate="20160427T004556Z">
@@ -240,10 +256,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Because the file size is not known a priori by most applications and most file systems do not have a pre-allocation command, allocations between multiple files being open and written at the same time get interspersed with each other.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T083026Z" creationid="Zhan" creationdate="20160428T083026Z">
+        <seg>因为对于大多数应用程序和文件系统而言，没有预分配命令，文件大小不可预知，多个文件同时打开写入数据将造成所分配空间相互交错。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Being a crap algorithm isn't the worst thing.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T073136Z" creationid="Zhan" creationdate="20160427T073136Z">
         <seg>作为一种没用算法还不是最糟糕的事情。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Between file systems, volume managers and now object storage systems, how does data get allocated and laid out on the storage systems?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T081812Z" creationid="Zhan" creationdate="20160428T081812Z">
+        <seg>文件系统、卷管理器以及现在还有对象存储系统，其间应如何分配数据，又怎样在存储系统中摆放？</seg>
       </tuv>
     </tu>
     <tu>
@@ -269,6 +301,14 @@ boost.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004721Z" creationid="Zhan" creationdate="20160427T003024Z">
         <seg>然而即便是用上新工具，比方说图数据库，去处海量原始数据的难度依然与日俱增。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>But getting back to my point: What matters is how much work you get done, not how fast your storage is, and faster storage does not always translate into more work getting done.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T084634Z" creationid="Zhan" creationdate="20160428T084634Z">
+        <seg>不过现在返回出发点：真正重要的还是你能作多少事，而非存储如何快，更何况快速存储并不总是意味着能做更多事。</seg>
       </tuv>
     </tu>
     <tu>
@@ -327,6 +367,14 @@ The options for connectivity to the storage systems today are SAS, Infiniband, F
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T075053Z" creationid="Zhan" creationdate="20160428T075053Z">
         <seg>甚至对于磁盘驱动器而言，存储控制器上的 SAS 布局中，四个磁盘驱动器就足以让一个 SAS 通道饱和。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Everything is a potential bottleneck along the data path — from the number of applications to the file system (and let’s not forget the operating system!) to the PCIe bus to the channel all the way to the device.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T084255Z" creationid="Zhan" creationdate="20160428T084255Z">
+        <seg>在数据路径上任何一处都是一个潜在的瓶颈 — — 从文件系统中应用的数量 （我们别忘记操作系统 ！） 到 PCIe 总线到通往设备的通道。</seg>
       </tuv>
     </tu>
     <tu>
@@ -399,6 +447,14 @@ The options for connectivity to the storage systems today are SAS, Infiniband, F
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T044527Z" creationid="Zhan" creationdate="20160427T044527Z">
         <seg>Schmidhuber 的讲座为哥德尔机、深度学习，以及程序如何在运行时重写自身提供了一个不错的有趣介绍。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, if you have a standard POSIX file system, the file system’s allocation policy is first in first out (FIFO).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T081836Z" creationid="Zhan" creationdate="20160428T081836Z">
+        <seg>例如，如果你有一个标准的 POSIX 文件系统，文件系统的空间分配策略是先入先出 (FIFO)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -493,6 +549,30 @@ If, like me, you’re interested in AI and deep learning, you’ll like this.</s
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T045713Z" creationid="Zhan" creationdate="20160427T044750Z">
         <seg>IBM 的沃森(Watson)运行在大规模并行系统上，我认为哥德尔机也可以。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If in one case you have a single application writing say 500 GB in 1 MB chunks sequentially, and if you have enough free space, the file will be allocated with sequential block addresses in the file system.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T082047Z" creationid="Zhan" creationdate="20160428T082047Z">
+        <seg>如果在一个案例中你有一个应用程序按照 1 MB 块大小顺序写 500 GB 1 MB 数据，而且如果你有足够的可用空间，该文件将在文件系统中被分配连续块地址。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If two applications are writing two different 500 GB files, then it is almost certain that the files will not be sequentially allocated on a disk, given that file systems allocate data based on their allocation policy, which could pre-allocate ahead but certainly not 500 GB.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T082705Z" creationid="Zhan" creationdate="20160428T082705Z">
+        <seg>如果两个应用程序分别写两个不同的 500 GB 文件，那么就几乎可以肯定不会在磁盘上按顺序分配，考虑到文件系统是按照其分配策略分配数据，有可能预先分配空间，不过肯定没有 500 GB。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want to better understand what the latest research and techniques that are being used to understand workflows and how that impacts system performance and systems architecture, I suggest you pack your bags and head to Santa Clara for MSST.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T085942Z" creationid="Zhan" creationdate="20160428T085942Z">
+        <seg>如果你想要更好地理解最新的研究工作和那些正被用来认识工作流及其如何影响系统性能和系统体系结构的技术，我建议你收拾行囊去圣塔克拉拉参加 MSST。</seg>
       </tuv>
     </tu>
     <tu>
@@ -611,6 +691,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Just understanding what system calls are made from all of the applications from strace tells you only part of the story, as it does not provide an understanding of what is happening on the storage level.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T085316Z" creationid="Zhan" creationdate="20160428T085316Z">
+        <seg>用 strace 来了解应用程序执行着哪些系统调用只不过是故事的一部分，因为这不能让人理解在存储层面上发生着什么。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Let's be clear, all the research to be published in 2016 has already been done and written by this point.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T080727Z" creationid="Zhan" creationdate="20160427T080727Z">
@@ -695,6 +783,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T080820Z" creationid="Zhan" creationdate="20160428T080820Z">
         <seg>现在我们来到这个问题中困难的部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Of course this is not only true for storage but also true for the computational side, as faster CPUs and more cores do not always translate into more work.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T084814Z" creationid="Zhan" creationdate="20160428T084814Z">
+        <seg>当然不仅对于存储如此，计算方面也一样，速度更快的 CPU 和更多内核不总是会转化为完成更多的工作。</seg>
       </tuv>
     </tu>
     <tu>
@@ -791,6 +887,14 @@ http://www.enterprisestorageforum.com/storage-hardware/why-workloads-matter-more
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T020458Z" creationid="Zhan" creationdate="20160427T020458Z">
         <seg>启用机器智能来舍弃数据可能是认知存储最基本的问题和价值所在 — — 也是最有可能让用户害怕的能力。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>So just knowing what your application does is not everything; you need to try and understand what the storage system is doing with your application and you also need to know what else is running on the system at the same time, which is a far more complicated task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T083350Z" creationid="Zhan" creationdate="20160428T083350Z">
+        <seg>所以只知道你的应用程序做了什么还不够; 你需要试着去了解与你的应用程序相应的存储系统做了什么，甚至还需要知道与此同时在系统上还运行着别的什么，这项任务更为复杂。</seg>
       </tuv>
     </tu>
     <tu>
@@ -903,6 +1007,14 @@ From the paper:
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The MSST conference is going to have a number of talks that will explore the ins and outs of various workloads and how those workloads impact various storage systems.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T085017Z" creationid="Zhan" creationdate="20160428T085017Z">
+        <seg>在 MSST 会议上将有大量的报告，将探讨各种工作负载和这些工作负载如何影响各种存储系统的来龙去脉。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The NVMW is a production of UCSD’s Non-Volatile Research Lab and the Center for Memory Recording Research.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T013800Z" creationid="Zhan" creationdate="20160322T103815Z">
@@ -975,6 +1087,14 @@ This is StorageMojo, not AIMojo.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T013807Z" creationid="Zhan" creationdate="20160322T104151Z">
         <seg>这个会议吸引了来自全世界的研究人员介绍他们的成果，建立起学术界与商业界之间的联系。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The goal is balanced systems, and the key to having a balanced system is understanding your workload from end to end.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T084919Z" creationid="Zhan" creationdate="20160428T084919Z">
+        <seg>目标在于平衡的系统，而构成平衡系统的关键在于从端到端理解你的工作负载。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1101,6 +1221,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The results were very surprising for the customer and showed the potential for a significant improvement in workflow.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T085727Z" creationid="Zhan" creationdate="20160428T085727Z">
+        <seg>试验结果令人非常吃惊，显示出在工作流中存在为客户做出重大改进的潜力。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The searcher seeks to improve the entire Gödel machine in a provably – subject to Gödel’s limits of provability, of course – optimal way.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T043846Z" creationid="Zhan" creationdate="20160427T043801Z">
@@ -1189,6 +1317,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This of course needs to be abstracted to the volume manager and RAID layout, so it won’t be sequential on a disk drive unless the RAID layout is RAID-1, but there are still potential gotchas such as remapped sectors and virtual allocations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T082449Z" creationid="Zhan" creationdate="20160428T082449Z">
+        <seg>这当然需要通过卷管理器和 RAID 布局抽象层，所以它不会在磁盘驱动器上依然保持连续，除非 RAID 布局是 RAID 1，即便如此仍然有潜在可能存在重新映射和虚拟分配。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This problem has many solutions developed over the years with a variety of interesting trade-offs.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T073047Z" creationid="Zhan" creationdate="20160427T073047Z">
@@ -1229,10 +1365,26 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Understanding what is happening with a single host is difficult, but as storage systems scale out with file systems and object systems that support hundreds if not thousands of client devices and applications, it gets really complex.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T083612Z" creationid="Zhan" creationdate="20160428T083612Z">
+        <seg>理解单个主机之中发生了什么已很困难，但当存储系统与文件系统以及对象系统向外扩展直至支持上百个，不敢说是数以千计的客户端设备和应用程序时，问题将会非常复杂。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Unfortunately, it caught on.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T073937Z" creationid="Zhan" creationdate="20160427T073937Z">
         <seg>不幸的是，问题上钩啰。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We once took on strace for all of the applications running on a system and then built a simulation of the combined set of traces and ran this against various storage systems.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T085602Z" creationid="Zhan" creationdate="20160428T085602Z">
+        <seg>我们曾经用 strace 在系统上采集所有运行于其中的应用程序行为，然后合并这些跟踪，在各种存储系统之上运行仿真。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1247,8 +1399,8 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       <tuv lang="EN-US">
         <seg>What Do You Do With This Information?</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T080946Z" creationid="Zhan" creationdate="20160428T080946Z">
-        <seg>考虑这些信息你当如何处理？</seg>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T084035Z" creationid="Zhan" creationdate="20160428T080946Z">
+        <seg>考虑这些情况你当如何处理？</seg>
       </tuv>
     </tu>
     <tu>
@@ -1289,6 +1441,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T094911Z" creationid="Zhan" creationdate="20160427T023238Z">
         <seg>机器智能的应用虽然很丰富，却并非无限。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With a huge number of applications all hitting the storage system at once, most believe that I/O at the device level looks to be random because of the way blocks are allocated by file systems at the device.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T084001Z" creationid="Zhan" creationdate="20160428T084001Z">
+        <seg>若数量庞大的应用程序同时集中访问存储系统，考虑文件系统从设备中分配块的方式，几乎可以确信从设备层面看起来 I/O 就是随机的。</seg>
       </tuv>
     </tu>
     <tu>
