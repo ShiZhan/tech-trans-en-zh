@@ -1,0 +1,46 @@
+Posted March 17, 2016
+By Henry Newman
+http://www.enterprisestorageforum.com/storage-hardware/why-workloads-matter-more-than-iops-or-streaming.html
+
+As disk drives and solid state drives (SSDs) get faster and faster, I think it is time we stop and look at what really matters, namely, how much work gets done, not how fast a device is.
+
+The main theme at this year’s Mass Storage Systems and Technology Conference (MSST) will be the importance of workflow over bandwidth or IOPs. This is not to say that we can go back to 3 MB/sec disk drives that spin at 3600 RPM, but I am saying that workload throughput should count more than being able to do 1M IOPS or stream data at 600 MB/sec.
+
+The question is whether faster storage systems always mean faster workload throughput. The answer is no, of course, and the same applies for CPU performance.
+
+So what does impact workload throughput for storage systems? Let’s start at the device and work our way up the stack.
+
+Device Connectivity
+
+As devices get faster and faster, channel performance must keep up. Today most storage enclosures use 12 Gbit/sec SAS for internal communications, so each lane processes ~1.2 GB/sec, given protocol overhead. With disk drives today operating at as much as 305 MB/sec and with SSDs operating at over 1200 MB/sec, SAS performance is now being replaced with NVMe because SAS is not up to the challenge. Even for disk drives, the SAS layout on the storage controller can have one SAS lane saturated by four disk drives.
+
+Faster storage requires re-engineering the back-end storage system to ensure that there is enough bandwidth so each storage device can run at full rate. This is especially true if SSDs are mixed in with standard hard drives. Where devices are placed in storage systems is becoming increasingly important, as back ends of storage controllers are not always homogeneous, and high-bandwidth activities such as rebuilding logical unit numbers (LUNs) after failure are bandwidth-hungry activities.
+
+Connectivity to Storage Systems
+The options for connectivity to the storage systems today are SAS, Infiniband, Fibre Channel and NVMe. All of these connectivity options are limited by PCIe bandwidth, and though that might change in the future, the issues will be the same: How much bandwidth is needed between the host server(s) and the storage system(s).
+
+A decade ago, RAID vendors were having the same discussion when they were talking about front-end bandwidth (server to cache) vs. back-end bandwidth (cache to disk). Most controllers were designed with significantly more front-end bandwidth with the assumption that much of the data accessed would reside in cache. The key word there is “assumption,” and when the data did not reside in cache, some vendors’ performance was pretty bad.
+
+The point is that vendors have long designed hardware based on workflow, but it does not mean that all of this was obvious to everyone ten years ago. The connectivity to the storage system must take into account both the workflow and how that workflow impacts the underlying design of the storage system.
+
+Host Side
+
+Now we get to the hard part of the equation. Between file systems, volume managers and now object storage systems, how does data get allocated and laid out on the storage systems? For example, if you have a standard POSIX file system, the file system’s allocation policy is first in first out (FIFO). If in one case you have a single application writing say 500 GB in 1 MB chunks sequentially, and if you have enough free space, the file will be allocated with sequential block addresses in the file system. This of course needs to be abstracted to the volume manager and RAID layout, so it won’t be sequential on a disk drive unless the RAID layout is RAID-1, but there are still potential gotchas such as remapped sectors and virtual allocations.
+
+If two applications are writing two different 500 GB files, then it is almost certain that the files will not be sequentially allocated on a disk, given that file systems allocate data based on their allocation policy, which could pre-allocate ahead but certainly not 500 GB. Because the file size is not known a priori by most applications and most file systems do not have a pre-allocation command, allocations between multiple files being open and written at the same time get interspersed with each other.
+
+So just knowing what your application does is not everything; you need to try and understand what the storage system is doing with your application and you also need to know what else is running on the system at the same time, which is a far more complicated task. Understanding what is happening with a single host is difficult, but as storage systems scale out with file systems and object systems that support hundreds if not thousands of client devices and applications, it gets really complex. With a huge number of applications all hitting the storage system at once, most believe that I/O at the device level looks to be random because of the way blocks are allocated by file systems at the device.
+
+What Do You Do With This Information?
+
+Everything is a potential bottleneck along the data path — from the number of applications to the file system (and let’s not forget the operating system!) to the PCIe bus to the channel all the way to the device. All of this adds up to complexity that is hard to imagine and that people have spent careers trying to model.
+
+As systems get bigger and namespaces get flatter, this problem is going to get even worse. But getting back to my point: What matters is how much work you get done, not how fast your storage is, and faster storage does not always translate into more work getting done. Of course this is not only true for storage but also true for the computational side, as faster CPUs and more cores do not always translate into more work.
+
+The goal is balanced systems, and the key to having a balanced system is understanding your workload from end to end. The MSST conference is going to have a number of talks that will explore the ins and outs of various workloads and how those workloads impact various storage systems. Just understanding what system calls are made from all of the applications from strace tells you only part of the story, as it does not provide an understanding of what is happening on the storage level. We once took on strace for all of the applications running on a system and then built a simulation of the combined set of traces and ran this against various storage systems. The results were very surprising for the customer and showed the potential for a significant improvement in workflow.
+
+If you want to better understand what the latest research and techniques that are being used to understand workflows and how that impacts system performance and systems architecture, I suggest you pack your bags and head to Santa Clara for MSST.
+
+Photo courtesy of Shutterstock.
+
+
