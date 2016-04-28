@@ -168,6 +168,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As disk drives and solid state drives (SSDs) get faster and faster, I think it is time we stop and look at what really matters, namely, how much work gets done, not how fast a device is.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T020404Z" creationid="Zhan" creationdate="20160428T020404Z">
+        <seg>随着磁盘驱动器和固态硬盘 (SSD) 越来越快，我认为现在是时候停下脚步审视一下什么才是真正重要的方面，换句话说，能完成多少工作，而非设备如何快。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As the system watches human interaction with the data set, it learns what is important and tiers, protects and stores data according to user needs.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004925Z" creationid="Zhan" creationdate="20160427T004556Z">
@@ -553,6 +561,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Let’s start at the device and work our way up the stack.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T021040Z" creationid="Zhan" creationdate="20160428T021040Z">
+        <seg>让我们从设备一侧开始，工作我们沿着堆栈向上进行分析。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Modern CPU and memory systems may reorder stores to memory to improve performance, breaking consistency in case of system failure.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T015808Z" creationid="Zhan" creationdate="20160323T015808Z">
@@ -629,6 +645,18 @@ http://www.enterprisestorageforum.com/storage-technology/does-3d-xpoint-spell-th
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Posted March 17, 2016
+By Henry Newman
+http://www.enterprisestorageforum.com/storage-hardware/why-workloads-matter-more-than-iops-or-streaming.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T020126Z" creationid="Zhan" creationdate="20160428T020126Z">
+        <seg>发布于 2016 年 3 月 17 日
+由亨利 · 纽曼
+http://www.enterprisestorageforum.com/storage-hardware/why-workloads-matter-more-than-iops-or-streaming.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Presumably the original assumption was that folks would use breadth-first graph traversal, which exercised the memory subsystem in the way the benchmark authors intended (a mix of bulk memory access and pointer chasing).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T074831Z" creationid="Zhan" creationdate="20160427T074831Z">
@@ -681,6 +709,14 @@ http://www.enterprisestorageforum.com/storage-technology/does-3d-xpoint-spell-th
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T072523Z" creationid="Zhan" creationdate="20160427T072523Z">
         <seg>很多论文混淆图"问题"和图"算法"。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>So what does impact workload throughput for storage systems?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T020950Z" creationid="Zhan" creationdate="20160428T020950Z">
+        <seg>所以是什么在影响存储系统的工作负载吞吐量？</seg>
       </tuv>
     </tu>
     <tu>
@@ -813,6 +849,14 @@ This is StorageMojo, not AIMojo.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The answer is no, of course, and the same applies for CPU performance.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T020920Z" creationid="Zhan" creationdate="20160428T020920Z">
+        <seg>答案是不，当然，这同样适用于 CPU 的性能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The benchmark requires one to compute the breadth-first distances and labels for a class of random graphs, and report the elapsed time.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T074513Z" creationid="Zhan" creationdate="20160427T074513Z">
@@ -887,6 +931,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The main theme at this year’s Mass Storage Systems and Technology Conference (MSST) will be the importance of workflow over bandwidth or IOPs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T020551Z" creationid="Zhan" creationdate="20160428T020551Z">
+        <seg>在今年的海量存储系统和技术会议 （MSST）主要主题中，工作流的重要性将盖过带宽或 IOPs。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The other issue – beyond the scope of the paper – is also scale-related: how large will the storage system need to be to justify the cost and overhead of cognition?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T022420Z" creationid="Zhan" creationdate="20160427T022420Z">
@@ -907,6 +959,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T013754Z" creationid="Zhan" creationdate="20160322T090900Z">
         <seg>这篇论文上周发表于 UCSD 召开的非易失存储器研讨会。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The question is whether faster storage systems always mean faster workload throughput.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T020915Z" creationid="Zhan" creationdate="20160428T020915Z">
+        <seg>问题是，是否更快的存储系统总是意味着更快的工作负载吞吐量。</seg>
       </tuv>
     </tu>
     <tu>
@@ -995,6 +1055,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T073107Z" creationid="Zhan" creationdate="20160427T073107Z">
         <seg>而这种算法，是漂亮的垃圾。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is not to say that we can go back to 3 MB/sec disk drives that spin at 3600 RPM, but I am saying that workload throughput should count more than being able to do 1M IOPS or stream data at 600 MB/sec.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T020904Z" creationid="Zhan" creationdate="20160428T020646Z">
+        <seg>当然这也不是说我们就要回去用 3 MB/秒 及 3600 RPM 转速的磁盘驱动器，我是指比起具备 1M IOPS 或者 600MB/秒 流式数据访问能力而言，工作负载吞吐量更有必要关注。</seg>
       </tuv>
     </tu>
     <tu>
