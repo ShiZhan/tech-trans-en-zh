@@ -112,6 +112,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A decade ago, RAID vendors were having the same discussion when they were talking about front-end bandwidth (server to cache) vs. back-end bandwidth (cache to disk).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T080219Z" creationid="Zhan" creationdate="20160428T080219Z">
+        <seg>十年前，RAID 供应商有过相同的讨论，关于前端带宽 （服务器到缓存） 与后端带宽 （缓存到磁盘）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A graph coloring is an assignment of colors (think small integers) to graph nodes so that no edge references two nodes of the same color.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T080033Z" creationid="Zhan" creationdate="20160427T080033Z">
@@ -132,6 +140,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T072017Z" creationid="Zhan" creationdate="20160427T072017Z">
         <seg>所有的图处理系统均可以实现这些算法，因此，为"有一个公平的比较"，作为多数论文发表的条件，你必须将注意力局限到这类问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All of these connectivity options are limited by PCIe bandwidth, and though that might change in the future, the issues will be the same: How much bandwidth is needed between the host server(s) and the storage system(s).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T080101Z" creationid="Zhan" creationdate="20160428T080101Z">
+        <seg>所有这些连接选项都要受到 PCIe 带宽限制，虽然这在未来会有改变，问题仍将相同︰ 主机服务器和存储系统之间需要多少带宽。</seg>
       </tuv>
     </tu>
     <tu>
@@ -164,6 +180,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T073846Z" creationid="Zhan" creationdate="20160427T073846Z">
         <seg>作个有趣的作业，也许你可以写下那些你认为可以促成进步的内容？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As devices get faster and faster, channel performance must keep up.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T072729Z" creationid="Zhan" creationdate="20160428T072729Z">
+        <seg>随着设备越来越快、通道性能必须跟上。</seg>
       </tuv>
     </tu>
     <tu>
@@ -265,6 +289,16 @@ boost.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Connectivity to Storage Systems
+The options for connectivity to the storage systems today are SAS, Infiniband, Fibre Channel and NVMe.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T075706Z" creationid="Zhan" creationdate="20160428T075706Z">
+        <seg>存储系统连接
+现在用于连接存储系统的选项有 SAS、Infiniband、光纤通道和 NVMe。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Courteous comments welcome, of course.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T022014Z" creationid="Zhan" creationdate="20160323T022014Z">
@@ -273,10 +307,26 @@ boost.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Device Connectivity</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T072715Z" creationid="Zhan" creationdate="20160428T072715Z">
+        <seg>设备的连接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Establishing human trust in machine intelligence is a major domain problem – see Will Smith’s character in I, Robot.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T020930Z" creationid="Zhan" creationdate="20160427T020930Z">
         <seg>建立人类对机器智能的信任是一个主要的领域问题 — — 看看在《我，机器人》里面威尔 · 史密斯的角色。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Even for disk drives, the SAS layout on the storage controller can have one SAS lane saturated by four disk drives.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T075053Z" creationid="Zhan" creationdate="20160428T075053Z">
+        <seg>甚至对于磁盘驱动器而言，存储控制器上的 SAS 布局中，四个磁盘驱动器就足以让一个 SAS 通道饱和。</seg>
       </tuv>
     </tu>
     <tu>
@@ -317,6 +367,14 @@ boost.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T044850Z" creationid="Zhan" creationdate="20160427T044850Z">
         <seg>易错性总会是人工智能本质的一部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Faster storage requires re-engineering the back-end storage system to ensure that there is enough bandwidth so each storage device can run at full rate.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T075138Z" creationid="Zhan" creationdate="20160428T075138Z">
+        <seg>更快的存储需要重新设计的后端存储系统以确保提供足够的带宽，使每个存储设备可以全速运转。</seg>
       </tuv>
     </tu>
     <tu>
@@ -395,6 +453,14 @@ If, like me, you’re interested in AI and deep learning, you’ll like this.</s
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T070834Z" creationid="Zhan" creationdate="20160427T070834Z">
         <seg>这里我谈一些我的想法，为什么这个区域没有实现什么进展，并且在某些情况下还有所退步，以及提几个改进建议。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Host Side</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T080746Z" creationid="Zhan" creationdate="20160428T080746Z">
+        <seg>主机端</seg>
       </tuv>
     </tu>
     <tu>
@@ -585,6 +651,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Most controllers were designed with significantly more front-end bandwidth with the assumption that much of the data accessed would reside in cache.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T080353Z" creationid="Zhan" creationdate="20160428T080353Z">
+        <seg>大多数的控制器在设计上给前端带宽很大的余量，这是基于大部分数据访问将集中在缓存中的假设。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>NOVA adapts conventional log-structured file system techniques to exploit the fast random access that NVMs provide.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T014031Z" creationid="Zhan" creationdate="20160323T014031Z">
@@ -617,10 +691,26 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Now we get to the hard part of the equation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T080820Z" creationid="Zhan" creationdate="20160428T080820Z">
+        <seg>现在我们来到这个问题中困难的部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Of course, we know a lot more about indirection than we do intelligence.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004703Z" creationid="Zhan" creationdate="20160427T003456Z">
         <seg>无疑，相比于智能，我们更理解间接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Photo courtesy of Shutterstock.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T080849Z" creationid="Zhan" creationdate="20160428T080849Z">
+        <seg>照片由 Shutterstock 提供。</seg>
       </tuv>
     </tu>
     <tu>
@@ -873,6 +963,14 @@ This is StorageMojo, not AIMojo.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The connectivity to the storage system must take into account both the workflow and how that workflow impacts the underlying design of the storage system.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T080742Z" creationid="Zhan" creationdate="20160428T080742Z">
+        <seg>连接到存储系统时，必须考虑工作流，以及这个工作流会如何影响其下存储系统的设计。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The event attracts researchers from all over the world to present their work and make academic and commercial connections.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T013807Z" creationid="Zhan" creationdate="20160322T104151Z">
@@ -921,6 +1019,14 @@ This is StorageMojo, not AIMojo.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The key word there is “assumption,” and when the data did not reside in cache, some vendors’ performance was pretty bad.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T080501Z" creationid="Zhan" creationdate="20160428T080501Z">
+        <seg>这里的关键词是"假设，"，如果数据不驻留于缓存，一些供应商的产品性能就很糟糕。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The limits of AI
 As Gödel proved, any formal system that includes arithmetic, either allows for unprovable but true statements, or is flawed.</seg>
       </tuv>
@@ -959,6 +1065,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T013754Z" creationid="Zhan" creationdate="20160322T090900Z">
         <seg>这篇论文上周发表于 UCSD 召开的非易失存储器研讨会。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The point is that vendors have long designed hardware based on workflow, but it does not mean that all of this was obvious to everyone ten years ago.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T080626Z" creationid="Zhan" creationdate="20160428T080611Z">
+        <seg>事实上厂商很早就基于工作流设计硬件，但这并不意味着，所有这一切在十年前众所周知。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1059,6 +1173,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is especially true if SSDs are mixed in with standard hard drives.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T075212Z" creationid="Zhan" creationdate="20160428T075212Z">
+        <seg>尤其是在固态盘与标准磁盘混合使用时更是如此。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is not to say that we can go back to 3 MB/sec disk drives that spin at 3600 RPM, but I am saying that workload throughput should count more than being able to do 1M IOPS or stream data at 600 MB/sec.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T020904Z" creationid="Zhan" creationdate="20160428T020646Z">
@@ -1079,6 +1201,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T020208Z" creationid="Zhan" creationdate="20160323T020208Z">
         <seg>相应的，文件系统就需要显式的将数据从 CPU 缓存中刷回以强制重组数据，造成显著开销、浪费 NVMM 本可提供的性能提升。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Today most storage enclosures use 12 Gbit/sec SAS for internal communications, so each lane processes ~1.2 GB/sec, given protocol overhead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T074606Z" creationid="Zhan" creationdate="20160428T074606Z">
+        <seg>今天大多数存储机柜使用 12 Gb/秒 SAS 内部通信，所以每个通道 ~1.2 GB/秒，此即协议开销。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1115,6 +1245,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>What Do You Do With This Information?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T080946Z" creationid="Zhan" creationdate="20160428T080946Z">
+        <seg>考虑这些信息你当如何处理？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>What is a Gödel machine?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T041745Z" creationid="Zhan" creationdate="20160427T041745Z">
@@ -1139,10 +1277,26 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Where devices are placed in storage systems is becoming increasingly important, as back ends of storage controllers are not always homogeneous, and high-bandwidth activities such as rebuilding logical unit numbers (LUNs) after failure are bandwidth-hungry activities.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T075558Z" creationid="Zhan" creationdate="20160428T075558Z">
+        <seg>由于存储控制器的后端设备并不总是同构，设备在存储系统中放置于何处显得越来越重要，而且还要考虑带宽密集型活动，比如出现故障后重建逻辑单元号 (Lun)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>While the applications of machine intelligence are many, they aren’t infinite.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T094911Z" creationid="Zhan" creationdate="20160427T023238Z">
         <seg>机器智能的应用虽然很丰富，却并非无限。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With disk drives today operating at as much as 305 MB/sec and with SSDs operating at over 1200 MB/sec, SAS performance is now being replaced with NVMe because SAS is not up to the challenge.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T074937Z" creationid="Zhan" creationdate="20160428T074937Z">
+        <seg>现在的磁盘驱动器工作速度高达 305 MB/秒，而固态盘则超过 1200 MB/秒，由于 SAS 性能难以应对这种挑战，因此 SAS 正在被 NVMe 所取代。</seg>
       </tuv>
     </tu>
     <tu>
