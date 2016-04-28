@@ -78,6 +78,24 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>* Data analysis/data mining
+* Data warehousing
+* Online transaction processing
+* Virtualized infrastructure
+* Graph analytics
+* VDI</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T014646Z" creationid="Zhan" creationdate="20160428T014624Z">
+        <seg>* 数据分析/数据挖掘
+* 数据仓储
+* 联机事务处理
+* 虚拟化基础设施
+* 图分析
+* VDI</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>**Recommendation 1**: Authors of graph processing systems should be obliged to evaluate their implementations against other algorithms for the same problems.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T075601Z" creationid="Zhan" creationdate="20160427T075601Z">
@@ -405,6 +423,14 @@ If, like me, you’re interested in AI and deep learning, you’ll like this.</s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If your storage systems are due a refresh and you are planning future purchases, then there's a huge elephant in the room that needs addressing: Intel and Micron's high performance 3D XPoint technology.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T014236Z" creationid="Zhan" creationdate="20160428T014236Z">
+        <seg>如果你的存储系统需要更新而且你正在计划未来的采购，那现在这里就有一个重磅消息值得关注︰ 英特尔和镁光的高性能 3D XPoint 技术。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you’re processing IoT data sets, the storage system’s AI would have processed what is important about prior data sets and apply those criteria – access frequency, protection level, divergence from norms, time value, – to the incoming data.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004622Z" creationid="Zhan" creationdate="20160427T004126Z">
@@ -587,6 +613,18 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T015251Z" creationid="Zhan" creationdate="20160323T015251Z">
         <seg>将显著快过闪存且稍慢、稍便宜于 DRAM 的 NVM 放置在处理器的主存总线上更有意义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Posted April 21, 2016
+By Paul Rubens
+http://www.enterprisestorageforum.com/storage-technology/does-3d-xpoint-spell-the-end-for-flash-storage-1.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T014035Z" creationid="Zhan" creationdate="20160428T014035Z">
+        <seg>发布 2016 年 4 月 21 日
+由 Paul Rubens
+http://www.enterprisestorageforum.com/storage-technology/does-3d-xpoint-spell-the-end-for-flash-storage-1.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -973,6 +1011,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T020208Z" creationid="Zhan" creationdate="20160323T020208Z">
         <seg>相应的，文件系统就需要显式的将数据从 CPU 缓存中刷回以强制重组数据，造成显著开销、浪费 NVMM 本可提供的性能提升。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Touted by Intel and Micron as the first new memory tier to be launched since the introduction of NAND flash memory in 1989, its launch could have a significant effect on the storage market and your purchasing decisions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T014558Z" creationid="Zhan" creationdate="20160428T014558Z">
+        <seg>英特尔和镁光声称这是自1989 年引入 NAND 快闪存储器以来推出的首个新存储器层次，其面市将可能显著影响存储市场和你的购买决定。</seg>
       </tuv>
     </tu>
     <tu>
