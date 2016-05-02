@@ -485,6 +485,14 @@ The options for connectivity to the storage systems today are SAS, Infiniband, F
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Graph processing systems have introduced progressively more restrictive APIs in the name of performance, creating a race to the bottom with respect to expressivity.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160502T064031Z" creationid="Zhan" creationdate="20160502T064031Z">
+        <seg>图处理系统已经以性能的名义逐步引进更严格的 APIs，造成一场追逐表达性的竞争。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gödel Machines, deep learning and the limits of AI
 by ROBIN HARRIS on WEDNESDAY, 13 JANUARY, 2016
 If, like me, you’re interested in AI and deep learning, you’ll like this.</seg>
@@ -647,6 +655,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T022537Z" creationid="Zhan" creationdate="20160427T022537Z">
         <seg>是否在在企业规模适用或它将成为一个纯粹的互联网尺寸服务？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is a cute idea that has some cachet, and appears to make the complexity of graph processing a bit more manageable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160502T065214Z" creationid="Zhan" creationdate="20160502T065214Z">
+        <seg>它是一个可爱的想法，有较好的口碑，而且似乎使图形处理的复杂性有点更易于管理。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1197,6 +1213,22 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The programming model introduced by Pregel was "think like a vertex", meaning: write a small program that could be run repeatedly by each graph vertex.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160502T064535Z" creationid="Zhan" creationdate="20160502T064535Z">
+        <seg>由 Pregel 提出的编程模型即 "如同一个顶点一样思考"，含义︰ 写一个可以在每个顶点上重复运行的小程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The programs are delightfully simple for the tasks they considered; what's not to like?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160502T070442Z" creationid="Zhan" creationdate="20160502T065228Z">
+        <seg>能简洁完成任务让这类程序受人喜欢；那有什么方面不受喜欢？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The question is whether faster storage systems always mean faster workload throughput.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T020915Z" creationid="Zhan" creationdate="20160428T020915Z">
@@ -1353,6 +1385,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T014558Z" creationid="Zhan" creationdate="20160428T014558Z">
         <seg>英特尔和镁光声称这是自1989 年引入 NAND 快闪存储器以来推出的首个新存储器层次，其面市将可能显著影响存储市场和你的购买决定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Trading expressivity for manageabality can be a false economy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160502T065336Z" creationid="Zhan" creationdate="20160502T065336Z">
+        <seg>用可管理性来换取表达性恐怕是个经济错误。</seg>
       </tuv>
     </tu>
     <tu>
