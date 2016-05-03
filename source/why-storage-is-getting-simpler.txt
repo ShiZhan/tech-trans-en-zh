@@ -1,0 +1,34 @@
+Why storage is getting simpler
+by ROBIN HARRIS on MONDAY, 2 MAY, 2016
+
+Goodbye, old bottleneck
+
+StorageMojo has often asked buyers to focus on latency rather than IOPS thanks to SSDs making IOPS cheap and plentiful. This naturally leads to a focus on I/O stack latency, which multiple vendors are attacking.
+
+But what are the implications of cheap IOPS for enterprise data center operations? That’s what’s motivating the secular trend for simpler storage.
+
+First things
+Is data center storage getting simpler? It’s clear that the big iron arrays are sucking wind – EMC’s VMAX/VNX (Information Storage) group saw peak sales in Q4, 2014 – and I forecast that declining trend will accelerate in coming quarters and last for years.
+
+We are also seeing a trend play out in a variety of product categories. The rise of data aware storage from Qumulo and Data Gravity makes it much simpler for less skilled staff to identify storage issues.
+
+The converged and hyper converged platforms roll storage management in with systems management. The advanced remote monitoring and sophisticated but easy to use DR features from Nimble are another example.
+
+And, of course, the simpler object storage interfaces of cloud vendors, who also remove most of the management overhead from corporate IT. The software-only, commodity-based vendors whose products partly compete with cloud, also get it: Scale Computing’s first word on their website is “Simple”.
+
+Why now?
+
+Cost. The driver. People are ≈70% of enterprise data center cost. Simpler storage = fewer and cheaper people.
+Flash. Tuning HDD-based arrays for performance took a lot of knobs and dials – and people who understood them. Flash makes high performance a given.
+Cloud. Cloud is the vise crushing EDC costs. CFOs who don’t know a switch from server can read AWS prices and put the heat on CIOs.
+Scale. Everyone is handling much larger data stores now, so automation is a necessity.
+
+The StorageMojo take
+
+The IT equivalent of Formula 1 race tuning won’t disappear: some apps will always require the utmost performance. But the huge mass of users will take lower costs over the last possible IOP.
+
+The losers are the systems that make customers pay for features they no longer need. Winners will successfully blend ease of use with performance and availability – at a competitive price.
+
+Is the storage admin an endangered species? Yes. Their numbers wills shrink as the complexity that makes them necessary declines.
+
+Courteous comments welcome, of course.
