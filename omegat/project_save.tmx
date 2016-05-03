@@ -751,8 +751,8 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
       <tuv lang="EN-US">
         <seg>Is the storage admin an endangered species?</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T010659Z" creationid="Zhan" creationdate="20160503T010659Z">
-        <seg>存储管理员要成濒危物种啰？</seg>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T012206Z" creationid="Zhan" creationdate="20160503T010659Z">
+        <seg>存储管理员就要成濒危物种啰？</seg>
       </tuv>
     </tu>
     <tu>
@@ -791,8 +791,8 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
       <tuv lang="EN-US">
         <seg>It’s clear that the big iron arrays are sucking wind – EMC’s VMAX/VNX (Information Storage) group saw peak sales in Q4, 2014 – and I forecast that declining trend will accelerate in coming quarters and last for years.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T002730Z" creationid="Zhan" creationdate="20160503T002730Z">
-        <seg>毫无疑问大块头阵列很拉风 — — EMC 的 VMAX/VNX （信息存储） 团队在2014 年第 4 季度达至销售高峰 — — 我预测其下降趋势在未来几个季度将加快并持续多年。</seg>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T012146Z" creationid="Zhan" creationdate="20160503T002730Z">
+        <seg>毫无疑问大块头阵列正处于风口浪尖 — — EMC 的 VMAX/VNX （信息存储） 团队在2014 年第 4 季度达至销售高峰 — — 我预测其下降趋势在未来几个季度将加快并持续多年。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1179,8 +1179,8 @@ From the paper:
       <tuv lang="EN-US">
         <seg>The IT equivalent of Formula 1 race tuning won’t disappear: some apps will always require the utmost performance.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T010130Z" creationid="Zhan" creationdate="20160503T010130Z">
-        <seg>IT 领域里如同 F1 方程式比赛一样的调优也不会消失︰ 总有一些应用需要极致的性能。</seg>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T012549Z" creationid="Zhan" creationdate="20160503T010130Z">
+        <seg>IT 领域里如同 F1 方程式比赛一样的调优还不会消失︰ 总有一些应用需要极致的性能。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1361,8 +1361,8 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       <tuv lang="EN-US">
         <seg>The losers are the systems that make customers pay for features they no longer need.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T010440Z" creationid="Zhan" creationdate="20160503T010440Z">
-        <seg>失败的系统是让用户为他们不再需要的功能付钱的那些。</seg>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T012629Z" creationid="Zhan" creationdate="20160503T010440Z">
+        <seg>失败的系统是让用户为他们不再需要的功能买单的那些。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1473,8 +1473,8 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       <tuv lang="EN-US">
         <seg>The software-only, commodity-based vendors whose products partly compete with cloud, also get it: Scale Computing’s first word on their website is “Simple”.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T004653Z" creationid="Zhan" creationdate="20160503T004653Z">
-        <seg>就只需软件，且基于常规架构的供应商而言，其产品与云构成部分竞争， 也有这样的认识︰ 扩展计算的第一个词是 "简单"。</seg>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T012449Z" creationid="Zhan" creationdate="20160503T004653Z">
+        <seg>就只做软件，且基于常规架构的供应商而言，其产品与云构成部分竞争， 也有这样的认识︰ 扩展计算的第一个词是 "简单"。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1569,8 +1569,8 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       <tuv lang="EN-US">
         <seg>This naturally leads to a focus on I/O stack latency, which multiple vendors are attacking.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T002300Z" creationid="Zhan" creationdate="20160503T002300Z">
-        <seg>这自然导致 I/O 堆栈延迟深受关注，这也是多个供应商正所攻击的 。</seg>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T011639Z" creationid="Zhan" creationdate="20160503T002300Z">
+        <seg>这自然导致 I/O 堆栈延迟深受关注，也由此招致多个供应商的攻击 。</seg>
       </tuv>
     </tu>
     <tu>
