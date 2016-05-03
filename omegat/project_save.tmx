@@ -168,6 +168,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>And, of course, the simpler object storage interfaces of cloud vendors, who also remove most of the management overhead from corporate IT.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T004337Z" creationid="Zhan" creationdate="20160503T004337Z">
+        <seg>并且，当然，云供应商所提供的简单对象存储接口，也为公司 IT 架构免除大多数管理开销。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Are these algorithms actually "representative graph problems", like the papers claim, and should we continue to improve the performance of these algorithms, assuming good general graph processing will come out of this work?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T071531Z" creationid="Zhan" creationdate="20160427T071531Z">
@@ -313,10 +321,50 @@ boost.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>But the huge mass of users will take lower costs over the last possible IOP.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T010313Z" creationid="Zhan" creationdate="20160503T010313Z">
+        <seg>但海量的普通用户仍将在满足所需 IOP 时尽可能降低成本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>But what are the implications of cheap IOPS for enterprise data center operations?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T002352Z" creationid="Zhan" creationdate="20160503T002352Z">
+        <seg>但廉价 IOPS 于企业数据中心而言意味着什么？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By fixating only on the easiest of problems, researchers spiral into over-optimized and under-capable systems.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T072231Z" creationid="Zhan" creationdate="20160427T072231Z">
         <seg>由于仅聚焦于这类最简化问题，研究者们一直在过于优化与能力不足系统之间转圈。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CFOs who don’t know a switch from server can read AWS prices and put the heat on CIOs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T005756Z" creationid="Zhan" creationdate="20160503T005756Z">
+        <seg>不知道服务器开关在何处的首席财务官可以读 AWS 报价然后把任务转给首席信息官。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Cloud is the vise crushing EDC costs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T005547Z" creationid="Zhan" creationdate="20160503T005508Z">
+        <seg>云是影响企业数据中心成本的第二大要素</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Cloud.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T005351Z" creationid="Zhan" creationdate="20160503T005351Z">
+        <seg>云。</seg>
       </tuv>
     </tu>
     <tu>
@@ -339,10 +387,18 @@ The options for connectivity to the storage systems today are SAS, Infiniband, F
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Cost.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T004708Z" creationid="Zhan" creationdate="20160503T004708Z">
+        <seg>成本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Courteous comments welcome, of course.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T022014Z" creationid="Zhan" creationdate="20160323T022014Z">
-        <seg>欢迎讨论，当然。</seg>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T010835Z" creationid="Zhan" creationdate="20160323T022014Z">
+        <seg>欢迎礼貌讨论，当然。</seg>
       </tuv>
     </tu>
     <tu>
@@ -367,6 +423,14 @@ The options for connectivity to the storage systems today are SAS, Infiniband, F
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T075053Z" creationid="Zhan" creationdate="20160428T075053Z">
         <seg>甚至对于磁盘驱动器而言，存储控制器上的 SAS 布局中，四个磁盘驱动器就足以让一个 SAS 通道饱和。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Everyone is handling much larger data stores now, so automation is a necessity.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T005908Z" creationid="Zhan" creationdate="20160503T005908Z">
+        <seg>所有人正在面对越来越大的数据存储，自动化已成必需。</seg>
       </tuv>
     </tu>
     <tu>
@@ -427,6 +491,32 @@ The options for connectivity to the storage systems today are SAS, Infiniband, F
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>First things
+Is data center storage getting simpler?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T002512Z" creationid="Zhan" creationdate="20160503T002458Z">
+        <seg>第一件事
+数据中心存储正变得更简单？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Flash makes high performance a given.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T005348Z" creationid="Zhan" creationdate="20160503T005348Z">
+        <seg>闪存直接就能提供高性能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Flash.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T004849Z" creationid="Zhan" creationdate="20160503T004849Z">
+        <seg>闪存。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For IBM, a world leader in AI, as their success with Watson has demonstrated, applying intelligence to the problem of storage is a natural application.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004653Z" creationid="Zhan" creationdate="20160427T003649Z">
@@ -481,6 +571,14 @@ The options for connectivity to the storage systems today are SAS, Infiniband, F
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T042408Z" creationid="Zhan" creationdate="20160427T042408Z">
         <seg>这篇论文《一类哥德尔机的实现》(A Family of Gödel Machine Implementations) 由来分别来自于 IDSIA 和 Lugano 大学的 Bas R. Steunebrink 和 Jürgen Schmidhuber 完成，其摘要里说：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Goodbye, old bottleneck</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T001946Z" creationid="Zhan" creationdate="20160503T001946Z">
+        <seg>再见了，老的瓶颈</seg>
       </tuv>
     </tu>
     <tu>
@@ -651,6 +749,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Is the storage admin an endangered species?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T010659Z" creationid="Zhan" creationdate="20160503T010659Z">
+        <seg>存储管理员要成濒危物种啰？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Is this going to work at enterprise scale or will it be a purely web-scale service?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T022537Z" creationid="Zhan" creationdate="20160427T022537Z">
@@ -679,6 +785,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004745Z" creationid="Zhan" creationdate="20160427T002338Z">
         <seg>其基于这样一个想法，就是越重要的事情越容易记住，比方说在大峡谷上的日落，之于上一次等红灯。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It’s clear that the big iron arrays are sucking wind – EMC’s VMAX/VNX (Information Storage) group saw peak sales in Q4, 2014 – and I forecast that declining trend will accelerate in coming quarters and last for years.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T002730Z" creationid="Zhan" creationdate="20160503T002730Z">
+        <seg>毫无疑问大块头阵列很拉风 — — EMC 的 VMAX/VNX （信息存储） 团队在2014 年第 4 季度达至销售高峰 — — 我预测其下降趋势在未来几个季度将加快并持续多年。</seg>
       </tuv>
     </tu>
     <tu>
@@ -819,6 +933,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>People are ≈70% of enterprise data center cost.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T005514Z" creationid="Zhan" creationdate="20160503T004809Z">
+        <seg>人力资源 ≈70% 企业数据中心开销。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Photo courtesy of Shutterstock.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T080849Z" creationid="Zhan" creationdate="20160428T080849Z">
@@ -891,10 +1013,26 @@ http://www.enterprisestorageforum.com/storage-hardware/why-workloads-matter-more
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Scale.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T005808Z" creationid="Zhan" creationdate="20160503T005808Z">
+        <seg>扩展。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Searcher.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T043457Z" creationid="Zhan" creationdate="20160427T043457Z">
         <seg>搜索者。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Simpler storage = fewer and cheaper people.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T004843Z" creationid="Zhan" creationdate="20160503T004843Z">
+        <seg>简单存储 = 更少的人手需求，更低的人力资源成本</seg>
       </tuv>
     </tu>
     <tu>
@@ -963,6 +1101,14 @@ http://www.enterprisestorageforum.com/storage-hardware/why-workloads-matter-more
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>StorageMojo has often asked buyers to focus on latency rather than IOPS thanks to SSDs making IOPS cheap and plentiful.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T002137Z" creationid="Zhan" creationdate="20160503T002137Z">
+        <seg>感谢固态盘让 IOPS 既便宜又充裕，StorageMojo 经常提醒购买者关注延迟而非 IOPS。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Sure, you can schlep unlikely-to-be-needed data off to low cost tape – IBM is a leading tape drive vendor – but the “store everything forever” algorithm doesn’t scale – and if something won’t scale forever, it won’t.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T021502Z" creationid="Zhan" creationdate="20160427T021502Z">
@@ -987,6 +1133,14 @@ From the paper:
         <seg>那么，归纳起来，这也就是为什么除非将 DRAM 与磁盘 I/O 栈针对 NVM 的特殊优势与问题进行重新设计，系统将不可能发挥出 NVM 技术的先进性。这篇论文提供了一种聪明的方法来将现有技术适配到 NVM 的全新领域中。
 文中还提到:
 ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>That’s what’s motivating the secular trend for simpler storage.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T002453Z" creationid="Zhan" creationdate="20160503T002453Z">
+        <seg>这就是简单存储这个长期趋势的幕后推手。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1019,6 +1173,14 @@ From the paper:
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T043913Z" creationid="Zhan" creationdate="20160427T043913Z">
         <seg>哥德尔机由 Jürgen Schmidhuber 在 2003 年发明。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The IT equivalent of Formula 1 race tuning won’t disappear: some apps will always require the utmost performance.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T010130Z" creationid="Zhan" creationdate="20160503T010130Z">
+        <seg>IT 领域里如同 F1 方程式比赛一样的调优也不会消失︰ 总有一些应用需要极致的性能。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1067,6 +1229,14 @@ This is StorageMojo, not AIMojo.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The advanced remote monitoring and sophisticated but easy to use DR features from Nimble are another example.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T004138Z" creationid="Zhan" creationdate="20160503T004138Z">
+        <seg>Nimble 公司的 DR 功能是另一个例子，其提供先进的远程监控能力，虽然复杂精巧但易于使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The answer is no, of course, and the same applies for CPU performance.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T020920Z" creationid="Zhan" creationdate="20160428T020920Z">
@@ -1095,6 +1265,22 @@ This is StorageMojo, not AIMojo.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T080742Z" creationid="Zhan" creationdate="20160428T080742Z">
         <seg>连接到存储系统时，必须考虑工作流，以及这个工作流会如何影响其下存储系统的设计。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The converged and hyper converged platforms roll storage management in with systems management.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T003908Z" creationid="Zhan" creationdate="20160503T003908Z">
+        <seg>聚合和超融合的平台将存储管理和系统管理集中在了一起。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The driver.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T004741Z" creationid="Zhan" creationdate="20160503T004741Z">
+        <seg>驱动力。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1169,6 +1355,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T045645Z" creationid="Zhan" creationdate="20160427T044107Z">
         <seg>人工智能的极限
 正如哥德尔(Gödel)所证明的，任何形式系统，包括算术，或者包含无法证明的永真命题，或者不完备。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The losers are the systems that make customers pay for features they no longer need.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T010440Z" creationid="Zhan" creationdate="20160503T010440Z">
+        <seg>失败的系统是让用户为他们不再需要的功能付钱的那些。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1261,10 +1455,26 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The rise of data aware storage from Qumulo and Data Gravity makes it much simpler for less skilled staff to identify storage issues.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T003821Z" creationid="Zhan" creationdate="20160503T003821Z">
+        <seg>数据感知存储公司 Qumulo 和 Data Gravity 的崛起，使得即便是不太熟练的工作人员也能处理存储相关问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The searcher seeks to improve the entire Gödel machine in a provably – subject to Gödel’s limits of provability, of course – optimal way.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T043846Z" creationid="Zhan" creationdate="20160427T043801Z">
         <seg>搜索者旨在从整体上以可证明最优的方式改善哥德尔机 — — 针对哥德尔受到的可证明性限制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The software-only, commodity-based vendors whose products partly compete with cloud, also get it: Scale Computing’s first word on their website is “Simple”.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T004653Z" creationid="Zhan" creationdate="20160503T004653Z">
+        <seg>就只需软件，且基于常规架构的供应商而言，其产品与云构成部分竞争， 也有这样的认识︰ 扩展计算的第一个词是 "简单"。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1281,6 +1491,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T021252Z" creationid="Zhan" creationdate="20160323T021252Z">
         <seg>这个如何协调的分析比起我们现在讨论的 IOPS/endurance/latency 这些更为细致。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Their numbers wills shrink as the complexity that makes them necessary declines.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T010818Z" creationid="Zhan" creationdate="20160503T010818Z">
+        <seg>他们的数量将随着使他们成为必须的复杂性一起持续萎缩。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1349,6 +1567,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This naturally leads to a focus on I/O stack latency, which multiple vendors are attacking.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T002300Z" creationid="Zhan" creationdate="20160503T002300Z">
+        <seg>这自然导致 I/O 堆栈延迟深受关注，这也是多个供应商正所攻击的 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This of course needs to be abstracted to the volume manager and RAID layout, so it won’t be sequential on a disk drive unless the RAID layout is RAID-1, but there are still potential gotchas such as remapped sectors and virtual allocations.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T082449Z" creationid="Zhan" creationdate="20160428T082449Z">
@@ -1397,6 +1623,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tuning HDD-based arrays for performance took a lot of knobs and dials – and people who understood them.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T005239Z" creationid="Zhan" creationdate="20160503T005239Z">
+        <seg>调节磁盘阵列的性能有着复杂的细节 – 还需要熟悉他们的人。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Understanding its limits with respect to the foundation of any digital civilization – storage – is critical to our cultural infrastructure.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T023437Z" creationid="Zhan" creationdate="20160427T023437Z">
@@ -1417,6 +1651,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T073937Z" creationid="Zhan" creationdate="20160427T073937Z">
         <seg>不幸的是，问题上钩啰。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We are also seeing a trend play out in a variety of product categories.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T003623Z" creationid="Zhan" creationdate="20160503T003623Z">
+        <seg>我们从从一大波产品类别中观察到这个趋势正在涌现。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1485,6 +1727,32 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Why now?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T004703Z" creationid="Zhan" creationdate="20160503T004703Z">
+        <seg>为何是现在？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Why storage is getting simpler
+by ROBIN HARRIS on MONDAY, 2 MAY, 2016</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T001942Z" creationid="Zhan" creationdate="20160503T001942Z">
+        <seg>为什么存储越来越简单
+罗宾 · 哈里斯 在星期一 2016 年 5 月 2 日</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Winners will successfully blend ease of use with performance and availability – at a competitive price.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T010632Z" creationid="Zhan" creationdate="20160503T010632Z">
+        <seg>优胜者将在具有竞争力的价格上成功地融合易用性与性能和可用性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>With a huge number of applications all hitting the storage system at once, most believe that I/O at the device level looks to be random because of the way blocks are allocated by file systems at the device.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T084001Z" creationid="Zhan" creationdate="20160428T084001Z">
@@ -1505,6 +1773,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T014830Z" creationid="Zhan" creationdate="20160427T014830Z">
         <seg>在相对较小的数据集上，研究小组发现，</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Yes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T010703Z" creationid="Zhan" creationdate="20160503T010703Z">
+        <seg>没错。</seg>
       </tuv>
     </tu>
     <tu>
