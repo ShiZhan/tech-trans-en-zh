@@ -14,6 +14,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>"We are at the beginning of exponential growth in digital intelligence." — Elon Musk, Tesla CEO</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T024102Z" creationid="Zhan" creationdate="20160504T024102Z">
+        <seg>"我们正处于在数字智能指数增长的开端"— — Elon Musk，特斯拉首席执行官</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>"[AI can] make every doctor as good as the best doctor in the world at diagnosing skin cancer." — Mark Zuckerberg, Facebook CEO</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T024037Z" creationid="Zhan" creationdate="20160504T024037Z">
+        <seg>"[人工智能可以] 让每一位医生如同世界上最好的医师一样来诊断皮肤癌。" — Mark Zuckerberg, Facebook 首席执行官</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>## Goals for 2016</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T080547Z" creationid="Zhan" creationdate="20160427T080547Z">
@@ -200,6 +216,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>And if you don't believe me, look at what the top executives of the world's most forward-thinking companies are saying:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T023613Z" creationid="Zhan" creationdate="20160504T023516Z">
+        <seg>如果你不相信我，看看世界上那些有着最前瞻思维的企业高管们都在说︰</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>And, of course, the simpler object storage interfaces of cloud vendors, who also remove most of the management overhead from corporate IT.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T004337Z" creationid="Zhan" creationdate="20160503T004337Z">
@@ -316,6 +340,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T073136Z" creationid="Zhan" creationdate="20160427T073136Z">
         <seg>作为一种没用算法还不是最糟糕的事情。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Better image recognition, better speech recognition, autonomous cars, beating GO masters, machines able to play and beat video games, and much much more.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T023401Z" creationid="Zhan" creationdate="20160504T023401Z">
+        <seg>更好的图像识别，更准的语音识别，自动驾驶汽车，击败围棋大师，学习成为电子游戏高手，这样的例子还有许多。</seg>
       </tuv>
     </tu>
     <tu>
@@ -877,6 +909,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Is it hype?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T022656Z" creationid="Zhan" creationdate="20160504T022656Z">
+        <seg>它是炒作吗？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Is the storage admin an endangered species?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T012206Z" creationid="Zhan" creationdate="20160503T010659Z">
@@ -929,6 +969,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T012146Z" creationid="Zhan" creationdate="20160503T002730Z">
         <seg>毫无疑问大块头阵列正处于风口浪尖 — — EMC 的 VMAX/VNX （信息存储） 团队在2014 年第 4 季度达至销售高峰 — — 我预测其下降趋势在未来几个季度将加快并持续多年。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It’s possible that this could be another hype round, but I don't think so.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T022947Z" creationid="Zhan" creationdate="20160504T022947Z">
+        <seg>这可能是另一个回合炒作，但我不这么认为。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1695,10 +1743,26 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There have been 2 AI winters, periods of extreme hype regarding artificial intelligence followed by disappointment and funding cuts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T022919Z" creationid="Zhan" creationdate="20160504T022919Z">
+        <seg>历史上曾有过两次人工智能的冬季，那是关于人工智能的极端炒作时期，失望和经费削减随之而来。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There have been sporadic attempts over the decades to add intelligence to storage systems, and they’ve all come to grief because the cost of the intelligence was higher than the cost of additional storage.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T023003Z" creationid="Zhan" creationdate="20160427T023003Z">
         <seg>几十年来已有零星尝试将智能性添加到存储系统，然而由于其成本高过直接追加存储所以并不成功。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There may be an upper limit to how far deep learning technology will go, but as far as we know, we are nowhere near the plateau.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T023512Z" creationid="Zhan" creationdate="20160504T023512Z">
+        <seg>深度学习技术能走多远，也许有其上限，但就我们所知，我们还远未爬上高原。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1851,6 +1915,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T073937Z" creationid="Zhan" creationdate="20160427T073937Z">
         <seg>不幸的是，问题上钩啰。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We are already breaking milestones almost every day in artificial intelligence thanks to deep learning.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T023124Z" creationid="Zhan" creationdate="20160504T023124Z">
+        <seg>感谢深度学习，我们几乎每一天都在人工智能方向上突破一个又一个里程碑。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2065,6 +2137,14 @@ http://www.somatic.io/blog/why­tensorflow­will­change­the­game­for­ai
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T093414Z" creationid="Zhan" creationdate="20160427T093414Z">
         <seg>[原文](https://github.com/frankmcsherry/blog/blob/master/posts/2015-12-24.md)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>“Machine learning is a core, transformative way by which we’re rethinking everything we’re doing.” — Google CEO, Sundar Pichai</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T023758Z" creationid="Zhan" creationdate="20160504T023758Z">
+        <seg>"机器学习是核心，是一种全新的方式，我们籍此重新思考着我们正在做的一切"— — 谷歌首席执行官，Sundar Pichai</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
