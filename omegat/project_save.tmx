@@ -16,8 +16,8 @@
       <tuv lang="EN-US">
         <seg>"We are at the beginning of exponential growth in digital intelligence." — Elon Musk, Tesla CEO</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T024102Z" creationid="Zhan" creationdate="20160504T024102Z">
-        <seg>"我们正处于在数字智能指数增长的开端"— — Elon Musk，特斯拉首席执行官</seg>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T031429Z" creationid="Zhan" creationdate="20160504T024102Z">
+        <seg>"我们正处在数字智能指数增长的开端"— — Elon Musk，特斯拉首席执行官</seg>
       </tuv>
     </tu>
     <tu>
@@ -509,8 +509,8 @@ The options for connectivity to the storage systems today are SAS, Infiniband, F
       <tuv lang="EN-US">
         <seg>Deep learning models can enable everyone to make novel combinations of algorithms and data to create applications that were not possible before.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T021458Z" creationid="Zhan" creationdate="20160504T021458Z">
-        <seg>深学习模型可以让每个人能够尝试将新的算法和数据进行组合来创建应用程序，这在以往是不可能的。</seg>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T031633Z" creationid="Zhan" creationdate="20160504T021458Z">
+        <seg>深学习模型让每个人能够尝试将新的算法和数据进行组合来创建应用程序，这在以往是不可能的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -781,8 +781,8 @@ If, like me, you’re interested in AI and deep learning, you’ll like this.</s
       <tuv lang="EN-US">
         <seg>How AI will change everything</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T020843Z" creationid="Zhan" creationdate="20160504T020843Z">
-        <seg>AI 将会如何改变一切</seg>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T031454Z" creationid="Zhan" creationdate="20160504T020843Z">
+        <seg>AI 将如何改变一切</seg>
       </tuv>
     </tu>
     <tu>
@@ -2097,8 +2097,8 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       <tuv lang="EN-US">
         <seg>What is different and amazing about this hype cycle is that the doors for building intelligence into everything is being opened up to everyone.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T021228Z" creationid="Zhan" creationdate="20160504T021228Z">
-        <seg>不同和令人惊讶之处在于，这种循环激励正将向各个方面整合智能性的能力提供给大众。</seg>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T031609Z" creationid="Zhan" creationdate="20160504T021228Z">
+        <seg>这种循环激励与众不同和令人惊讶之处在于，其具备为各个方面整合智能性的能力，并将之提供给大众。</seg>
       </tuv>
     </tu>
     <tu>
