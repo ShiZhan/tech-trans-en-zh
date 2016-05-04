@@ -635,6 +635,14 @@ If, like me, you’re interested in AI and deep learning, you’ll like this.</s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>I n October 2015, Google released a piece of machine learning software called TensorFlow.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T012211Z" creationid="Zhan" creationdate="20160504T012211Z">
+        <seg>2015 年 10 月，Google 发布了一款名为 TensorFlow 的机器学习软件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>IB, essentially, relates the information’s metadata values to cognitive system relevance values with the goal of preserving the mutual information between the two.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T005545Z" creationid="Zhan" creationdate="20160427T005545Z">
@@ -1741,6 +1749,18 @@ by ROBIN HARRIS on MONDAY, 2 MAY, 2016</seg>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T001942Z" creationid="Zhan" creationdate="20160503T001942Z">
         <seg>为什么存储越来越简单
 罗宾 · 哈里斯 在星期一 2016 年 5 月 2 日</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Why TensorFlow will change the Game for AI ­ somatic blog
+http://www.somatic.io/blog/why­tensorflow­will­change­the­game­for­ai
+By jason 2016/5/4</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T012119Z" creationid="Zhan" creationdate="20160504T012119Z">
+        <seg>为什么 TensorFlow 将改变 AI 的游戏 - 体细胞博客
+http://www.somatic.io/blog/why­tensorflow­will­change­the­game­for­ai
+作者 jason 于 2016/5/4</seg>
       </tuv>
     </tu>
     <tu>
