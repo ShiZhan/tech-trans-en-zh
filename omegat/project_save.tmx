@@ -78,6 +78,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>* Creating new alphabets
+* Computers that dream about what they have learned
+* Algorithms that learn to generate their own music
+* AIs that generate fake images of people
+* Computers that draw pictures with different artistic styles</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T022024Z" creationid="Zhan" creationdate="20160504T021814Z">
+        <seg>* 建立新的字母表
+* 计算机用它们所学的内容做梦
+* 用算法进行音乐创作
+* 使用 AI 来合成虚拟图像
+* 可以用不同艺术风格进行绘画的计算机</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>* Data analysis/data mining
 * Data warehousing
 * Online transaction processing
@@ -160,10 +176,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Already, TensorFlow is the most "popular" machine learning software: on github it has 19,000+ likes and 6,500+ forks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T015216Z" creationid="Zhan" creationdate="20160504T015216Z">
+        <seg>TensorFlow 已经是最"流行"的机器学习软件 ︰ 在 github 上已有 19,000+ 赞、与 6,500+ 分支。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An interesting question for the future from the paper is “... whether storage capacity growth will fall behind data-growth rates, meaning that the standard model of storing all data forever will no longer be sustainable because of a shortage of available storage resources.” The chances of that are, in my estimation, close to certain.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T095232Z" creationid="Zhan" creationdate="20160427T015753Z">
         <seg>这篇论文向未来提出一个有趣的问题 "... 存储容量增长是否将落后于数据增长率，这意味着，由于可用存储资源的短缺，这种永远存储所有数据的标准模型将不可持续。" 其可能性是，据我估计，近乎必然。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>And even now, there are new libraries coming online almost every week.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T015742Z" creationid="Zhan" creationdate="20160504T015742Z">
+        <seg>即便是现在，仍然每周都有新面孔上线。</seg>
       </tuv>
     </tu>
     <tu>
@@ -268,6 +300,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T083026Z" creationid="Zhan" creationdate="20160428T083026Z">
         <seg>因为对于大多数应用程序和文件系统而言，没有预分配命令，文件大小不可预知，多个文件同时打开写入数据将造成所分配空间相互交错。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Before TensorFlow</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T015639Z" creationid="Zhan" creationdate="20160504T015639Z">
+        <seg>在 TensorFlow 之前</seg>
       </tuv>
     </tu>
     <tu>
@@ -377,6 +417,14 @@ boost.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Conclusion</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T020328Z" creationid="Zhan" creationdate="20160504T020328Z">
+        <seg>结论</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Connectivity to Storage Systems
 The options for connectivity to the storage systems today are SAS, Infiniband, Fibre Channel and NVMe.</seg>
       </tuv>
@@ -399,6 +447,14 @@ The options for connectivity to the storage systems today are SAS, Infiniband, F
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T010835Z" creationid="Zhan" creationdate="20160323T022014Z">
         <seg>欢迎礼貌讨论，当然。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Deep learning models can enable everyone to make novel combinations of algorithms and data to create applications that were not possible before.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T021458Z" creationid="Zhan" creationdate="20160504T021458Z">
+        <seg>深学习模型可以让每个人能够尝试将新的算法和数据进行组合来创建应用程序，这在以往是不可能的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -427,10 +483,26 @@ The options for connectivity to the storage systems today are SAS, Infiniband, F
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Every researcher and company uses their preferred library.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T015902Z" creationid="Zhan" creationdate="20160504T015902Z">
+        <seg>每个研究员和公司有着他们首选的程序库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Everyone is handling much larger data stores now, so automation is a necessity.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T005908Z" creationid="Zhan" creationdate="20160503T005908Z">
         <seg>所有人正在面对越来越大的数据存储，自动化已成必需。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Everyone, including YOU, has the opportunity to create new and wonderful machine learning applications now.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T022120Z" creationid="Zhan" creationdate="20160504T022120Z">
+        <seg>任何人，包括你，已经拥有创造新颖且美妙的机器学习应用的契机。</seg>
       </tuv>
     </tu>
     <tu>
@@ -491,6 +563,14 @@ The options for connectivity to the storage systems today are SAS, Infiniband, F
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Feel free to contact us.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T020655Z" creationid="Zhan" creationdate="20160504T020655Z">
+        <seg>欢迎与我们联系。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>First things
 Is data center storage getting simpler?</seg>
       </tuv>
@@ -541,6 +621,14 @@ Is data center storage getting simpler?</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For each new paper that is published in machine learning, it is usually followed by several open source implementations each written in a different framework and only meant to run on a specific hardware.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T020147Z" creationid="Zhan" creationdate="20160504T020147Z">
+        <seg>在每一篇发表于机器学习领域的新论文中，总包含着几个开放源码实现，各自用不同的框架所写，只运行于特定的硬件上。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, if you have a standard POSIX file system, the file system’s allocation policy is first in first out (FIFO).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T081836Z" creationid="Zhan" creationdate="20160428T081836Z">
@@ -579,6 +667,14 @@ Is data center storage getting simpler?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T001946Z" creationid="Zhan" creationdate="20160503T001946Z">
         <seg>再见了，老的瓶颈</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Google is also relentlessly releasing updates, supporting products, and training courses.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T015246Z" creationid="Zhan" creationdate="20160504T015246Z">
+        <seg>谷歌还在持续地发布更新，提供产品支持和培训课程。</seg>
       </tuv>
     </tu>
     <tu>
@@ -623,6 +719,14 @@ If, like me, you’re interested in AI and deep learning, you’ll like this.</s
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T080746Z" creationid="Zhan" creationdate="20160428T080746Z">
         <seg>主机端</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>How AI will change everything</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T020843Z" creationid="Zhan" creationdate="20160504T020843Z">
+        <seg>AI 将会如何改变一切</seg>
       </tuv>
     </tu>
     <tu>
@@ -683,6 +787,14 @@ If, like me, you’re interested in AI and deep learning, you’ll like this.</s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you are at all interested in machine learning, I suggest you start hacking on top of TensorFlow.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T020645Z" creationid="Zhan" creationdate="20160504T020645Z">
+        <seg>若你对机器学习有兴趣，我建议你从 TensorFlow 开始。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you want to better understand what the latest research and techniques that are being used to understand workflows and how that impacts system performance and systems architecture, I suggest you pack your bags and head to Santa Clara for MSST.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T085942Z" creationid="Zhan" creationdate="20160428T085942Z">
@@ -703,6 +815,14 @@ If, like me, you’re interested in AI and deep learning, you’ll like this.</s
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004622Z" creationid="Zhan" creationdate="20160427T004126Z">
         <seg>如果您正在处理物联网数据集, 存储系统 AI 将在处理之前的数据集时分析出其重要性并且将有关特性 — — 访问频率、保护级别、偏离度、时间价值 — — 应用于未来的数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Imagination and experimentation are the fuel that will create intelligence that we have never seen before.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T021650Z" creationid="Zhan" creationdate="20160504T021650Z">
+        <seg>想象力和实验将为开展前所未见的智能创作提供燃料。</seg>
       </tuv>
     </tu>
     <tu>
@@ -781,6 +901,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is the second-generation software for machine learning infrastructure built at Google, and it powers many of their products such as Google Inbox, Google Translator, Youtube, Google Ads, and more.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T015055Z" creationid="Zhan" creationdate="20160504T015055Z">
+        <seg>这是 Google 开发的第二款用于机器学习的基础架构软件，而且已经被用于诸如 Google 收件箱，Google 翻译，Youtube，Google 广告等产品。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It made a lot of sense for the authors, because they could compute what they needed and be done with it.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T073558Z" creationid="Zhan" creationdate="20160427T073558Z">
@@ -829,6 +957,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Just look at some of the amazing ideas people have built recently:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T021725Z" creationid="Zhan" creationdate="20160504T021725Z">
+        <seg>来看一些人们最近建立起的惊人想法︰</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Just understanding what system calls are made from all of the applications from strace tells you only part of the story, as it does not provide an understanding of what is happening on the storage level.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T085316Z" creationid="Zhan" creationdate="20160428T085316Z">
@@ -857,6 +993,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T021040Z" creationid="Zhan" creationdate="20160428T021040Z">
         <seg>让我们从设备一侧开始，工作我们沿着堆栈向上进行分析。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Looking for a version that runs on your mac?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T020213Z" creationid="Zhan" creationdate="20160504T020213Z">
+        <seg>想找个可以在你的 mac 电脑上运行的版本吗？</seg>
       </tuv>
     </tu>
     <tu>
@@ -937,6 +1081,22 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004703Z" creationid="Zhan" creationdate="20160427T003456Z">
         <seg>无疑，相比于智能，我们更理解间接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>On top of that, we will see many new platforms made specifically for TensorFlow.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T020559Z" creationid="Zhan" creationdate="20160504T020559Z">
+        <seg>以此为基础，我们将会看到更多用 TensorFlow 创作的新平台。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Or how about a version that runs on your cell phone, it might not exist.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T020315Z" creationid="Zhan" creationdate="20160504T020315Z">
+        <seg>或一款可在你的手机上运行的版本，它可能不存在。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1089,6 +1249,14 @@ http://www.enterprisestorageforum.com/storage-hardware/why-workloads-matter-more
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T002652Z" creationid="Zhan" creationdate="20160427T002652Z">
         <seg>已有预测指出，一旦物联网广泛运用，我们产生的数据将超过我们所拥有的存储容量.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some well-known ones:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T015803Z" creationid="Zhan" creationdate="20160504T015803Z">
+        <seg>这些比较有名：</seg>
       </tuv>
     </tu>
     <tu>
@@ -1273,6 +1441,14 @@ This is StorageMojo, not AIMojo.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T070652Z" creationid="Zhan" creationdate="20160427T070626Z">
         <seg>现代系统通常表达的这类图论算法实际上有相当局限性 [我们以前见过] (https://github.com/frankmcsherry/blog/blob/master/posts/2015-01-15.md)，在其专属计算任务上，许多现代图形处理器甚至还不比笔记本电脑更强。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The combination of ease of development, ease of deployment, a great interface, backing by google, and all open sourced will push more of the community towards publishing their research on TensorFlow.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T015635Z" creationid="Zhan" creationdate="20160504T015635Z">
+        <seg>由 Google 所支持，将易于开发、易于部署、伟大的界面相结合，而且还是完全开源的软件，将进一步推动社区使用 TensorFlow 来开展研究。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1527,6 +1703,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There were already many deep learning libraries before TensorFlow.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T015714Z" creationid="Zhan" creationdate="20160504T015714Z">
+        <seg>在 TensorFlow 之前已经有不少深度学习程序库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>These algorithms are not representative of graph processing problems.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T071552Z" creationid="Zhan" creationdate="20160427T071552Z">
@@ -1679,6 +1863,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We are living in exciting times.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T020407Z" creationid="Zhan" creationdate="20160504T020402Z">
+        <seg>我们生活在一个激动人心的时代。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We once took on strace for all of the applications running on a system and then built a simulation of the combined set of traces and ran this against various storage systems.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T085602Z" creationid="Zhan" creationdate="20160428T085602Z">
@@ -1707,6 +1899,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T041745Z" creationid="Zhan" creationdate="20160427T041745Z">
         <seg>什么是哥德尔机？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>What is different and amazing about this hype cycle is that the doors for building intelligence into everything is being opened up to everyone.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T021228Z" creationid="Zhan" creationdate="20160504T021228Z">
+        <seg>不同和令人惊讶之处在于，这种循环激励正将向各个方面整合智能性的能力提供给大众。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1805,10 +2005,34 @@ http://www.somatic.io/blog/why­tensorflow­will­change­the­game­for­ai
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>With the release of TensorFlow, expect to see an increase in machine learning research.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T015328Z" creationid="Zhan" creationdate="20160504T015328Z">
+        <seg>随着 TensorFlow 的发布，有望进一步推动机器学习方向上的研究。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With the release of TensorFlow, innovation in artificial intelligence will dramatically increase.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T020459Z" creationid="Zhan" creationdate="20160504T020459Z">
+        <seg>随着 TensorFlow 的发布，人工智能上的革新将飞速发展。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Yes.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T010703Z" creationid="Zhan" creationdate="20160503T010703Z">
         <seg>没错。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You do not need a PhD in math or computer science to be able to participate in this AI revolution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T022238Z" creationid="Zhan" creationdate="20160504T022238Z">
+        <seg>而这，并不需要你拥有一个数学或者计算机科学博士学位，来参与这个人工智能革命。</seg>
       </tuv>
     </tu>
     <tu>
