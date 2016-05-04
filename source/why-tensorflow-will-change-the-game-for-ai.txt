@@ -1,0 +1,61 @@
+Why TensorFlow will change the Game for AI ­ somatic blog
+http://www.somatic.io/blog/why­tensorflow­will­change­the­game­for­ai
+By jason 2016/5/4
+
+I n October 2015, Google released a piece of machine learning software called TensorFlow. TensorFlow is open source software for creating machine learning models, especially deep neural networks. It is the second-generation software for machine learning infrastructure built at Google, and it powers many of their products such as Google Inbox, Google Translator, Youtube, Google Ads, and more.
+
+Already, TensorFlow is the most "popular" machine learning software: on github it has 19,000+ likes and 6,500+ forks. Google is also relentlessly releasing updates, supporting products, and training courses.
+
+With the release of TensorFlow, expect to see an increase in machine learning research. The combination of ease of development, ease of deployment, a great interface, backing by google, and all open sourced will push more of the community towards publishing their research on TensorFlow.
+
+Before TensorFlow
+
+There were already many deep learning libraries before TensorFlow. And even now, there are new libraries coming online almost every week. Some well-known ones:
+
+* Theanos
+* torch
+* keras
+* blocks
+* pylearn2
+* pybrain
+
+Every researcher and company uses their preferred library. For each new paper that is published in machine learning, it is usually followed by several open source implementations each written in a different framework and only meant to run on a specific hardware. Looking for a version that runs on your mac? Or how about a version that runs on your cell phone, it might not exist.
+
+Another painful aspect of development is that your code that runs on your development box often doesn't run on your production box because of GPU/CPU differences. Often times you would need to rebuild or convert your model to work on different architectures.
+
+Research in machine learning has had all these roadblocks that create fragmentation and slow down progress. It’s like driving down the highway in second gear, there is potential to move a lot faster!!! It is great that there is all this experimentation with different interfaces, but there needs to be consolidation if we want to move faster.
+
+Accelerated research
+
+I've spoken with dozens of research labs over the past few months and most are already moving to TensorFlow or exploring moving to it. The same goes for the hacker community. There will be an explosion of machine learning projects coming out from the hacker community. Already on github, there are 700+ unique projects using TensorFlow. That is amazing, consider it has only been out a few months! With all these new projects and research coming out, more people will be tinkering and building artificial intelligence applications.
+
+Platforms
+
+With the increase in people building off of TensorFlow, there will need to be a platform for deploying these intelligent programs. Yes, TensorFlow already makes it easy to deploy on your own hardware, but that is still not easy enough. We can see this trend with the growing revenue of AWS, Microsoft Azure, and Google Compute Engine. There are already multiple companies (in stealth) who are building platforms to easily manage and deploy TensorFlow applications. These platforms will only act to accelerate ubiquitous machine intelligence.
+
+Is it hype?
+
+There have been 2 AI winters, periods of extreme hype regarding artificial intelligence followed by disappointment and funding cuts. It’s possible that this could be another hype round, but I don't think so. We are already breaking milestones almost every day in artificial intelligence thanks to deep learning. Better image recognition, better speech recognition, autonomous cars, beating GO masters, machines able to play and beat video games, and much much more. There may be an upper limit to how far deep learning technology will go, but as far as we know, we are nowhere near the plateau. And if you don't believe me, look at what the top executives of the world's most forward-thinking companies are saying:
+
+“Machine learning is a core, transformative way by which we’re rethinking everything we’re doing.” — Google CEO, Sundar Pichai
+
+"[AI can] make every doctor as good as the best doctor in the world at diagnosing skin cancer." — Mark Zuckerberg, Facebook CEO
+
+"We are at the beginning of exponential growth in digital intelligence." — Elon Musk, Tesla CEO
+
+How AI will change everything
+
+What is different and amazing about this hype cycle is that the doors for building intelligence into everything is being opened up to everyone. Deep learning models can enable everyone to make novel combinations of algorithms and data to create applications that were not possible before. Imagination and experimentation are the fuel that will create intelligence that we have never seen before. Just look at some of the amazing ideas people have built recently:
+
+* Creating new alphabets
+* Computers that dream about what they have learned
+* Algorithms that learn to generate their own music
+* AIs that generate fake images of people
+* Computers that draw pictures with different artistic styles
+
+Everyone, including YOU, has the opportunity to create new and wonderful machine learning applications now. You do not need a PhD in math or computer science to be able to participate in this AI revolution.
+
+Conclusion
+
+We are living in exciting times. With the release of TensorFlow, innovation in artificial intelligence will dramatically increase. On top of that, we will see many new platforms made specifically for TensorFlow. If you are at all interested in machine learning, I suggest you start hacking on top of TensorFlow. Feel free to contact us.
+
