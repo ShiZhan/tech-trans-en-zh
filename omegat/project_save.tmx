@@ -1125,6 +1125,14 @@ http://www.enterprisestorageforum.com/storage-hardware/why-workloads-matter-more
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>TensorFlow is open source software for creating machine learning models, especially deep neural networks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T014109Z" creationid="Zhan" creationdate="20160504T014109Z">
+        <seg>TensorFlow 是一款开放源码软件，用于创建机器学习模型，尤其深度神经网络。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>That is my view of the main issue with graph processing research at the moment, but it shows up a few different ways.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T072442Z" creationid="Zhan" creationdate="20160427T072442Z">
