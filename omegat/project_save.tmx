@@ -160,6 +160,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Accelerated research</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T030301Z" creationid="Zhan" creationdate="20160504T030301Z">
+        <seg>加快的研究</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All good, right?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T013812Z" creationid="Zhan" creationdate="20160322T104204Z">
@@ -188,6 +196,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T084401Z" creationid="Zhan" creationdate="20160428T084401Z">
         <seg>所有这一切加起来构成难以想象的复杂性，足以让人们用整个职业生涯来分析。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Already on github, there are 700+ unique projects using TensorFlow.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T030555Z" creationid="Zhan" creationdate="20160504T030555Z">
+        <seg>在 github 上，已经有 700+ 基于 TensorFlow 的独特项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -228,6 +244,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T004337Z" creationid="Zhan" creationdate="20160503T004337Z">
         <seg>并且，当然，云供应商所提供的简单对象存储接口，也为公司 IT 架构免除大多数管理开销。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Another painful aspect of development is that your code that runs on your development box often doesn't run on your production box because of GPU/CPU differences.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T025649Z" creationid="Zhan" creationdate="20160504T025649Z">
+        <seg>另一个开发过程中的痛苦之处在于，在开发环境中可以运行的代码常常不能运行于生产环境，原因在于 GPU/CPU 上的差异。</seg>
       </tuv>
     </tu>
     <tu>
@@ -779,6 +803,14 @@ If, like me, you’re interested in AI and deep learning, you’ll like this.</s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>I've spoken with dozens of research labs over the past few months and most are already moving to TensorFlow or exploring moving to it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T030420Z" creationid="Zhan" creationdate="20160504T030420Z">
+        <seg>在过去的几个月里我与不少研究实验室交流过，大部分都已经将自己的工作迁移上 TensorFlow 或正在尝试使用它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>IB, essentially, relates the information’s metadata values to cognitive system relevance values with the goal of preserving the mutual information between the two.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T005545Z" creationid="Zhan" creationdate="20160427T005545Z">
@@ -941,6 +973,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is great that there is all this experimentation with different interfaces, but there needs to be consolidation if we want to move faster.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T030257Z" creationid="Zhan" creationdate="20160504T030257Z">
+        <seg>为不同的接口都开展实验，那是很不错，但如果我们想要运行的更快，还需要整合。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is the second-generation software for machine learning infrastructure built at Google, and it powers many of their products such as Google Inbox, Google Translator, Youtube, Google Ads, and more.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T015055Z" creationid="Zhan" creationdate="20160504T015055Z">
@@ -969,6 +1009,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T012146Z" creationid="Zhan" creationdate="20160503T002730Z">
         <seg>毫无疑问大块头阵列正处于风口浪尖 — — EMC 的 VMAX/VNX （信息存储） 团队在2014 年第 4 季度达至销售高峰 — — 我预测其下降趋势在未来几个季度将加快并持续多年。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It’s like driving down the highway in second gear, there is potential to move a lot faster!!!</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T030035Z" creationid="Zhan" creationdate="20160504T030035Z">
+        <seg>这就像在高速公路上用二档开车，原本有着跑得更快的潜力!!!</seg>
       </tuv>
     </tu>
     <tu>
@@ -1133,6 +1181,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Often times you would need to rebuild or convert your model to work on different architectures.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T025801Z" creationid="Zhan" creationdate="20160504T025801Z">
+        <seg>而且重制或者转换模型以运行于不同系统结构这种情况也挺常有。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>On top of that, we will see many new platforms made specifically for TensorFlow.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T020559Z" creationid="Zhan" creationdate="20160504T020559Z">
@@ -1169,6 +1225,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T015251Z" creationid="Zhan" creationdate="20160323T015251Z">
         <seg>将显著快过闪存且稍慢、稍便宜于 DRAM 的 NVM 放置在处理器的主存总线上更有意义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Platforms</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T030805Z" creationid="Zhan" creationdate="20160504T030805Z">
+        <seg>平台</seg>
       </tuv>
     </tu>
     <tu>
@@ -1225,6 +1289,14 @@ http://www.enterprisestorageforum.com/storage-hardware/why-workloads-matter-more
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T080426Z" creationid="Zhan" creationdate="20160427T080426Z">
         <seg>还记得联通子图所用的标签传播吗？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Research in machine learning has had all these roadblocks that create fragmentation and slow down progress.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T025931Z" creationid="Zhan" creationdate="20160504T025931Z">
+        <seg>在机器学习的研究之中，有着这许多路障，使得过程碎片化并因此减缓。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1345,6 +1417,14 @@ http://www.enterprisestorageforum.com/storage-hardware/why-workloads-matter-more
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T014109Z" creationid="Zhan" creationdate="20160504T014109Z">
         <seg>TensorFlow 是一款开放源码软件，用于创建机器学习模型，尤其深度神经网络。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>That is amazing, consider it has only been out a few months!</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T030618Z" creationid="Zhan" creationdate="20160504T030618Z">
+        <seg>那很惊人，要知道这才过了几个月 ！</seg>
       </tuv>
     </tu>
     <tu>
@@ -1703,6 +1783,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The same goes for the hacker community.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T030425Z" creationid="Zhan" creationdate="20160504T030425Z">
+        <seg>黑客社区也是一样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The searcher seeks to improve the entire Gödel machine in a provably – subject to Gödel’s limits of provability, of course – optimal way.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T043846Z" creationid="Zhan" creationdate="20160427T043801Z">
@@ -1743,6 +1831,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are already multiple companies (in stealth) who are building platforms to easily manage and deploy TensorFlow applications.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T031131Z" creationid="Zhan" creationdate="20160504T031131Z">
+        <seg>已有多家公司 （悄悄地） 构建能够轻松地管理和部署 TensorFlow 应用程序的平台。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There have been 2 AI winters, periods of extreme hype regarding artificial intelligence followed by disappointment and funding cuts.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T022919Z" creationid="Zhan" creationdate="20160504T022919Z">
@@ -1775,10 +1871,26 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There will be an explosion of machine learning projects coming out from the hacker community.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T030519Z" creationid="Zhan" creationdate="20160504T030519Z">
+        <seg>在黑客社区里，正将迎来一场机器学习项目的爆炸。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>These algorithms are not representative of graph processing problems.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T071552Z" creationid="Zhan" creationdate="20160427T071552Z">
         <seg>这些算法不是图形处理问题的代表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These platforms will only act to accelerate ubiquitous machine intelligence.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T031145Z" creationid="Zhan" creationdate="20160504T031145Z">
+        <seg>这些平台将会加速无处不在机器智能。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1943,6 +2055,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We can see this trend with the growing revenue of AWS, Microsoft Azure, and Google Compute Engine.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T031107Z" creationid="Zhan" creationdate="20160504T031107Z">
+        <seg>我们可以看到这样一个趋势，AWS、 微软 Azure 和谷歌计算引擎的收入正不断增长。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We once took on strace for all of the applications running on a system and then built a simulation of the combined set of traces and ran this against various storage systems.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T085602Z" creationid="Zhan" creationdate="20160428T085602Z">
@@ -2061,6 +2181,14 @@ http://www.somatic.io/blog/why­tensorflow­will­change­the­game­for­ai
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>With all these new projects and research coming out, more people will be tinkering and building artificial intelligence applications.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T030759Z" creationid="Zhan" creationdate="20160504T030759Z">
+        <seg>随着这些新项目与研究持续涌现，将有越来越多的人来尝试开发人工智能应用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>With disk drives today operating at as much as 305 MB/sec and with SSDs operating at over 1200 MB/sec, SAS performance is now being replaced with NVMe because SAS is not up to the challenge.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T074937Z" creationid="Zhan" creationdate="20160428T074937Z">
@@ -2077,6 +2205,14 @@ http://www.somatic.io/blog/why­tensorflow­will­change­the­game­for­ai
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>With the increase in people building off of TensorFlow, there will need to be a platform for deploying these intelligent programs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T030849Z" creationid="Zhan" creationdate="20160504T030849Z">
+        <seg>随着越来越多的人们开始用上 TensorFlow，需要有个平台来部署这些应用程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>With the release of TensorFlow, expect to see an increase in machine learning research.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T015328Z" creationid="Zhan" creationdate="20160504T015328Z">
@@ -2089,6 +2225,14 @@ http://www.somatic.io/blog/why­tensorflow­will­change­the­game­for­ai
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T020459Z" creationid="Zhan" creationdate="20160504T020459Z">
         <seg>随着 TensorFlow 的发布，人工智能上的革新将飞速发展。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Yes, TensorFlow already makes it easy to deploy on your own hardware, but that is still not easy enough.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T030949Z" creationid="Zhan" creationdate="20160504T030949Z">
+        <seg>没错，TensorFlow 已经使在自己的机器上部署变得容易，然而这还不够。</seg>
       </tuv>
     </tu>
     <tu>
