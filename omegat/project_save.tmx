@@ -54,6 +54,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>### Synchronous vs asynchronous graph processing</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T160050Z" creationid="Zhan" creationdate="20160505T160050Z">
+        <seg>### 同步与异步的图处理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>### Think like a computer scientist not a vertex</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T075838Z" creationid="Zhan" creationdate="20160427T075838Z">
@@ -136,6 +144,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>**Recommendation 2**: Authors of graph processing systems should be obliged to clearly distinguish the expressivity of their system from others.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T155810Z" creationid="Zhan" creationdate="20160505T155810Z">
+        <seg>** 建议 2* *: 图处理系统的作者应该有义务清楚地将他们系统的表达性与别人区别开来。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>... a supervised learning technique that has been used in the closely related context of document classication, where it has been shown to have lower complexity and higher robustness than other learning methods.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T005252Z" creationid="Zhan" creationdate="20160427T005252Z">
@@ -164,6 +180,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T030301Z" creationid="Zhan" creationdate="20160504T030301Z">
         <seg>加快的研究</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Again, this is a not-unreasonable trade-off if your algorithmic needs match the narrower interface, but not very helpful if you need to do something else.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T155538Z" creationid="Zhan" creationdate="20160505T155538Z">
+        <seg>又一次，如果你的算法需要匹配的窄的接口，这还算不上一个不合理的折中，可是若要做些别的事情，那就并不非常有用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -248,6 +272,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Anecdotally, a great deal of Giraph (an open-source version of Pregel) vertex "programs" look more like state machines driven by decisions made by the computation's master node; the vertices do constitute a massively parallel data plane, but the program logic is still centralized.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T153620Z" creationid="Zhan" creationdate="20160505T153620Z">
+        <seg>有趣的是，大量的 Giraph （Pregel-开源版） 顶点"程序"看起来更像由主计算节点决策驱动下的状态机，顶点确实构成一个大规模并行数据平面，但程序逻辑却仍然是集中化的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Another painful aspect of development is that your code that runs on your development box often doesn't run on your production box because of GPU/CPU differences.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T025649Z" creationid="Zhan" creationdate="20160504T025649Z">
@@ -324,6 +356,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T080354Z" creationid="Zhan" creationdate="20160427T080354Z">
         <seg>在 CIDR 2013 上, [GRACE 图处理系统](http://wenleix.github.io/paper/grace_cidr2013.pdf), 与 [另外一个 Grace 图处理系统](https://www.usenix.org/system/files/conference/atc12/atc12-final182.pdf) 无关，提出一种方法来缓解同步需求，有别于成批同步处理模式 (bulk synchronous processors)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Authors and reviewers should treat reduced expressivity as a serious concern, and expanded expressivity as a real contribution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T155925Z" creationid="Zhan" creationdate="20160505T155925Z">
+        <seg>作者和审阅者应将表达性削弱视为一个严重的问题，将表现性扩大作为真正的贡献。</seg>
       </tuv>
     </tu>
     <tu>
@@ -685,6 +725,14 @@ Is data center storage getting simpler?</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, [PowerGraph](https://www.usenix.org/system/files/conference/osdi12/osdi12-final-167.pdf) introduced the Gather, Apply, Scatter (GAS) interface, which allows one to program input combiners, vertex logic, and disemination.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T154350Z" creationid="Zhan" creationdate="20160505T154350Z">
+        <seg>例如，[PowerGraph] (https://www.usenix.org/system/files/conference/osdi12/osdi12-final-167.pdf) 介绍了 Gather, Apply, Scatter (GAS) 接口，允许用户就输入组合生成器、 顶点逻辑和传播方式编程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, if you have a standard POSIX file system, the file system’s allocation policy is first in first out (FIFO).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T081836Z" creationid="Zhan" creationdate="20160428T081836Z">
@@ -791,6 +839,22 @@ If, like me, you’re interested in AI and deep learning, you’ll like this.</s
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T075206Z" creationid="Zhan" creationdate="20160427T075206Z">
         <seg>然而，在我的印象中发生在 graph500 上最有趣的事情莫过于 [Scott Beamer] (http://www.cs.berkeley.edu/~sbeamer/research.html)，据朋友们观察，一项调整的算法可以通过遍历更少的边以实现相同的结果，从而在内存子系统移动较少的数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, the fixation on known problems (pagerank, connectivity, etc) leads us towards more and more restrictive programming models.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T153938Z" creationid="Zhan" creationdate="20160505T153938Z">
+        <seg>然而，执着于已知问题 （pagerank、 连通性等） 又将方向引至受更多限制的编程模型。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>I do not think the main problem with graph processing systems is that they do not yet compute PageRank fast enough; I think the problem is that they mostly just compute PageRank.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T155648Z" creationid="Zhan" creationdate="20160505T155648Z">
+        <seg>我不认为图处理系统的主要问题是，他们计算 PageRank 还不够快，我觉得问题是，他们大多只计算 PageRank。</seg>
       </tuv>
     </tu>
     <tu>
@@ -981,6 +1045,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is harder to evaluate expressivity than raw performance, but it is absolutely the most interesting research direction at the moment.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T160026Z" creationid="Zhan" creationdate="20160505T160026Z">
+        <seg>比起纯粹性能而言更难评价表现性，但它绝对是目前最有趣的研究方向。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is the second-generation software for machine learning infrastructure built at Google, and it powers many of their products such as Google Inbox, Google Translator, Youtube, Google Ads, and more.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T015055Z" creationid="Zhan" creationdate="20160504T015055Z">
@@ -993,6 +1065,22 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T073558Z" creationid="Zhan" creationdate="20160427T073558Z">
         <seg>就作者而言这还是挺有意义，因为他们可以完成他们需要的计算。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It seems that most graph processing systems are looking for similar sorts of interfaces that make graph processing easy, and high performance possible.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T153733Z" creationid="Zhan" creationdate="20160505T153733Z">
+        <seg>似乎大多数的图处理系统正在寻找一种相似的使图处理易用，且高性能的接口。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It's less helpful if you still need to do one of those tasks of Semih's up above.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T154815Z" creationid="Zhan" creationdate="20160505T154815Z">
+        <seg>如果你仍需要执行上述 Semih 那些处理任务之一，这个方案就不太有用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1317,6 +1405,14 @@ http://www.enterprisestorageforum.com/storage-hardware/why-workloads-matter-more
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Semih Salihoglu and Jennifer Widom have [a paper in VLDB](http://ilpubs.stanford.edu:8090/1077/3/p535-salihoglu.pdf) detailing what they had to do to get non-trivial graph algorithms working well in a Pregel-like system.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T153214Z" creationid="Zhan" creationdate="20160505T153214Z">
+        <seg>Semih Salihoglu 和 Jennifer Widom 发飙了 [一篇 VLDB 论文](http://ilpubs.stanford.edu:8090/1077/3/p535-salihoglu.pdf) 详细介绍了他们如何使非简易图算法在 Pregel 类型系统中良好运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Simpler storage = fewer and cheaper people.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T004843Z" creationid="Zhan" creationdate="20160503T004843Z">
@@ -1537,6 +1633,14 @@ This is StorageMojo, not AIMojo.</seg>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T044614Z" creationid="Zhan" creationdate="20160427T044614Z">
         <seg>StorageMojo 体会
 这里是 StorageMojo，不是 AIMojo。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The [XStream paper](http://infoscience.epfl.ch/record/188535/files/paper.pdf) continues this specialization a bit more to an edge-centric Gather-Scatter interface, which allows the authors even greater flexibility in system implementation by further restricting the programming API.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T155247Z" creationid="Zhan" creationdate="20160505T155247Z">
+        <seg>[XStream 论文] (http://infoscience.epfl.ch/record/188535/files/paper.pdf) 继续这种专门方法，推进一步构成一种以边为中心的聚散接口，由此通过进一步限制编程 API 给予算法作者在系统实现上更大的灵活性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1815,6 +1919,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The take-away is that they occasionally need to break out of vertex-centric computation into a centralized computation model.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T153334Z" creationid="Zhan" creationdate="20160505T153334Z">
+        <seg>要点在于他们偶尔需要跳出顶点中心计算模型而改为使用集中计算模型。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The trade-off analysis has to become more nuanced than the IOPS/endurance/latency discussions we have today.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T021252Z" creationid="Zhan" creationdate="20160323T021252Z">
@@ -1895,6 +2007,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>These systems seem to be optimizing the implementation of known algorithms, and then describing their APIs as the pluggable bits of their systems.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T154138Z" creationid="Zhan" creationdate="20160505T154138Z">
+        <seg>看起来这些系统是为一些已知算法提供优化实现，然后将其封装为 API 便于在系统中灵活组装。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>These three algorithms (and minor variations) are ubiquitous because they are easy.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T071759Z" creationid="Zhan" creationdate="20160427T071743Z">
@@ -1943,6 +2063,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is totally great if you want to do something like pagerank or breadth-first search; there is a bunch of boiler plate you don't have to rewrite each time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T154623Z" creationid="Zhan" creationdate="20160505T154623Z">
+        <seg>如果你想要做如 pagerank 或广度优先搜索这类事，这个方案很棒，不必每次重写一大摞程序组件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This naturally leads to a focus on I/O stack latency, which multiple vendors are attacking.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T011639Z" creationid="Zhan" creationdate="20160503T002300Z">
@@ -1963,6 +2091,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T073047Z" creationid="Zhan" creationdate="20160427T073047Z">
         <seg>多年来就这个问题已开发出很多解决方案，有着各种有趣的权衡取舍。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This section is a bit of a rant.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T160109Z" creationid="Zhan" creationdate="20160505T160109Z">
+        <seg>这一节是有点咆哮。</seg>
       </tuv>
     </tu>
     <tu>
