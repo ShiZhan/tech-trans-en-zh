@@ -176,10 +176,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A greedy algorithm for graph coloring walks through each node, and assigns it the smallest color not held by any of its neighbors:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T000729Z" creationid="Zhan" creationdate="20160506T000729Z">
+        <seg>一个图着色问题的贪婪算法将遍历每一个顶点，然后为其分配尚未被任何一个邻居使用的最小颜色：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Accelerated research</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T030301Z" creationid="Zhan" creationdate="20160504T030301Z">
         <seg>加快的研究</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Actually, what we will see is some confusion about what "asynchronous" means.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T235624Z" creationid="Zhan" creationdate="20160505T235624Z">
+        <seg>实际上，我们将看到的是一些关于 "异步" 含义的疑惑。</seg>
       </tuv>
     </tu>
     <tu>
@@ -352,10 +368,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Asyncronous graph processing is a recently popular modification to graph processing systems, where the idea is that many "representative" algorithms can in fact be implemented with no synchronization.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T235150Z" creationid="Zhan" creationdate="20160505T235150Z">
+        <seg>异步图处理是图处理系统方面最近一个流行的分支，其想法在于，很多具有"代表性"的算法实际上可不以同步方式执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>At CIDR 2013, the [GRACE graph processing system](http://wenleix.github.io/paper/grace_cidr2013.pdf), no relation to [the other Grace graph processing system](https://www.usenix.org/system/files/conference/atc12/atc12-final182.pdf), presented a way to relax synchrony requirements in programs that otherwise look like bulk synchronous processors.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T080354Z" creationid="Zhan" creationdate="20160427T080354Z">
         <seg>在 CIDR 2013 上, [GRACE 图处理系统](http://wenleix.github.io/paper/grace_cidr2013.pdf), 与 [另外一个 Grace 图处理系统](https://www.usenix.org/system/files/conference/atc12/atc12-final182.pdf) 无关，提出一种方法来缓解同步需求，有别于成批同步处理模式 (bulk synchronous processors)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>At the same time, the papers invoke coloring as a poster-child application for asynchronous computation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T001557Z" creationid="Zhan" creationdate="20160506T001557Z">
+        <seg>同时，论文将着色作为异步计算代表性应用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -923,6 +955,14 @@ If, like me, you’re interested in AI and deep learning, you’ll like this.</s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you color each vertex of a graph so that no vertices are adjacent to others with the same color, then the vertices of each color can be executed in parallel without fear of races on the vertex state.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T001329Z" creationid="Zhan" creationdate="20160506T001329Z">
+        <seg>如果您为图中每个顶点添加颜色，并使没有相邻的顶点使用相同的颜色，那么每种颜色的顶点就可以并行执行，无需担忧出现顶点状态竞争。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you want to better understand what the latest research and techniques that are being used to understand workflows and how that impacts system performance and systems architecture, I suggest you pack your bags and head to Santa Clara for MSST.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T085942Z" creationid="Zhan" creationdate="20160428T085942Z">
@@ -1173,6 +1213,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Let's work through a few specific examples.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T000601Z" creationid="Zhan" creationdate="20160506T000601Z">
+        <seg>让我们通过几个具体例子来说明。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Let’s start at the device and work our way up the stack.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T021040Z" creationid="Zhan" creationdate="20160428T021040Z">
@@ -1213,6 +1261,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Most of these systems are throughput-bound rather than latency-bound; asynchronous execution often creates busy-work that needs to be corrected, despite arriving very quickly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T000536Z" creationid="Zhan" creationdate="20160506T000536Z">
+        <seg>这些系统大多受吞吐量而非延迟限制，异步执行时往往造成一批忙碌工作，随后却需要加以纠正，尽管能够很快执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>NOVA adapts conventional log-structured file system techniques to exploit the fast random access that NVMs provide.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T014031Z" creationid="Zhan" creationdate="20160323T014031Z">
@@ -1241,6 +1297,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T023209Z" creationid="Zhan" creationdate="20160427T023209Z">
         <seg>然而，IBM 团队正做着做重要的工作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note: I'm not going to touch asynchronous machine learning stuff, because I'm not personally into computations without crisp semantics; it strikes me currently as more art than science.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T234751Z" creationid="Zhan" creationdate="20160505T234751Z">
+        <seg>注︰ 我不会去碰异步机器学习的东西，因为我个人不想在没有清爽语义情况下去钻研计算，目前在我看来它更多是艺术而非科学。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1381,6 +1445,14 @@ http://www.enterprisestorageforum.com/storage-hardware/why-workloads-matter-more
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Removing synchronization will obviously make the computations go much faster, because synchronization is just computerscience-ese for "to slow down".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T235303Z" creationid="Zhan" creationdate="20160505T235303Z">
+        <seg>去除同步显然会使计算快很多，因为同步恰是正统计算机科学中 "慢下来" 的含义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Research in machine learning has had all these roadblocks that create fragmentation and slow down progress.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T025931Z" creationid="Zhan" creationdate="20160504T025931Z">
@@ -1409,6 +1481,14 @@ http://www.enterprisestorageforum.com/storage-hardware/why-workloads-matter-more
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T153214Z" creationid="Zhan" creationdate="20160505T153214Z">
         <seg>Semih Salihoglu 和 Jennifer Widom 发飙了 [一篇 VLDB 论文](http://ilpubs.stanford.edu:8090/1077/3/p535-salihoglu.pdf) 详细介绍了他们如何使非简易图算法在 Pregel 类型系统中良好运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sequential vs parallel iteration: should a loop be executed one element at a time, or all elements at the same time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T000010Z" creationid="Zhan" creationdate="20160506T000010Z">
+        <seg>顺序之于并行迭代︰ 循环之中是应该一次执行一个元素还是让所有元素在同一时间执行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1449,6 +1529,14 @@ http://www.enterprisestorageforum.com/storage-hardware/why-workloads-matter-more
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T020950Z" creationid="Zhan" creationdate="20160428T020950Z">
         <seg>所以是什么在影响存储系统的工作负载吞吐量？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>So, what follows is about combinatorial graph problems only.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T234822Z" creationid="Zhan" creationdate="20160505T234822Z">
+        <seg>所以，接下来只是与组合图问题有关。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1509,6 +1597,22 @@ http://www.enterprisestorageforum.com/storage-hardware/why-workloads-matter-more
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Synchronization is what dim people use to prevent computations from going too quickly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T235547Z" creationid="Zhan" creationdate="20160505T235547Z">
+        <seg>同步是"笨"人们用来防止计算跑太快之方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Synchronous vs asynchronous execution: can bits of computation be retired immediately without awaiting a global barrier?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T235921Z" creationid="Zhan" creationdate="20160505T235921Z">
+        <seg>同步之于异步执行： 计算能否立即停止而无须等候全局屏障？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>TensorFlow is open source software for creating machine learning models, especially deep neural networks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T014109Z" creationid="Zhan" creationdate="20160504T014109Z">
@@ -1565,6 +1669,14 @@ From the paper:
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T072931Z" creationid="Zhan" creationdate="20160427T072931Z">
         <seg>无向图联通性 *问题* 是为找出联通子图，在这里这种标签传播 *算法* 是一种基于反复散布最小已知节点标记的特殊方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The GraphLab papers have graph coloring as one of their problems of interest, I think mostly because it is an important precursor to doing efficient synchronous scheduling.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T000850Z" creationid="Zhan" creationdate="20160506T000850Z">
+        <seg>GraphLab 论文将图着色作为他们感兴趣的问题之一，我认为主要原因在于它是做同步的高效调度的重要前奏。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1713,6 +1825,14 @@ This is StorageMojo, not AIMojo.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T013807Z" creationid="Zhan" creationdate="20160322T104151Z">
         <seg>这个会议吸引了来自全世界的研究人员介绍他们的成果，建立起学术界与商业界之间的联系。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The former is about relaxing the order in which computation can happen, whereas the latter is about chosing between two very specific orders (one parallel, one not).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T000214Z" creationid="Zhan" creationdate="20160506T000214Z">
+        <seg>前者是关于放宽计算可以发生的顺序，而后者是关于在两个非常具体顺序 （一个并行，一个不并行） 之间做出选择。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1947,6 +2067,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T031131Z" creationid="Zhan" creationdate="20160504T031131Z">
         <seg>已有多家公司 （悄悄地） 构建能够轻松地管理和部署 TensorFlow 应用程序的平台。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are at least two axes that are often confused:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T235646Z" creationid="Zhan" creationdate="20160505T235646Z">
+        <seg>至少有两个坐标轴经常被混淆 ︰</seg>
       </tuv>
     </tu>
     <tu>
@@ -2203,6 +2331,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T085602Z" creationid="Zhan" creationdate="20160428T085602Z">
         <seg>我们曾经用 strace 在系统上采集所有运行于其中的应用程序行为，然后合并这些跟踪，在各种存储系统之上运行仿真。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We will also see also a few cases where (suprise!) synchronization actually improves performance.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T000329Z" creationid="Zhan" creationdate="20160506T000329Z">
+        <seg>我们将会在几个案例中看到 （惊喜 ！） 同步实际上可以提高性能。</seg>
       </tuv>
     </tu>
     <tu>
