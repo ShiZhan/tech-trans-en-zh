@@ -392,6 +392,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>At this point, the flaw is identified as synchrony.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T135901Z" creationid="Zhan" creationdate="20160506T135422Z">
+        <seg>在这一点上，该缺陷被认为是由同步性造成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Authors and reviewers should treat reduced expressivity as a serious concern, and expanded expressivity as a real contribution.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T155925Z" creationid="Zhan" creationdate="20160505T155925Z">
@@ -607,6 +615,14 @@ The options for connectivity to the storage systems today are SAS, Infiniband, F
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T075053Z" creationid="Zhan" creationdate="20160428T075053Z">
         <seg>甚至对于磁盘驱动器而言，存储控制器上的 SAS 布局中，四个磁盘驱动器就足以让一个 SAS 通道饱和。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Even if you repeat the process, you don't necessarily converge to a coloring.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T135135Z" creationid="Zhan" creationdate="20160506T135135Z">
+        <seg>即使你重复这个过程，你不一定收敛到一种着色。</seg>
       </tuv>
     </tu>
     <tu>
@@ -947,6 +963,14 @@ If, like me, you’re interested in AI and deep learning, you’ll like this.</s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If we change it to be more correct:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T140859Z" creationid="Zhan" creationdate="20160506T140859Z">
+        <seg>如果我们将其更改为更正确︰</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you are at all interested in machine learning, I suggest you start hacking on top of TensorFlow.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T020645Z" creationid="Zhan" creationdate="20160504T020645Z">
@@ -959,6 +983,30 @@ If, like me, you’re interested in AI and deep learning, you’ll like this.</s
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T001329Z" creationid="Zhan" creationdate="20160506T001329Z">
         <seg>如果您为图中每个顶点添加颜色，并使没有相邻的顶点使用相同的颜色，那么每种颜色的顶点就可以并行执行，无需担忧出现顶点状态竞争。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you have a graph with just two vertices, each connected to the other, you might just keep flopping between both being colored `0` and colored `1`.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T135810Z" creationid="Zhan" creationdate="20160506T135404Z">
+        <seg>假设你有一张仅包含两个顶点的图，两顶点相互连接，着色过程将在上色 '0' 和上色 '1' 之间持续转换。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you remove the synchronicity requirement, moving into asynchronous territory, you allow the algorithm to converge.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T135624Z" creationid="Zhan" creationdate="20160506T135624Z">
+        <seg>如果删除同步性要求，转而使用异步，你将允许算法收敛。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you rewrite the above sequential loop as a parallel loop over `graph.nodes()`, you don't necessarily get a coloring.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T134930Z" creationid="Zhan" creationdate="20160506T134930Z">
+        <seg>如果你将上面就 'graph.nodes()' 执行的顺序循环重写为并行循环，你就无法着色。</seg>
       </tuv>
     </tu>
     <tu>
@@ -995,6 +1043,14 @@ If, like me, you’re interested in AI and deep learning, you’ll like this.</s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Imagine you are in charge of some project, and a dev comes to you with a hunk of code for something important.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T140143Z" creationid="Zhan" creationdate="20160506T140143Z">
+        <seg>想象一下你正在负责某个项目，有一位开发人员拿来一大块有些重要的代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In Cognitive Storage for Big Data (paywall), IBM researchers Giovanni Cherubini, Jens Jelitto, and Vinodh Venkatesan, of IBM Research—Zurich, described their prototype system.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004638Z" creationid="Zhan" creationdate="20160427T004046Z">
@@ -1015,6 +1071,14 @@ If, like me, you’re interested in AI and deep learning, you’ll like this.</s
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T014214Z" creationid="Zhan" creationdate="20160323T014214Z">
         <seg>特别的，它还为每一个 inode 分别维护日志以提高并行性，而且将文件数据保存在日志之外来最小化日志尺寸，减少垃圾回收代价。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the sequential computation above, the color of a node is being picked based on uninitialized values: the colors of nodes *after* it in the sequential order.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T140838Z" creationid="Zhan" creationdate="20160506T140505Z">
+        <seg>在上述的顺序计算中，节点颜色的选择基于未初始化值︰ 按顺序位于其 *后* 节点的颜色。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1065,6 +1129,22 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T022537Z" creationid="Zhan" creationdate="20160427T022537Z">
         <seg>是否在在企业规模适用或它将成为一个纯粹的互联网尺寸服务？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It also can be written to send data along each undirected edge only once (a node awaits all inputs from lower id'd neighbors, then updates and sends its color to higher id'd neighbors) which is probably as little communication as you could hope to do.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T141858Z" creationid="Zhan" creationdate="20160506T141858Z">
+        <seg>它也可以编写为发送数据沿每个无向的边缘只有一次 (一个节点等待从所有拥有更小 id 的邻居传来输入，然后更新自己颜色，接着向其高 id 邻居传送其颜色) ，这估计是你所希望的最小通信开销。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It does take multiple rounds, but in each round more and more nodes lock in the value that they would have in the sequential execution; once all of a node's adjacent predecesors have locked in their values, that node will lock in its value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T141424Z" creationid="Zhan" creationdate="20160506T141424Z">
+        <seg>它采取多个回合，但依次在每个会合里将有越来越多顶点锁定于其顺序执行时将赋予的值，一旦一个顶点所有相邻前驱已锁定在它们的值，该节点将锁定其值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1365,6 +1445,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Perhaps the asynchronous implementation can exploit its flexibility to find a coloring faster---it certainly has more options to chose from than the correctly implemented synchronous version---but that should be the reason to use it rather than "buggy code doesn't work synchronously".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T142501Z" creationid="Zhan" creationdate="20160506T142501Z">
+        <seg>异步执行也许可以利用其灵活性，以更快找到一种着色方案---比起正确实现的同步版本，它肯定有更多的选项供选择---不过这恰恰提供理由来使用它，而不是"bug 程序不可同步工作"。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Photo courtesy of Shutterstock.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T080849Z" creationid="Zhan" creationdate="20160428T080849Z">
@@ -1529,6 +1617,14 @@ http://www.enterprisestorageforum.com/storage-hardware/why-workloads-matter-more
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T020950Z" creationid="Zhan" creationdate="20160428T020950Z">
         <seg>所以是什么在影响存储系统的工作负载吞吐量？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>So you don't necessarily get a coloring.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T135100Z" creationid="Zhan" creationdate="20160506T135100Z">
+        <seg>所以你一定无法完成着色。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1877,6 +1973,14 @@ This is StorageMojo, not AIMojo.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The iterated synchronous execution also results in exactly the same coloring as the sequential execution, unlike the asynchronous implemention.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T142022Z" creationid="Zhan" creationdate="20160506T142022Z">
+        <seg>迭代的同步执行也会与顺序执行收获完全相同的结果，与异步实现不一样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The key is using machine learning to determine data value.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004105Z" creationid="Zhan" creationdate="20160427T004105Z">
@@ -1947,6 +2051,22 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T080626Z" creationid="Zhan" creationdate="20160428T080611Z">
         <seg>事实上厂商很早就基于工作流设计硬件，但这并不意味着，所有这一切在十年前众所周知。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The problem in this case isn't that synchronous computation is bad, it is that the algorithm has a bug.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T140509Z" creationid="Zhan" creationdate="20160506T140500Z">
+        <seg>在这里问题可不是同步计算不好，而是该算法有个 bug。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The problem is that by executing synchronously, you *force* the algorithm to use stale data.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T135857Z" creationid="Zhan" creationdate="20160506T135525Z">
+        <seg>问题是在于通过同步执行，你 *强制* 算法使用陈旧的数据。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2175,6 +2295,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is because if each node looks at the colors of its neighbors in parallel, it will make a decision based on possibly stale information.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T135025Z" creationid="Zhan" creationdate="20160506T135025Z">
+        <seg>这是因为如果每个节点并行检查邻居的颜色，其决策将基于可能过时的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is especially true if SSDs are mixed in with standard hard drives.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T075212Z" creationid="Zhan" creationdate="20160428T075212Z">
@@ -2227,6 +2355,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T160109Z" creationid="Zhan" creationdate="20160505T160109Z">
         <seg>这一节是有点咆哮。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This strikes me as totally deranged.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T135631Z" creationid="Zhan" creationdate="20160506T135631Z">
+        <seg>这让我完全错乱。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2291,6 +2427,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T073937Z" creationid="Zhan" creationdate="20160427T073937Z">
         <seg>不幸的是，问题上钩啰。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Unfortunately, sometimes it deadlocks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T140216Z" creationid="Zhan" creationdate="20160506T140216Z">
+        <seg>不幸的是，这货时不时死锁。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2395,6 +2539,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T075558Z" creationid="Zhan" creationdate="20160428T075558Z">
         <seg>由于存储控制器的后端设备并不总是同构，设备在存储系统中放置于何处显得越来越重要，而且还要考虑带宽密集型活动，比如出现故障后重建逻辑单元号 (Lun)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Where on the list of advice you would give is "well, just remove the locks"?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T140350Z" creationid="Zhan" creationdate="20160506T140350Z">
+        <seg>参照一般建议列表，你也许来一句 "好吧，干掉锁试试"？</seg>
       </tuv>
     </tu>
     <tu>
@@ -2553,6 +2705,14 @@ http://www.somatic.io/blog/why­tensorflow­will­change­the­game­for­ai
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T093414Z" creationid="Zhan" creationdate="20160427T093414Z">
         <seg>[原文](https://github.com/frankmcsherry/blog/blob/master/posts/2015-12-24.md)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>then the synchronous parallel execution works out just fine.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T140931Z" creationid="Zhan" creationdate="20160506T140931Z">
+        <seg>那么同步并行执行就可以正常运转。</seg>
       </tuv>
     </tu>
     <tu>
