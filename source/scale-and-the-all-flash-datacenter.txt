@@ -1,0 +1,30 @@
+Scale and the all-flash datacenter
+by ROBIN HARRIS on MONDAY, 9 MAY, 2016
+http://storagemojo.com/2016/05/09/scale-and-the-all-flash-datacenter/
+
+There’s a gathering vendor storm pushing the all-flash datacenter as a solution to datacenter ills, such as high personnel costs and performance bottlenecks. There’s some truth to this, but its application is counter-intuitive.
+
+Most of the time, storage innovations benefit the largest and – for vendors – most lucrative datacenters. OK, that’s not counter-intuitive. But in the case of the AFDC, it is smaller datacenters that stand to benefit the most.
+
+Why?
+
+It’s a matter of scale. Small, low data capacity datacenters are naturals for all flash. The initial cost may be higher, but the simplification of management and the generally high performance make it attractive.
+
+Your databases go fast with costly little tuning and management. VDI is snappy. Performance-related support calls – and their costs – drop off. Ideally, SSD failures will be lower than HDDs, but make sure you’re backing up, due to the higher rate of data corruption on SSDs.
+
+Scale drives this because even though flash may be only 5-10x the cost of raw disk capacity, as capacities grow the media cost – SSD and/or HDD – comes to dominate the The costs for an array controller and associated infrastructure outweigh the media cost until some threshold capacity is reached.
+
+This explains why Nimble’s average customer is interested in AFDC’s, while Google, Facebook and AWS, aren’t. Nimble’s SMB customers are a fair example of where AFA will often make sense.
+
+Where is the cutoff? Today it looks like 250 to 350 TB is where it makes sense to include disk in your datacenter. It’s not likely that you’ll be pounding on 300TB enough to justify flash. But expect the cutoff to rise over time, as it has for tape.
+
+The StorageMojo take
+
+The scale vs cost issue isn’t new. Tape continues as a viable storage technology because the cost of the media is so low. But tape’s customer universe is limited because for more and more users backing up to disk, or cloud, object stores is a cost/functional equivalent.
+
+What is new is that disk is going down the same path that tape has been on for decades. The bigger problem for HDDs is that the PC market – the disk volume driver – continues to shrink while flash takes a larger chunk of the remaining PC business. Disk vendors have to adjust to a lower volume market, just as tape vendors have.
+
+Lest SSD vendors get complacent, the really high performance database applications are going in-memory. It’s a dogfight out there! And even more changes are in store.
+
+Courteous comments welcome, of course. In your experience, where is the cutoff point?
+
