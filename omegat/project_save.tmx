@@ -497,6 +497,14 @@ boost.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>But in the case of the AFDC, it is smaller datacenters that stand to benefit the most.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160510T024629Z" creationid="Zhan" creationdate="20160510T024629Z">
+        <seg>不过就全闪存数据中心 (All Flash Datacenter, AFDC) 而言，还是小数据中心更赚钱。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>But the huge mass of users will take lower costs over the last possible IOP.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T010313Z" creationid="Zhan" creationdate="20160503T010313Z">
@@ -1205,6 +1213,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It’s a matter of scale.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160510T024649Z" creationid="Zhan" creationdate="20160510T024649Z">
+        <seg>这是规模的问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It’s based on the idea that it’s easier to remember important, like a sunset over the Grand Canyon, than the last time you waited for a traffic light.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T004745Z" creationid="Zhan" creationdate="20160427T002338Z">
@@ -1341,6 +1357,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Most of the time, storage innovations benefit the largest and – for vendors – most lucrative datacenters.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160510T024437Z" creationid="Zhan" creationdate="20160510T024417Z">
+        <seg>大多数情况下，存储创新能为供应商提供最大受益 — — 尤其是建造最赚钱数据中心那些。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Most of these systems are throughput-bound rather than latency-bound; asynchronous execution often creates busy-work that needs to be corrected, despite arriving very quickly.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T000536Z" creationid="Zhan" creationdate="20160506T000536Z">
@@ -1393,6 +1417,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T080820Z" creationid="Zhan" creationdate="20160428T080820Z">
         <seg>现在我们来到这个问题中困难的部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>OK, that’s not counter-intuitive.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160510T024446Z" creationid="Zhan" creationdate="20160510T024429Z">
+        <seg>好吧，那不算有违常理。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1597,6 +1629,14 @@ http://storagemojo.com/2016/05/09/scale-and-the-all-flash-datacenter/</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T004843Z" creationid="Zhan" creationdate="20160503T004843Z">
         <seg>简单存储 = 更少的人手需求，更低的人力资源成本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Small, low data capacity datacenters are naturals for all flash.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160510T024735Z" creationid="Zhan" creationdate="20160510T024735Z">
+        <seg>小、低数据容量数据中心很自然采用全闪存方式构建。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1977,6 +2017,14 @@ This is StorageMojo, not AIMojo.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The initial cost may be higher, but the simplification of management and the generally high performance make it attractive.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160510T024819Z" creationid="Zhan" creationdate="20160510T024819Z">
+        <seg>初始成本可能会更高，但是，简化管理和一般具有高性能使它有吸引力。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The issue with crap algorithms is when they become benchmark computations for research areas.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T074246Z" creationid="Zhan" creationdate="20160427T074246Z">
@@ -2253,8 +2301,16 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       <tuv lang="EN-US">
         <seg>There’s a gathering vendor storm pushing the all-flash datacenter as a solution to datacenter ills, such as high personnel costs and performance bottlenecks.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160510T021754Z" creationid="Zhan" creationdate="20160510T021754Z">
-        <seg>那里是收集供应商风暴全闪存数据中心作为一种解决方案推向数据中心的弊病，包括高人员成本和性能瓶颈。</seg>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160510T023734Z" creationid="Zhan" creationdate="20160510T021754Z">
+        <seg>一大波供应商正狂推全闪存数据中心，将其作为一种解决方案，这个风暴正构成数据中心的弊病，包括高人员成本和性能瓶颈。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There’s some truth to this, but its application is counter-intuitive.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160510T023743Z" creationid="Zhan" creationdate="20160510T023743Z">
+        <seg>有一定的道理，但它的应用是有违常理。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2597,6 +2653,14 @@ by ROBIN HARRIS on MONDAY, 2 MAY, 2016</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Why?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160510T024639Z" creationid="Zhan" creationdate="20160510T024639Z">
+        <seg>为啥？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Why TensorFlow will change the Game for AI ­ somatic blog
 http://www.somatic.io/blog/why­tensorflow­will­change­the­game­for­ai
 By jason 2016/5/4</seg>
@@ -2693,6 +2757,14 @@ http://www.somatic.io/blog/why­tensorflow­will­change­the­game­for­ai
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T022238Z" creationid="Zhan" creationdate="20160504T022238Z">
         <seg>而这，并不需要你拥有一个数学或者计算机科学博士学位，来参与这个人工智能革命。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Your databases go fast with costly little tuning and management.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160510T024953Z" creationid="Zhan" creationdate="20160510T024953Z">
+        <seg>数据库要靠不少调优与管理来跑更快。</seg>
       </tuv>
     </tu>
     <tu>
