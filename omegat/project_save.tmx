@@ -1549,6 +1549,18 @@ http://www.enterprisestorageforum.com/storage-hardware/why-workloads-matter-more
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Scale and the all-flash datacenter
+by ROBIN HARRIS on MONDAY, 9 MAY, 2016
+http://storagemojo.com/2016/05/09/scale-and-the-all-flash-datacenter/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160510T021556Z" creationid="Zhan" creationdate="20160510T021525Z">
+        <seg>扩展和全闪存数据中心
+罗宾 · 哈里斯于星期一 2016 年 5 月 9 日
+http://storagemojo.com/2016/05/09/scale-and-the-all-flash-datacenter/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Scale.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T005808Z" creationid="Zhan" creationdate="20160503T005808Z">
@@ -2235,6 +2247,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T030519Z" creationid="Zhan" creationdate="20160504T030519Z">
         <seg>在黑客社区里，正将迎来一场机器学习项目的爆炸。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There’s a gathering vendor storm pushing the all-flash datacenter as a solution to datacenter ills, such as high personnel costs and performance bottlenecks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160510T021754Z" creationid="Zhan" creationdate="20160510T021754Z">
+        <seg>那里是收集供应商风暴全闪存数据中心作为一种解决方案推向数据中心的弊病，包括高人员成本和性能瓶颈。</seg>
       </tuv>
     </tu>
     <tu>
