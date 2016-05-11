@@ -264,6 +264,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>And even more changes are in store.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160511T062958Z" creationid="Zhan" creationdate="20160511T062958Z">
+        <seg>商店里还有更多的变化。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>And even now, there are new libraries coming online almost every week.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T015742Z" creationid="Zhan" creationdate="20160504T015742Z">
@@ -489,6 +497,14 @@ boost.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>But expect the cutoff to rise over time, as it has for tape.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160511T062012Z" creationid="Zhan" creationdate="20160511T062012Z">
+        <seg>不过这个容量界限还将随时间提高，正如在磁带上发生过的那样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>But getting back to my point: What matters is how much work you get done, not how fast your storage is, and faster storage does not always translate into more work getting done.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T084634Z" creationid="Zhan" creationdate="20160428T084634Z">
@@ -501,6 +517,14 @@ boost.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160510T024629Z" creationid="Zhan" creationdate="20160510T024629Z">
         <seg>不过就全闪存数据中心 (All Flash Datacenter, AFDC) 而言，还是小数据中心更赚钱。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>But tape’s customer universe is limited because for more and more users backing up to disk, or cloud, object stores is a cost/functional equivalent.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160511T062323Z" creationid="Zhan" creationdate="20160511T062323Z">
+        <seg>但磁带的客户群有限，因为越来越多的用户用磁盘备份，或云，对象存储成本/功能与磁盘相当。</seg>
       </tuv>
     </tu>
     <tu>
@@ -607,6 +631,14 @@ The options for connectivity to the storage systems today are SAS, Infiniband, F
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T072715Z" creationid="Zhan" creationdate="20160428T072715Z">
         <seg>设备的连接</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Disk vendors have to adjust to a lower volume market, just as tape vendors have.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160511T062805Z" creationid="Zhan" creationdate="20160511T062805Z">
+        <seg>磁盘供应商不得不调整到一个容量更小的市场，就像磁带供应商。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1099,6 +1131,14 @@ If, like me, you’re interested in AI and deep learning, you’ll like this.</s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In your experience, where is the cutoff point?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160511T063055Z" creationid="Zhan" creationdate="20160511T063055Z">
+        <seg>以你的经验而言，边界在哪里？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Integrating 3D Xpoint with DRAM
 by Robin Harris on Monday, 21 March, 2016
 Intel is promising availability of 3D Xpoint non-volatile memory (NVM) this year, at least in their Optane
@@ -1221,6 +1261,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It’s a dogfight out there!</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160511T063039Z" creationid="Zhan" creationdate="20160511T063039Z">
+        <seg>真是一场缠斗！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It’s a matter of scale.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160510T024649Z" creationid="Zhan" creationdate="20160510T024649Z">
@@ -1249,6 +1297,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T030035Z" creationid="Zhan" creationdate="20160504T030035Z">
         <seg>这就像在高速公路上用二档开车，原本有着跑得更快的潜力!!!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It’s not likely that you’ll be pounding on 300TB enough to justify flash.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160511T061650Z" creationid="Zhan" creationdate="20160511T061650Z">
+        <seg>不过也没必要守着 300 TB 被踢爆来为闪存辩护。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1297,6 +1353,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T085316Z" creationid="Zhan" creationdate="20160428T085316Z">
         <seg>用 strace 来了解应用程序执行着哪些系统调用只不过是故事的一部分，因为这不能让人理解在存储层面上发生着什么。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Lest SSD vendors get complacent, the really high performance database applications are going in-memory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160511T062930Z" creationid="Zhan" creationdate="20160511T062930Z">
+        <seg>不过 SSD 厂商尚不应自满，超高性能的数据库应用程序正向内存迁移。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1393,6 +1457,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T041730Z" creationid="Zhan" creationdate="20160427T041730Z">
         <seg>神经网络在人工智能领域正广受关注，然而还有新技术 — — 哥德尔机 — — 现在也成为 AI 工具集的一个标准部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Nimble’s SMB customers are a fair example of where AFA will often make sense.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160511T060558Z" creationid="Zhan" creationdate="20160511T060558Z">
+        <seg>Nimble 的中小企业客户可以说明全闪存阵列 (AFA) 意义所在。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1611,8 +1683,8 @@ http://storagemojo.com/2016/05/09/scale-and-the-all-flash-datacenter/</seg>
       <tuv lang="EN-US">
         <seg>Scale drives this because even though flash may be only 5-10x the cost of raw disk capacity, as capacities grow the media cost – SSD and/or HDD – comes to dominate the The costs for an array controller and associated infrastructure outweigh the media cost until some threshold capacity is reached.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160511T055756Z" creationid="Zhan" creationdate="20160511T055756Z">
-        <seg>Scale drives this because even though flash may be only 5-10x the cost of 裸磁盘容量，随着容量提高，不论是 SSD 和/或 HDD 均将成为阵列系统中主要成分， associated infrastructure outweigh the media cost until some threshold capacity is reached.</seg>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160511T060254Z" creationid="Zhan" creationdate="20160511T055756Z">
+        <seg>闪存与裸磁盘容量成本相比有 5-10 倍，随着容量提高，不论是 SSD 和/或 HDD 均将成为阵列系统中主要成分，关联部件成本在容量超过某个门限之后将超过存储媒介成本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1785,6 +1857,14 @@ http://storagemojo.com/2016/05/09/scale-and-the-all-flash-datacenter/</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tape continues as a viable storage technology because the cost of the media is so low.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160511T062140Z" creationid="Zhan" creationdate="20160511T062140Z">
+        <seg>磁带仍是一种可行的存储技术，因为媒体的成本是如此之低。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>TensorFlow is open source software for creating machine learning models, especially deep neural networks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T014109Z" creationid="Zhan" creationdate="20160504T014109Z">
@@ -1949,6 +2029,14 @@ This is StorageMojo, not AIMojo.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T074513Z" creationid="Zhan" creationdate="20160427T074513Z">
         <seg>这项基准测试需要在随机图上计算广度优先遍历的距离和标签，然后报告所用时间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The bigger problem for HDDs is that the PC market – the disk volume driver – continues to shrink while flash takes a larger chunk of the remaining PC business.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160511T062729Z" creationid="Zhan" creationdate="20160511T062729Z">
+        <seg>HDD 更大的问题在 PC 市场上 — — 磁盘卷驱动器持续萎缩，而 flash 正拿下个人电脑业务其余部分中更大的份额。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2219,6 +2307,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The scale vs cost issue isn’t new.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160511T062031Z" creationid="Zhan" creationdate="20160511T062031Z">
+        <seg>规模与成本不是什么新问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The searcher seeks to improve the entire Gödel machine in a provably – subject to Gödel’s limits of provability, of course – optimal way.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T043846Z" creationid="Zhan" creationdate="20160427T043801Z">
@@ -2395,6 +2491,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This explains why Nimble’s average customer is interested in AFDC’s, while Google, Facebook and AWS, aren’t.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160511T060347Z" creationid="Zhan" creationdate="20160511T060347Z">
+        <seg>这解释了为什么 Nimble 公司的一般客户有兴趣用全闪存数据中心，而谷歌、 Facebook 和 AWS，却不能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is because if each node looks at the colors of its neighbors in parallel, it will make a decision based on possibly stale information.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T135025Z" creationid="Zhan" creationdate="20160506T135025Z">
@@ -2471,6 +2575,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T020208Z" creationid="Zhan" creationdate="20160323T020208Z">
         <seg>相应的，文件系统就需要显式的将数据从 CPU 缓存中刷回以强制重组数据，造成显著开销、浪费 NVMM 本可提供的性能提升。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Today it looks like 250 to 350 TB is where it makes sense to include disk in your datacenter.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160511T060832Z" creationid="Zhan" creationdate="20160511T060832Z">
+        <seg>现在看起来 250 到 350 TB 是这个边界，超出就意味着在您的数据中心中使用磁盘有意义。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2627,6 +2739,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>What is new is that disk is going down the same path that tape has been on for decades.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160511T062446Z" creationid="Zhan" creationdate="20160511T062446Z">
+        <seg>新的变化是磁盘正在走下坡路，磁带这几十年一直如此。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>What's missing and what needs to get done next?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T073712Z" creationid="Zhan" creationdate="20160427T073712Z">
@@ -2647,6 +2767,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T075558Z" creationid="Zhan" creationdate="20160428T075558Z">
         <seg>由于存储控制器的后端设备并不总是同构，设备在存储系统中放置于何处显得越来越重要，而且还要考虑带宽密集型活动，比如出现故障后重建逻辑单元号 (Lun)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Where is the cutoff?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160511T060710Z" creationid="Zhan" creationdate="20160511T060710Z">
+        <seg>边界在哪里？</seg>
       </tuv>
     </tu>
     <tu>
