@@ -955,6 +955,14 @@ If, like me, you’re interested in AI and deep learning, you’ll like this.</s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Ideally, SSD failures will be lower than HDDs, but make sure you’re backing up, due to the higher rate of data corruption on SSDs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160511T040318Z" creationid="Zhan" creationdate="20160511T040318Z">
+        <seg>理想情况下，SSD 设备失效率将低于 HDD，但请确保您要备份，由于 SSD 上的数据损坏率较高。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If in one case you have a single application writing say 500 GB in 1 MB chunks sequentially, and if you have enough free space, the file will be allocated with sequential block addresses in the file system.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T082047Z" creationid="Zhan" creationdate="20160428T082047Z">
@@ -1477,6 +1485,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Performance-related support calls – and their costs – drop off.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160511T040231Z" creationid="Zhan" creationdate="20160511T040231Z">
+        <seg>性能相关的客户服务 — — 和他们的费用 — — 下降。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Perhaps the asynchronous implementation can exploit its flexibility to find a coloring faster---it certainly has more options to chose from than the correctly implemented synchronous version---but that should be the reason to use it rather than "buggy code doesn't work synchronously".</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T142501Z" creationid="Zhan" creationdate="20160506T142501Z">
@@ -1589,6 +1605,14 @@ http://storagemojo.com/2016/05/09/scale-and-the-all-flash-datacenter/</seg>
         <seg>扩展和全闪存数据中心
 罗宾 · 哈里斯于星期一 2016 年 5 月 9 日
 http://storagemojo.com/2016/05/09/scale-and-the-all-flash-datacenter/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Scale drives this because even though flash may be only 5-10x the cost of raw disk capacity, as capacities grow the media cost – SSD and/or HDD – comes to dominate the The costs for an array controller and associated infrastructure outweigh the media cost until some threshold capacity is reached.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160511T055756Z" creationid="Zhan" creationdate="20160511T055756Z">
+        <seg>Scale drives this because even though flash may be only 5-10x the cost of 裸磁盘容量，随着容量提高，不论是 SSD 和/或 HDD 均将成为阵列系统中主要成分， associated infrastructure outweigh the media cost until some threshold capacity is reached.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2511,6 +2535,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T140216Z" creationid="Zhan" creationdate="20160506T140216Z">
         <seg>不幸的是，这货时不时死锁。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>VDI is snappy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160511T040200Z" creationid="Zhan" creationdate="20160511T040200Z">
+        <seg>VDI 是爽快。</seg>
       </tuv>
     </tu>
     <tu>
