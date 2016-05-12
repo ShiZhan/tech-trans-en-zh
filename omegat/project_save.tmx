@@ -1683,8 +1683,8 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
       <tuv lang="EN-US">
         <seg>On MNIST, with only 100 labeled examples, it achieves 1.13% error!</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T053522Z" creationid="Zhan" creationdate="20160512T053522Z">
-        <seg>在 MNIST，只有 100 个标签的例子，其错误率达到 1.13%！</seg>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T053633Z" creationid="Zhan" creationdate="20160512T053522Z">
+        <seg>在 MNIST，只有 100 个标签的例子，其错误率低至 1.13%！</seg>
       </tuv>
     </tu>
     <tu>
