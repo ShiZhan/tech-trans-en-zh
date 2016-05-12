@@ -272,6 +272,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Also, I don't think I buy their argument that the "theory of stochastic gradient descent applies".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T041703Z" creationid="Zhan" creationdate="20160512T041703Z">
+        <seg>还有，我不赞同他们这个说法："适用于随机梯度下降理论"。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An interesting question for the future from the paper is “... whether storage capacity growth will fall behind data-growth rates, meaning that the standard model of storing all data forever will no longer be sustainable because of a shortage of available storage resources.” The chances of that are, in my estimation, close to certain.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T095232Z" creationid="Zhan" creationdate="20160427T015753Z">
@@ -300,6 +308,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T023613Z" creationid="Zhan" creationdate="20160504T023516Z">
         <seg>如果你不相信我，看看世界上那些有着最前瞻思维的企业高管们都在说︰</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>And it is quite central to this method too, so good job on connecting those dots!</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T041250Z" creationid="Zhan" creationdate="20160512T041250Z">
+        <seg>它也是这个方法关键之处，很好串联上整项工作！</seg>
       </tuv>
     </tu>
     <tu>
@@ -1009,6 +1025,22 @@ If, like me, you’re interested in AI and deep learning, you’ll like this.</s
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T012211Z" creationid="Zhan" creationdate="20160504T012211Z">
         <seg>2015 年 10 月，Google 发布了一款名为 TensorFlow 的机器学习软件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>I really hope they do in a future version of this work.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T041518Z" creationid="Zhan" creationdate="20160512T041518Z">
+        <seg>我非常期待他们随后发布更新工作进展。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>I really like the "rank-one trick" of Equation 7, really cute!</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T041045Z" creationid="Zhan" creationdate="20160512T041045Z">
+        <seg>我确实很喜欢公式 7 里面那个 "rank-one trick"，很聪明！</seg>
       </tuv>
     </tu>
     <tu>
@@ -2131,6 +2163,14 @@ This is StorageMojo, not AIMojo.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The authors present this work as being preliminary, and indeed they do not compare with truncated backprop.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T041429Z" creationid="Zhan" creationdate="20160512T041429Z">
+        <seg>作者们提出这项工作尚为初步，的确还没有与截断式反向传播比较。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The benchmark requires one to compute the breadth-first distances and labels for a class of random graphs, and report the elapsed time.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T074513Z" creationid="Zhan" creationdate="20160427T074513Z">
@@ -2175,6 +2215,14 @@ This is StorageMojo, not AIMojo.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T003908Z" creationid="Zhan" creationdate="20160503T003908Z">
         <seg>聚合和超融合的平台将存储管理和系统管理集中在了一起。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The current approach people use is to truncate backprop to only a few steps in the past, which is more of a heuristic.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T040924Z" creationid="Zhan" creationdate="20160512T040924Z">
+        <seg>目前人们使用的办法是将反向传播截断到过去仅几步之遥，更类似于启发式算法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2657,6 +2705,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T082449Z" creationid="Zhan" creationdate="20160428T082449Z">
         <seg>这当然需要通过卷管理器和 RAID 布局抽象层，所以它不会在磁盘驱动器上依然保持连续，除非 RAID 布局是 RAID 1，即便如此仍然有潜在可能存在重新映射和虚拟分配。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This paper makes progress towards a more principled approach.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T041002Z" creationid="Zhan" creationdate="20160512T041002Z">
+        <seg>本文取得的进展在于提供更有原则性的方法。</seg>
       </tuv>
     </tu>
     <tu>
