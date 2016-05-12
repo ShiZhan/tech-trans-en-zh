@@ -989,6 +989,14 @@ If, like me, you’re interested in AI and deep learning, you’ll like this.</s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Hugo's two cents (excerpt): Online training of RNNs is a big, unsolved problem.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T040504Z" creationid="Zhan" creationdate="20160512T040504Z">
+        <seg>雨果的评论 （节选） ︰ 递归神经网络在线训练是一个尚未解决的大问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>I do not think the main problem with graph processing systems is that they do not yet compute PageRank fast enough; I think the problem is that they mostly just compute PageRank.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T155648Z" creationid="Zhan" creationdate="20160505T155648Z">
@@ -2581,6 +2589,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This algorithm works in an online, memoryless setting, thus requiring no backpropagation through time, and is scalable, avoiding the large computational and memory cost of maintaining the full gradient of the current state with respect to the parameters.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T040048Z" creationid="Zhan" creationdate="20160512T040048Z">
+        <seg>该算法采取在线、无记忆的设置，因此无需耗时进行反向传播，而且可扩展，从而避免为与参数相应维持当前状态完整梯度而消耗大量的计算和内存成本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This algorithm, however, is pretty crap.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T073107Z" creationid="Zhan" creationdate="20160427T073107Z">
@@ -3047,6 +3063,14 @@ http://www.somatic.io/blog/why­tensorflow­will­change­the­game­for­ai
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160510T024953Z" creationid="Zhan" creationdate="20160510T024953Z">
         <seg>数据库要靠不少调优与管理来跑更快。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>[ ... ] Preliminary tests on a simple task show that the stochastic approximation of the gradient introduced in the algorithm does not seem to introduce too much noise in the trajectory, compared to maintaining the full gradient, and confirm the good performance and scalability of the Kalman-like version of NoBackTrack.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T040336Z" creationid="Zhan" creationdate="20160512T040336Z">
+        <seg>[ ... ]在一个简单的任务的初步试验表明梯度算法中引入随机逼近似乎没有给逼近路径制造太多的噪音，与维持完整的梯度相比，且确认卡尔曼类似版本的 NoBackTrack 具有良好的性能和可扩展性。</seg>
       </tuv>
     </tu>
     <tu>
