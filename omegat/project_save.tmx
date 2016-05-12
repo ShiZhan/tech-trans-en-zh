@@ -184,6 +184,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A selection of 5 arXiv machine learning papers that Hugo has read and shared notes on follows.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T022520Z" creationid="Zhan" creationdate="20160512T022520Z">
+        <seg>这里选出 5 篇雨果已经阅读并共享笔记之 arXiv 机器学习论文。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Abstract (excerpt): We introduce the "NoBackTrack" algorithm to train the parameters of dynamical systems such as recurrent neural networks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T023230Z" creationid="Zhan" creationdate="20160512T023230Z">
+        <seg>摘要 （节选） ︰ 我们介绍了用"NoBackTrack"算法来训练诸如递归神经网络这类动态系统的参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Accelerated research</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T030301Z" creationid="Zhan" creationdate="20160504T030301Z">
@@ -400,6 +416,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>At the time of this writing he has shared notes on 10 papers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T022327Z" creationid="Zhan" creationdate="20160512T022327Z">
+        <seg>在写这篇文章的时候，他分享了 10 文章的笔记。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>At this point, the flaw is identified as synchrony.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T135901Z" creationid="Zhan" creationdate="20160506T135422Z">
@@ -420,6 +444,16 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T075815Z" creationid="Zhan" creationdate="20160427T075815Z">
         <seg>作者应该去查阅 [GAP benchmark suite] (https://github.com/sbeamer/gapbs)，其不仅以上面的那些简单问题为目标，更提供你可能还没听说过的优化算法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Authors: Yann Ollivier, Guillaume Charpiat 
+Date posted to arXiv: 28 Jul 2015</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T023121Z" creationid="Zhan" creationdate="20160512T023035Z">
+        <seg>作者：Yann Ollivier, Guillaume Charpiat 
+arXiv 发表时间：2015 年 7 月 28 号</seg>
       </tuv>
     </tu>
     <tu>
@@ -541,6 +575,14 @@ boost.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T002352Z" creationid="Zhan" creationdate="20160503T002352Z">
         <seg>但廉价 IOPS 于企业数据中心而言意味着什么？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By Matthew Mayo.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T021628Z" creationid="Zhan" creationdate="20160512T021628Z">
+        <seg>由马修 · 梅奥。</seg>
       </tuv>
     </tu>
     <tu>
@@ -939,6 +981,14 @@ If, like me, you’re interested in AI and deep learning, you’ll like this.</s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Hugo Larochelle, PhD, is a Université de Sherbrooke machine learning professor (on leave), Twitter research scientist, noted neural network researcher, and deep learning aficiando.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T022413Z" creationid="Zhan" creationdate="20160512T022413Z">
+        <seg>雨果 · 拉罗谢勒，博士学位，是布鲁克大学机器学习 （休假），Twitter 研究科学家、著名神经网络研究员和深度学习专业教授。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>I do not think the main problem with graph processing systems is that they do not yet compute PageRank fast enough; I think the problem is that they mostly just compute PageRank.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T155648Z" creationid="Zhan" creationdate="20160505T155648Z">
@@ -1115,6 +1165,14 @@ If, like me, you’re interested in AI and deep learning, you’ll like this.</s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In an effort to help us better understand their content, for each paper an overview of its abstract along with an excerpt from Hugo's notes are presented.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T022655Z" creationid="Zhan" creationdate="20160512T022655Z">
+        <seg>为了帮助我们更好地理解其内容，每篇论文摘要概述和雨果的笔记摘录被放在一起。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In particular, it maintains separate logs for each inode to improve concurrency, and stores file data outside the log to minimize log size and reduce garbage collection costs.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160323T014214Z" creationid="Zhan" creationdate="20160323T014214Z">
@@ -1213,6 +1271,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is an outlet for cutting edge research in numerous scientific fields, including machine learning.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T022011Z" creationid="Zhan" creationdate="20160512T022011Z">
+        <seg>这里是展示众多科研领域最新进展的窗口，包括机器学习。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is great that there is all this experimentation with different interfaces, but there needs to be consolidation if we want to move faster.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T030257Z" creationid="Zhan" creationdate="20160504T030257Z">
@@ -1225,6 +1291,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T160026Z" creationid="Zhan" creationdate="20160505T160026Z">
         <seg>比起纯粹性能而言更难评价表现性，但它绝对是目前最有趣的研究方向。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is hoped that having top deep learning papers explained by a noted expert in the field will make some of the more complex aspects of the science more approachable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T022953Z" creationid="Zhan" creationdate="20160512T022953Z">
+        <seg>希望这些顶级深度学习论文，经由该领域的著名专家解释，会使某些复杂科学问题更加平易近人。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1401,6 +1475,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T020213Z" creationid="Zhan" creationdate="20160504T020213Z">
         <seg>想找个可以在你的 mac 电脑上运行的版本吗？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Mirroring the current general trend in academia, much of the recent posted machine learning research is deep learning related.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T022116Z" creationid="Zhan" creationdate="20160512T022116Z">
+        <seg>与学术界目前的一般趋势一致，机器学习方面的近期研究大多与深入学习有关。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1729,6 +1811,14 @@ http://storagemojo.com/2016/05/09/scale-and-the-all-flash-datacenter/</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Since late summer 2015, he has been drafting and publicly sharing notes on arXiv machine learning papers that he has taken an interest in.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T022319Z" creationid="Zhan" creationdate="20160512T022319Z">
+        <seg>2015 夏末，他收集整理了他感兴趣的 arXiv 上有关机器学习的论文，公开分享他的笔记。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Small, low data capacity datacenters are naturals for all flash.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160510T024735Z" creationid="Zhan" creationdate="20160510T024735Z">
@@ -1853,6 +1943,14 @@ http://storagemojo.com/2016/05/09/scale-and-the-all-flash-datacenter/</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T235921Z" creationid="Zhan" creationdate="20160505T235921Z">
         <seg>同步之于异步执行： 计算能否立即停止而无须等候全局屏障？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tags: arXiv, Deep Learning, Hugo Larochelle, Matthew Mayo</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T021424Z" creationid="Zhan" creationdate="20160512T021424Z">
+        <seg>标签 ︰ arXiv，深度学习，雨果 · 拉罗谢勒，马修 · 梅奥</seg>
       </tuv>
     </tu>
     <tu>
@@ -2595,6 +2693,22 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Top 5 arXiv Deep Learning Papers, Explained</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T021417Z" creationid="Zhan" creationdate="20160512T021417Z">
+        <seg>5 篇 arXiv 深度学习牛文，解析</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Top deep learning papers on arXiv are presented, summarized, and explained with the help of a leading researcher in the field.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T021625Z" creationid="Zhan" creationdate="20160512T021625Z">
+        <seg>由本领域牛人提供帮助，关于 arXiv 上深度学习顶级论文的归纳与分析。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Touted by Intel and Micron as the first new memory tier to be launched since the introduction of NAND flash memory in 1989, its launch could have a significant effect on the storage market and your purchasing decisions.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T014558Z" creationid="Zhan" creationdate="20160428T014558Z">
@@ -2607,6 +2721,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160502T065336Z" creationid="Zhan" creationdate="20160502T065336Z">
         <seg>用可管理性来换取表达性恐怕是个经济错误。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Training recurrent networks online without backtracking</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T023025Z" creationid="Zhan" creationdate="20160512T023025Z">
+        <seg>无回溯在线训练递归网络</seg>
       </tuv>
     </tu>
     <tu>
@@ -2957,6 +3079,14 @@ http://www.somatic.io/blog/why­tensorflow­will­change­the­game­for­ai
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T093414Z" creationid="Zhan" creationdate="20160427T093414Z">
         <seg>[原文](https://github.com/frankmcsherry/blog/blob/master/posts/2015-12-24.md)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>arXiv, maintained by Cornell University, is a popular open access academic paper preprint repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T021712Z" creationid="Zhan" creationdate="20160512T021712Z">
+        <seg>arXiv，由康奈尔大学维护，是最受欢迎的开放访问的学术论文预印本仓库。</seg>
       </tuv>
     </tu>
     <tu>
