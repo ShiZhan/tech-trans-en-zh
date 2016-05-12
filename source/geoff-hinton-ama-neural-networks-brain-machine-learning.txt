@@ -1,0 +1,52 @@
+Geoff Hinton AMA: Neural Networks, the Brain, and Machine Learning
+
+Tags: Backpropagation, Deep Learning, Geoff Hinton, Michael Jordan, Neural Networks, Neuroscience, Zachary Lipton
+
+http://www.kdnuggets.com/2014/12/geoff-hinton-ama-neural-networks-brain-machine-learning.html
+
+In a wide-ranging Q&A, Geoff Hinton addresses the future of deep learning, its biological inspirations, and his research philosophy.
+
+By Zachary Chase Lipton, UCSD.
+
+Last month, Geoff Hinton, a Distinguished Professor at the University of Toronto and part-time research scientist at Google participated in an AMA (ask me anything) on Reddit. Hinton, an important figure in the deep learning movement, answered user submitted questions spanning technical details of deep nets, biological inspiration, and research philosophy.
+
+Not long ago, neural networks were broadly considered to be out of fashion. In their classic textbook, Artificial Intelligence: A Modern Approach, Peter Norvig and Stuart Russell write:
+
+"The quest for ‘artificial flight’ succeeded when the Wright brothers and others stopped imitating birds and started … learning about aerodynamics."
+
+<Neural Networks Model>
+
+The recent performance of deep networks on fundamental tasks in machine perception has opened this wisdom to debate. Deep networks have roots in the computational neuroscience community and recently the degree to which deep learning research and neuroscience are related has been a topic of open debate.
+
+In a recent interview with IEEE Spectrum, Michael Jordan took aim at the neuroscience basis of deep learning:
+
+"We don’t know how neurons learn. Is it actually just a small change in the synaptic weight that’s responsible for learning? That’s what these artificial neural networks are doing. In the brain, we have precious little idea how learning is actually taking place."
+
+In Hinton’s bio, which prefaces the discussion thread, he clearly stakes out a contrasting position on the importance of biological inspiration and motivation:
+
+"My aim is to discover a learning procedure that is efficient at finding complex structure in large, high-dimensional datasets and to show that this is how the brain learns to see."
+
+Topics throughout the Q&A spanned the spectrum between efficient learning and biological inspiration. One user (breandan) asked, “are we any closer to understanding biological models of computation?”
+
+In his replies, Hinton simultaneously offered intuition for how deep learning research and biology could be connected, while taking care not to overstate current knowledge of the brain.
+
+"I think the success of deep learning gives a lot of credibility to the idea that we learn multiple layers of distributed representations using stochastic gradient descent. However, I think we are probably a long way from understanding how the brain does this."
+
+In the same reply, he suggested that the brain’s own learning may involve a process similar to backpropagation:
+
+"I now think there is a small chance that the cortex really is doing backpropagation through multiple layers of representation."
+
+On the technical side, Geoff Hinton suggested that pooling is a mistake. Max-pooling is a procedure for down-sampling widely used in convolutional neural nets in which images are separated into non-overlapping regions and the maximum value from each region is output. Hinton lamented, “the fact that it works so well is a disaster,” referring to the loss of spatial information which could be valuable.
+
+Other topics included Neural Turing machines, LSTMs, the genesis of his Boltzmann machine work with Terry Sejnowski, and the diminishing returns to large-scale data mining. When asked about the relative importance of new big ideas and computing power, Hinton deftly retorted that he’d rather not choose.
+
+In one post, Hinton was asked explicitly a question concerning Michael Jordan’s interview. He replied that while he shared Jordan’s sentiment on the recent hype surrounding deep learning, he disagreed on other points.
+
+Regarding the appropriateness of the biological metaphor, he asserts, "a lot of the motivation for deep nets did come from looking at the brain … ". Indirectly, he addresses Jordan’s concern that deep networks don’t exhibit spiking patterns by discussing newer models that do emulate this behavior.
+
+Hinton made several references to a new theory he is working on involving small groups of connected neurons called “capsules”. He likens them to cortical columns and suggests that they may offer more satisfying solutions for down-sampling than max-pooling. He also suggests that they may offer solutions to the problems pointed out by Szegedy et. al which were recently covered on KDnuggets.
+
+<Zachary Chase Lipton>
+
+Zachary Chase Lipton is a PhD student in the Computer Science Engineering department at the University of California, San Diego. Funded by the Division of Biomedical Informatics, he is interested in both theoretical foundations and applications of machine learning. In addition to his work at UCSD, he has interned at Microsoft Research Labs.
+

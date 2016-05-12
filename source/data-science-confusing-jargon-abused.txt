@@ -1,0 +1,60 @@
+Data Science’s Most Used, Confused, and Abused Jargon
+
+http://www.kdnuggets.com/2015/02/data-science-confusing-jargon-abused.html
+
+Tags: Big Data Privacy, Data Science, Deep Learning, Zachary Lipton
+
+As data science has spread through the mainstream, so too has a dense vocabulary of ill-defined jargon. In a split-personality post, we offer several perspectives on many of data science's most confused terms.
+
+By Zachary Chase Lipton, UCSD.
+
+Big data is hot. A global system of networked devices now generates terabytes of data each second. Affordable storage makes it possible to record seemingly arbitrary amounts of information. And machine learning algorithms, together with distributed computing, increasingly rise to the task of extracting actionable intelligence from this information. But what precisely does "big data" mean?
+
+As the importance of data science has grown, so too has the body of jargon associated with it. While many terms of art are well defined, others are buzzwords, ubiquitous in the media but lacking concrete meaning.
+
+In this post, I'll offer a look at data science's buzzwords from multiple perspectives, namely the theorist, the empirical data scientist, and the press release bluster, which too often is parroted by the mainstream press.
+
+Big Data
+
+Theorist: Big data is an underspecified term. Presumably it is larger than mid-sized data and smaller than gigantic data.
+
+Data Scientist: Unlike the toy datasets that long dominated machine learning research, today's big data is sufficiently large that it cannot fit conveniently in main memory on a single workstation. To analyze big data, one must utilize distributed computation and parallel algorithms. In short, big data is more data than can fit in main memory on a single machine.
+
+Press Release: Big data is a goldmine for software developers and as necessary operating a modern businesses as water is to survival on Earth. Big data utilizes the power of the cloud to generate polychromatic graphs without which one is a dinosaur in today's economy. Do you have a big data strategy to keep up with Silicon Valley?
+
+The Cloud
+
+Theorist: The cloud refers to remote computation. Fortunately, interest in distributed systems has spurred interest in parallelizable algorithms.
+
+Data Scientist: The availability of resources for distributed computation has greatly expanded the capabilities of the data science community. We can simultaneously train models across tens or hundreds of virtual machines. We can distribute computation with tools like Hadoop. All without major upfront capital investments in hardware.
+
+Press Release: Clouds. Services. Platforms. Google, Amazon, Facebook, Azure. The cloud is everywhere. Everything is going to the cloud. Everything lives in the cloud. Even clouds are in the cloud. Public cloud, private cloud, meta-cloud. Does your business have a cloud strategy?
+
+Deep Neural Network
+
+Theorist: Deep neural networks refer to graphical models in which data is computed upon by successive layers of nodes. The use of the word 'neural' may be misleading. While the empirical performance of these systems is impressive, their mathematical properties are poorly understood.
+
+Data Scientist: Drawing biological inspiration, deep neural networks consist of nodes which receive excitatory or inhibitory input along edges which model synapses. The models achieve state of the art performance in many tasks involving machine perception and natural language.
+
+Press Release: Deep learning is a radical new technology, harnessing the power of the mind to endow machines with human-like intelligence. This transformative technology may hasten the arrival of the singularity, spawning a generation of humanoid robots equipped to think, feel, absorb the totality of human knowledge and colonize Alpha Centauri.
+
+Privacy
+
+Theorist: For a long time, "privacy" has lacked any concrete definition. In the past several years some mathematical definitions of privacy have been proposed in the context of database query mechanisms. Differential privacy quantifies the probability that any individual's information is leaked as a result of their informations' inclusion in a database.
+
+Data Scientist: Most likely, no one anywhere on the internet is doing anything to protect your privacy. We are paid to extract information from databases, not fortify them against leaking information. Why add noise to data, when it makes our algorithms' performance look worse? Privacy doesn't exist.
+
+Press Release: Your information is quadruple encrypted with bank-grade Fort Knox security! No one, not even our CEO can view your private information. Use our product, knowing that privacy is our number one priority!
+
+<embedded picture: privacy on the internet in the age of big data>
+
+Predictive Coding / Data Analytics
+
+Theorist: Predictive coding is a re-branding of document classification to sell e-discovery products to lawyers. Data analytics is a synonym for data analysis.
+
+Data Scientist: When we pitched a law firm a user-friendly binary classification tool to assist in retrieving relevant documents using linear models and a bag-of-words representation, they were unimpressed. In the next powerpoint, we described "predictive coding", our groundbreaking "data analytics" technology for "knowledge braining".
+
+Press Release: Predictive coding represents a transformative synergy between artificial intelligence and legal work-flow, providing customer wins in this untapped vertical at an unprecedented scale. State-of-the-art predictive coding data analytics will knowledge brain your competition into obsoletion.
+
+Zachary Chase Lipton is a PhD student in the Computer Science Engineering department at the University of California, San Diego. Funded by the Division of Biomedical Informatics, he is interested in both theoretical foundations and applications of machine learning. In addition to his work at UCSD, he has interned at Microsoft Research Labs. 
+

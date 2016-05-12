@@ -1,0 +1,125 @@
+TensorFlow Disappoints – Google Deep Learning falls shallow
+
+http://www.kdnuggets.com/2015/11/google-tensorflow-deep-learning-disappoints.html
+
+Tags: Deep Learning, Google, Machine Learning, Matthew Mayo, Python, TensorFlow
+
+Google recently open-sourced its TensorFlow machine learning library, which aims to bring large-scale, distributed machine learning and deep learning to everyone. But does it deliver?
+
+By Matthew Mayo, KDnuggets.
+
+Why was I disappointed with TensorFlow? It doesn't seem to fit any particular niche very well. Read on for the particulars. But first, let me get 2 things out of the way up front: 
+
+#1 - I am not a deep learning expert. I am currently pursuing a Master's thesis in machine learning, I read about, appreciate, and understand deep learning concepts and innovations, and implement nets in some of the leading frameworks, but I am not an expert. 
+
+#2 - I am an avowed supporter of Google, one might even say a "fan boy," in a way similar to how folks are Apple obsessed, or Microsoft manic (hey, there are probably a few).
+
+<TensorFlow Graph>
+
+Moving on (for now)... 
+
+As announced last week, Google has open sourced TensorFlow, what it refers to as its second-generation system for large-scale machine learning implementations, and successor to DistBelief. 
+
+Built by the Google Brain team, TensorFlow represents computations as stateful dataflow graphs. TensorFlow is able to model computations on a wide variety of hardware, from consumer devices such as those powered by Android, to large-scale heterogeneous, multiple GPU systems. TensorFlow claims to be able to, without significant alteration of code, move execution of the computationally expensive tasks of a given graph from solely CPU to heterogeneous GPU-accelerated environments. Given these details, it goes without saying that TensorFlow aims to bring massive parallelism and high scalability to machine learning for all. 
+
+What follows is a general overview of TensorFlow, its architecture, and how it is utilized, after which I share my preliminary thoughts on the system. 
+
+TensorFlow Overview 
+
+At the heart of TensorFlow is the dataflow graph representing computations. Nodes represent operations (ops), and the edges represent tensors (multi-dimensional arrays, the backbone of TensorFlow). The entire dataflow graph is a complete description of computations, which occur within a session, and are executed on devices (CPUs or GPUs). Like much contemporary scientific computing and large-scale machine learning, TensorFlow favors its well-documented Python API, where tensors are represented internally as familiar numpy ndarray objects. TensorFlow relies on highly-optimized C++ for its computation, and also supports native APIs in C and C++. 
+
+Installation of TensorFlow is quick and painless, and can be accomplished easily with a pip install command. Once installed, getting a Hello, TensorWorld! program up and running is straightforward: 
+
+import tensorflow as tf
+
+# Say hello.
+ hello = tf.constant('Hello, TensorWorld!')
+ sess = tf.Session()
+    print sess.run(hello)
+# --> Hello, TensorWorld!
+
+# Some simple math.
+    a = tf.constant(10)
+    b = tf.constant(32)
+    print sess.run(a+b)
+# --> 42
+
+Graphs are constructed from nodes (ops) that don't require input (source ops), which then pass their output to further ops which, in turn, perform computations on these output tensors, and so on. These subsequent ops are performed asynchronously and, optionally, in parallel. Notice the run() method calls above; they take, as arguments, the result variables for computations you are interested in performing, and a backward chain of required calls are made to achieve this end goal. 
+
+A further example illustrates randomly filling a pair of numpy ndarrays with floats, assigning these explicitly-created numpy ndarrays to tensorflow objects, and performing matrix multiplication on them. Note, in particular, the creation of a session and the use of the run() method. With no graph specified, TensorFlow uses the default instance. 
+
+    import tensorflow as tf
+    import numpy as np
+
+# Pair of numpy arrays.
+    matrix1 = 10 * np.random.random_sample((3, 4))
+    matrix2 = 10 * np.random.random_sample((4, 6))
+
+# Create a pair of constant ops, add the numpy 
+# array matrices.
+    tf_matrix1 = tf.constant(matrix1)
+    tf_matrix2 = tf.constant(matrix2)
+
+# Create a matrix multiplication operation, pass
+# the TensorFlow matrices as inputs.
+    tf_product = tf.matmul(tf_matrix1, tf_matrix2)
+
+# Launch a session, use default graph. 
+    sess = tf.Session()
+
+# Invoking run() with tf_product variable will
+# execute the ops necessary to satisfy the request,
+# storing result in 'result.'
+    result = sess.run(tf_product)
+
+# Now let's have a look at the result.
+    print result
+
+# Close the Session when we're done.
+    sess.close()
+
+For more details on TensorFlow's implementation, see this whitepaper. 
+
+Experimenting with TensorFlow 
+
+In order to gain some appreciation for Google's newly open-sourced contribution to machine learning, I spent some time playing around with it. Specifically, I undertook as projects a few of the tutorials on the TensorFlow website. The tutorials are admittedly well-written, and though they explicitly, in more than one location, state that they are not generally suitable for learning machine learning, I'd argue that even a beginner would be able to read the documents and get something generalizable and useful from them. 
+
+The following are the specific tutorials I had a look at. 
+
+TensorFlow Mechanics 101 
+
+The goal of this tutorial is to show how to use TensorFlow to train and evaluate a simple feed-forward neural network for handwritten digit classification using the (classic) MNIST data set. The intended audience for this tutorial is experienced machine learning users interested in using TensorFlow.
+
+<embedded figure: TSNE>
+Learned embeddings using t-SNE. 
+
+Vector Representation of Words 
+
+In this tutorial we look at the word2vec model by Mikolov et al. This model is used for learning vector representations of words, called word embeddings.
+
+Deep MNIST for Experts 
+
+TensorFlow is a powerful library for doing large-scale numerical computation. One of the tasks at which it excels is implementing and training deep neural networks. In this tutorial we will learn the basic building blocks of a TensorFlow model while constructing a deep convolutional MNIST classifier.
+
+As stated above, all of the tutorials are well-written. They also performed without issue, and had results as advertised. However, I couldn't help feel a real sense of been here, done that. I understand the need for standardized introductions to topics, but beside being technically sound, it seemed like they were just going through the motions.
+
+Discussion 
+
+There was something more troubling as I went through these, however (and this relates back to my first 2 points at the beginning of the article). Although I was learning how to use TensorFlow, I was finding it difficult to figure out when I would use it. Skimming through the rest of the tutorials, I could see that TensorFlow could be used to implement recurrent neural networks, convolutional neural networks, logistic regression, even Mandelbrot Set generation and visualization (which muddied the picture even further for me, to be honest), but there didn't seem to be any silver bullet (or anything close) as to why I would choose TensorFlow for a given project. I didn't get it. So I dug around further. 
+
+Some quick Google-fu and it became evident that I was all alone. There were experts everywhere espousing the benefits of TensorFlow. Well, actually, they were talking about how good it was, but with little more substance than you could find on the TensorFlow website. But at least there were reasons given as to why we should use it... right? Well, actually, not so much. I couldn't find a single use case specifically for TensorFlow anywhere. Most "tech experts" were busy focusing on how TensorFlow would "change everything," and speaking vaguely about how AI and machine learning would now be accessible to anyone who wanted to use it (finally!), and how it can run on a plethora of hardware. Honestly, it seemed like a lot of people were doing their very best to not offend Google, without really understanding what's going on, and perhaps just having heard about deep learning for the first time last week. And no, despite my academic tendencies, I will not be citing anyone here. And I still didn't get it. 
+
+not getting it And what about deep learning, specifically? TensorFlow can execute in heterogeneous CPU/GPU environments, so there's that. But so can everything else in this space (see here, here, here, here, and here). The code (subjectively) isn't any easier to read than, say, Theano (from the experience I have). Also, not getting it. 
+
+Then there's the (lack of) scalability issue. In its whitepaper, TensorFlow is described (in the title, mind you) as "large-scale machine learning on heterogeneous distributed systems." But the open source version executes on a single node. Self-distribution? Maybe I'm old school, but GPU acceleration does not a distributed system make. I know, I know, the proprietary version is distributed, and there's a good chance that future open source releases will be as well. But until then... that's right. Still not getting it.
+
+So, maybe it doesn't do anything that can't be done elsewhere, or elsewhere on numerous machines, but maybe it's quicker. But then again, maybe not. This benchmark report (which has not been independently verified), comparing TensorFlow and some other popular frameworks, does not bode well for the newcomer. The TensorFlow team is rumored to be working on fixing these (and really, would you need a rumor to convince you that Google is actively and continuously looking to improve its products? The Google apps on my Nexus update twice a day!), and so this may simply be a bug to be ironed out of newly-released code. If this is the case, and TensorFlow can keep up with the others, or even surpass them, well, then, we would probably be having a different conversation. 
+
+If there is one thing it may have going for it already is its ability to execute on multiple devices and platforms. In all honesty, if I ever need to implement a neural network on an Android device, I'll give TensorFlow a serious (and probably first) look. Also, and this isn't a cop out (because it is important, dammit!), the documentation (for the Python API) is pretty great, which is more than can be said for a lot of newly open-sourced code. 
+
+Look, Google is at the forefront of technological innovation, there is no denying that. As other researchers often note, Google is 5+ years ahead of everyone. In everything. All the time. And I will continue to wave my multicolored flag in their honor (but I refuse to say 'Alphabet'). Something just seems a bit... off here. It's like a new pizzeria opening on the block, except it has pretty much the same menu as other shops, doesn't taste quite as good, and costs a little more, too. You might try it out, but something tells me you and your friends end up back at your favorite spot soon enough. Incidentally, I tried for a "deep dish learning" joke here, but just couldn't work it in. 
+
+I'm not saying don't use TensorFlow. I'm not even saying that I won't use it. It's just that, well, I'm struggling to figure out when or why I would use it, to be honest. Maybe I'm missing something really obvious that someone else could point out for me. I'd be happy to be proven wrong (or less-correct, relatively speaking). Let us know what you are using TensorFlow for, and what your thoughts on it are. 
+
+Bio: Matthew Mayo is a computer science graduate student currently working on his thesis parallelizing machine learning algorithms. He is also a student of data mining, a data enthusiast, and an aspiring machine learning scientist.
+
