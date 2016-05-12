@@ -200,6 +200,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Abstract: We combine supervised learning with unsupervised learning in deep neural networks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T052554Z" creationid="Zhan" creationdate="20160512T052554Z">
+        <seg>摘要 ︰ 我们在深度神经网络中结合监督学习与无监督学习。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Accelerated research</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T030301Z" creationid="Zhan" creationdate="20160504T030301Z">
@@ -460,6 +468,16 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T075815Z" creationid="Zhan" creationdate="20160427T075815Z">
         <seg>作者应该去查阅 [GAP benchmark suite] (https://github.com/sbeamer/gapbs)，其不仅以上面的那些简单问题为目标，更提供你可能还没听说过的优化算法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Authors: Antti Rasmus, Harri Valpola, Mikko Honkala, Mathias Berglund, Tapani Raiko 
+Date posted to arXiv: 9 Jul 2015</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T052512Z" creationid="Zhan" creationdate="20160512T052512Z">
+        <seg>作者 ︰ Antti Rasmus, Harri Valpola, Mikko Honkala, Mathias Berglund, Tapani Raiko
+arXiv 发表日期: 2015 年 7 月 9 日</seg>
       </tuv>
     </tu>
     <tu>
@@ -1009,6 +1027,14 @@ If, like me, you’re interested in AI and deep learning, you’ll like this.</s
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T040504Z" creationid="Zhan" creationdate="20160512T040504Z">
         <seg>雨果的评论 （节选） ︰ 递归神经网络在线训练是一个尚未解决的大问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Hugo's two cents (excerpt): What I find most exciting about this paper is its performance.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T053452Z" creationid="Zhan" creationdate="20160512T053452Z">
+        <seg>雨果的评论 （节选） ︰ 让我觉着兴奋之处在于这篇论文所述性能。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1655,6 +1681,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>On MNIST, with only 100 labeled examples, it achieves 1.13% error!</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T053522Z" creationid="Zhan" creationdate="20160512T053522Z">
+        <seg>在 MNIST，只有 100 个标签的例子，其错误率达到 1.13%！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>On top of that, we will see many new platforms made specifically for TensorFlow.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T020559Z" creationid="Zhan" creationdate="20160504T020559Z">
@@ -1667,6 +1701,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T020315Z" creationid="Zhan" creationdate="20160504T020315Z">
         <seg>或一款可在你的手机上运行的版本，它可能不存在。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Our work builds on top of the Ladder network proposed by Valpola (2015) which we extend by combining the model with supervision.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T053057Z" creationid="Zhan" creationdate="20160512T053057Z">
+        <seg>我们以 Valpola 提出的梯度网络 (2015) 为基础，将其与监督相结合。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1823,6 +1865,14 @@ http://storagemojo.com/2016/05/09/scale-and-the-all-flash-datacenter/</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T043457Z" creationid="Zhan" creationdate="20160427T043457Z">
         <seg>搜索者。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Semi-Supervised Learning with Ladder Network</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T052422Z" creationid="Zhan" creationdate="20160512T052422Z">
+        <seg>半监督的学习与梯形网络</seg>
       </tuv>
     </tu>
     <tu>
@@ -2413,6 +2463,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The proposed model is trained to simultaneously minimize the sum of supervised and unsupervised cost functions by backpropagation, avoiding the need for layer-wise pretraining.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T052920Z" creationid="Zhan" creationdate="20160512T052920Z">
+        <seg>所提出的模型采用反向传播来同时尽量减少监督和无监督的成本函数的总和，从而避免所需的逐层预训练。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The question is whether faster storage systems always mean faster workload throughput.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T020915Z" creationid="Zhan" creationdate="20160428T020915Z">
@@ -2889,6 +2947,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T085602Z" creationid="Zhan" creationdate="20160428T085602Z">
         <seg>我们曾经用 strace 在系统上采集所有运行于其中的应用程序行为，然后合并这些跟踪，在各种存储系统之上运行仿真。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We show that the resulting model reaches state-of-the-art performance in various tasks: MNIST and CIFAR-10 classification in a semi-supervised setting and permutation invariant MNIST in both semi-supervised and full-labels setting.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T053349Z" creationid="Zhan" creationdate="20160512T053349Z">
+        <seg>我们生成的模型在各种任务中显示出先进的性能 ︰ 包括 MNIST 和 CIFAR-10 分类，分别采取半监督的设置和置换不变 MNIST，以及半监督和全标签设置。</seg>
       </tuv>
     </tu>
     <tu>
