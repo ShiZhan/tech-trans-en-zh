@@ -200,6 +200,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Abstract (excerpt): We propose Neural Reasoner, a framework for neural network-based reasoning over natural language sentences.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160517T022514Z" creationid="Zhan" creationdate="20160517T022514Z">
+        <seg>摘要 （节选） ︰ 我们提出神经推理机，在自然语言句子上进行基于神经网络进行推理的框架。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Abstract: We combine supervised learning with unsupervised learning in deep neural networks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T052554Z" creationid="Zhan" creationdate="20160512T052554Z">
@@ -478,6 +486,16 @@ Date posted to arXiv: 9 Jul 2015</seg>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T052512Z" creationid="Zhan" creationdate="20160512T052512Z">
         <seg>作者 ︰ Antti Rasmus, Harri Valpola, Mikko Honkala, Mathias Berglund, Tapani Raiko
 arXiv 发表日期: 2015 年 7 月 9 日</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Authors: Baolin Peng, Zhengdong Lu, Hang Li, Kam-Fai Wong 
+Date posted to arXiv: 22 Aug 2015</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160517T022408Z" creationid="Zhan" creationdate="20160517T022408Z">
+        <seg>作者：Baolin Peng, Zhengdong Lu, Hang Li, Kam-Fai Wong 
+arXiv 发表日期： 22 Aug 2015</seg>
       </tuv>
     </tu>
     <tu>
@@ -2069,6 +2087,14 @@ http://storagemojo.com/2016/05/09/scale-and-the-all-flash-datacenter/</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>That is essentially the performance of stacked denoising autoencoders, trained on the entire training set (though that was before ReLUs and batch normalization, which this paper uses)!</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160517T021558Z" creationid="Zhan" creationdate="20160517T021558Z">
+        <seg>那本质上是去噪自动编码器的堆积的性能，用整个训练集训练而来 （尽管这是在本文所用 ReLUs 和批处理的正态化之前） ！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>That is my view of the main issue with graph processing research at the moment, but it shows up a few different ways.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T072442Z" creationid="Zhan" creationdate="20160427T072442Z">
@@ -2711,6 +2737,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This confirms a current line of thought in Deep Learning (DL) that, while recent progress in DL applied on large labeled datasets does not rely on any unsupervised learning (unlike at the "beginning" of DL in the mid 2000s), unsupervised learning might instead be crucial for success in low-labeled data regime, in the semi-supervised setting.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160517T022112Z" creationid="Zhan" creationdate="20160517T022112Z">
+        <seg>这证实了现在这样一条深度学习 (DL) 思路，即虽然 DL 的最新进展可应用于大型标记数据集，故不依赖于任何无监督的学习 (不同于在 2000 年代中期 DL 刚刚"起步")，在低标记数据领域，采取半监督设置下，无监督学习可能应该成为关键。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This explains why Nimble’s average customer is interested in AFDC’s, while Google, Facebook and AWS, aren’t.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160511T060347Z" creationid="Zhan" creationdate="20160511T060347Z">
@@ -2739,6 +2773,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T020904Z" creationid="Zhan" creationdate="20160428T020646Z">
         <seg>当然这也不是说我们就要回去用 3 MB/秒 及 3600 RPM 转速的磁盘驱动器，我是指比起具备 1M IOPS 或者 600MB/秒 流式数据访问能力而言，工作负载吞吐量更有必要关注。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is of course unrealistic.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160517T022323Z" creationid="Zhan" creationdate="20160517T022323Z">
+        <seg>这当然是不现实的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2847,6 +2889,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Towards Neural Network-based Reasoning</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160517T022344Z" creationid="Zhan" creationdate="20160517T022344Z">
+        <seg>基于神经网络的推理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Trading expressivity for manageabality can be a false economy.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160502T065336Z" creationid="Zhan" creationdate="20160502T065336Z">
@@ -2899,6 +2949,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T140216Z" creationid="Zhan" creationdate="20160506T140216Z">
         <seg>不幸的是，这货时不时死锁。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Unfortunately, there is one little issue in the experiments, disclosed by the authors: while they used few labeled examples for training, model selection did use all 10k labels in the validation set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160517T022320Z" creationid="Zhan" creationdate="20160517T022320Z">
+        <seg>不幸的是，在实验中，作者还披露一个小问题 ︰ 虽然他们在训练过程中使用少数带标签的例子，模型选择中则在验证集上使用所有一万个标签。</seg>
       </tuv>
     </tu>
     <tu>
