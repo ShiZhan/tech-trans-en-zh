@@ -192,6 +192,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Abstract (excerpt): In this paper, we present the first large-scale analysis of eight LSTM variants on three representative tasks: speech recognition, handwriting recognition, and polyphonic music modeling.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160517T023741Z" creationid="Zhan" creationdate="20160517T023626Z">
+        <seg>摘要 （节选） ︰ 在本文中，我们首次将八个 LSTM 变体用三个代表性任务 ︰ 语音识别、 手写识别和复调音乐建模进行大规模分析。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Abstract (excerpt): Recurrent Neural Networks can be trained to produce sequences of tokens given some input, as exemplified by recent results in machine translation and image captioning.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160517T023340Z" creationid="Zhan" creationdate="20160517T023340Z">
+        <seg>摘要 （节选） ︰ 递归神经网络能够被训练用于根据输入来制作序列，如同现在在机器翻译与图像标注上那些最新进展一样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Abstract (excerpt): We introduce the "NoBackTrack" algorithm to train the parameters of dynamical systems such as recurrent neural networks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T023230Z" creationid="Zhan" creationdate="20160512T023230Z">
@@ -493,9 +509,29 @@ arXiv 发表日期: 2015 年 7 月 9 日</seg>
         <seg>Authors: Baolin Peng, Zhengdong Lu, Hang Li, Kam-Fai Wong 
 Date posted to arXiv: 22 Aug 2015</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160517T022408Z" creationid="Zhan" creationdate="20160517T022408Z">
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160517T023113Z" creationid="Zhan" creationdate="20160517T022408Z">
         <seg>作者：Baolin Peng, Zhengdong Lu, Hang Li, Kam-Fai Wong 
-arXiv 发表日期： 22 Aug 2015</seg>
+arXiv 发表日期： 2015 年 8 月 22 日</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Authors: Klaus Greff, Rupesh Kumar Srivastava, Jan Koutník, Bas R. Steunebrink, Jürgen Schmidhuber 
+Date posted to arXiv: 13 Mar 2015</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160517T023453Z" creationid="Zhan" creationdate="20160517T023453Z">
+        <seg>作者： Klaus Greff, Rupesh Kumar Srivastava, Jan Koutník, Bas R. Steunebrink, Jürgen Schmidhuber 
+arXiv 发表日期：2015 年 3 月 13 日</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Authors: Samy Bengio, Oriol Vinyals, Navdeep Jaitly, Noam Shazeer 
+Date posted to arXiv: 9 Jun 2015</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160517T023041Z" creationid="Zhan" creationdate="20160517T023041Z">
+        <seg>作者： Samy Bengio, Oriol Vinyals, Navdeep Jaitly, Noam Shazeer 
+arXiv 发表日期： 2015 年 6 月 9 日</seg>
       </tuv>
     </tu>
     <tu>
@@ -554,6 +590,14 @@ arXiv 发表时间：2015 年 7 月 28 号</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T081812Z" creationid="Zhan" creationdate="20160428T081812Z">
         <seg>文件系统、卷管理器以及现在还有对象存储系统，其间应如何分配数据，又怎样在存储系统中摆放？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Bio: Matthew Mayo is a computer science graduate student currently working on his thesis parallelizing machine learning algorithms.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160517T022723Z" creationid="Zhan" creationdate="20160517T022723Z">
+        <seg>简历 ︰ 马修 · 梅奥是计算机科学专业研究生，目前正致力于他毕业论文中并行机器学习算法研究。</seg>
       </tuv>
     </tu>
     <tu>
@@ -989,6 +1033,14 @@ If, like me, you’re interested in AI and deep learning, you’ll like this.</s
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T043231Z" creationid="Zhan" creationdate="20160427T043231Z">
         <seg>哥德尔机可以在冯 · 诺依曼体系结构上运行 — — 他们不是一个新的计算机体系结构。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>He is also a student of data mining, a data enthusiast, and an aspiring machine learning scientist.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160517T022814Z" creationid="Zhan" creationdate="20160517T022814Z">
+        <seg>他也是一个数据挖掘方向的学生、 数据爱好者和有抱负的机器学习的科学家。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1515,6 +1567,14 @@ Intel 承诺将于今年发售 3D Xpoint 非易失存储器 (NVM)，至少在他
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>LSTM: A Search Space Odyssey</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160517T023407Z" creationid="Zhan" creationdate="20160517T023407Z">
+        <seg>长短程记忆︰ 搜索太空漫游</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Lest SSD vendors get complacent, the really high performance database applications are going in-memory.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160511T062930Z" creationid="Zhan" creationdate="20160511T062930Z">
@@ -1875,6 +1935,14 @@ http://storagemojo.com/2016/05/09/scale-and-the-all-flash-datacenter/</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T005808Z" creationid="Zhan" creationdate="20160503T005808Z">
         <seg>扩展。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Scheduled Sampling for Sequence Prediction with Recurrent Neural Networks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160517T023007Z" creationid="Zhan" creationdate="20160517T023007Z">
+        <seg>使用递归神经网络进行序列预测中定时采样的研究</seg>
       </tuv>
     </tu>
     <tu>
