@@ -168,6 +168,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A global system of networked devices now generates terabytes of data each second.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160520T005750Z" creationid="Zhan" creationdate="20160520T005750Z">
+        <seg>遍及全球的各种网络设备每秒制造着数以TB计的数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A graph coloring is an assignment of colors (think small integers) to graph nodes so that no edge references two nodes of the same color.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T080033Z" creationid="Zhan" creationdate="20160427T080033Z">
@@ -244,6 +252,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T235624Z" creationid="Zhan" creationdate="20160505T235624Z">
         <seg>实际上，我们将看到的是一些关于 "异步" 含义的疑惑。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Affordable storage makes it possible to record seemingly arbitrary amounts of information.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160520T005837Z" creationid="Zhan" creationdate="20160520T005837Z">
+        <seg>价格尚可接受的存储使其看似可以记录任意数量的信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -352,6 +368,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>And machine learning algorithms, together with distributed computing, increasingly rise to the task of extracting actionable intelligence from this information.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160520T010141Z" creationid="Zhan" creationdate="20160520T010141Z">
+        <seg>机器学习算法，以及分布式计算，更将从这些信息中提取可运用的智能，作为一项日益重要的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>And, of course, the simpler object storage interfaces of cloud vendors, who also remove most of the management overhead from corporate IT.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T004337Z" creationid="Zhan" creationdate="20160503T004337Z">
@@ -400,6 +424,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As data science has spread through the mainstream, so too has a dense vocabulary of ill-defined jargon.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160520T005449Z" creationid="Zhan" creationdate="20160520T005449Z">
+        <seg>随着数据科学逐渐步入主流，也有着密集的含糊不清的术语词汇。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As devices get faster and faster, channel performance must keep up.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T072729Z" creationid="Zhan" creationdate="20160428T072729Z">
@@ -420,6 +452,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160428T084446Z" creationid="Zhan" creationdate="20160428T084446Z">
         <seg>随着系统变得更大和命名空间变得更宽阔，这个问题将变得更糟。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As the importance of data science has grown, so too has the body of jargon associated with it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160520T010306Z" creationid="Zhan" creationdate="20160520T010306Z">
+        <seg>随着数据科学越来越重要，各式各样相关术语也越来越丰富。</seg>
       </tuv>
     </tu>
     <tu>
@@ -594,6 +634,22 @@ arXiv 发表时间：2015 年 7 月 28 号</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Big Data</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160520T010812Z" creationid="Zhan" creationdate="20160520T010812Z">
+        <seg>大数据</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Big data is hot.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160520T005701Z" creationid="Zhan" creationdate="20160520T005701Z">
+        <seg>大数据方兴未艾。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Bio: Matthew Mayo is a computer science graduate student currently working on his thesis parallelizing machine learning algorithms.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160517T022723Z" creationid="Zhan" creationdate="20160517T022723Z">
@@ -671,6 +727,14 @@ boost.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T002352Z" creationid="Zhan" creationdate="20160503T002352Z">
         <seg>但廉价 IOPS 于企业数据中心而言意味着什么？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>But what precisely does "big data" mean?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160520T010201Z" creationid="Zhan" creationdate="20160520T010201Z">
+        <seg>不过"大数据"到底意味着什么？</seg>
       </tuv>
     </tu>
     <tu>
@@ -753,6 +817,14 @@ The options for connectivity to the storage systems today are SAS, Infiniband, F
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160503T010835Z" creationid="Zhan" creationdate="20160323T022014Z">
         <seg>欢迎礼貌讨论，当然。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Data Science’s Most Used, Confused, and Abused Jargon</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160520T005330Z" creationid="Zhan" creationdate="20160520T005330Z">
+        <seg>数据科学使用、困惑，和误用上的主要问题</seg>
       </tuv>
     </tu>
     <tu>
@@ -1301,6 +1373,14 @@ If, like me, you’re interested in AI and deep learning, you’ll like this.</s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In a split-personality post, we offer several perspectives on many of data science's most confused terms.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160520T005633Z" creationid="Zhan" creationdate="20160520T005633Z">
+        <seg>帖子里我们用不同角色参与探讨，采取不同视角来谈谈数据科学里那些令人困惑的术语。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In an effort to help us better understand their content, for each paper an overview of its abstract along with an excerpt from Hugo's notes are presented.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160512T022655Z" creationid="Zhan" creationdate="20160512T022655Z">
@@ -1321,6 +1401,14 @@ If, like me, you’re interested in AI and deep learning, you’ll like this.</s
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T140838Z" creationid="Zhan" creationdate="20160506T140505Z">
         <seg>在上述的顺序计算中，节点颜色的选择基于未初始化值︰ 按顺序位于其 *后* 节点的颜色。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this post, I'll offer a look at data science's buzzwords from multiple perspectives, namely the theorist, the empirical data scientist, and the press release bluster, which too often is parroted by the mainstream press.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160520T010805Z" creationid="Zhan" creationdate="20160520T010805Z">
+        <seg>在这篇文章中，我将从多个视角，即理论家、 实证数据科学家和来势汹汹的新闻出版者考察这些术语，后者则往往被主流媒体模仿。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1863,6 +1951,14 @@ http://www.enterprisestorageforum.com/storage-hardware/why-workloads-matter-more
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Presumably it is larger than mid-sized data and smaller than gigantic data.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160520T010933Z" creationid="Zhan" creationdate="20160520T010928Z">
+        <seg>据推测它介乎中型数据和巨型数据之间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Presumably the original assumption was that folks would use breadth-first graph traversal, which exercised the memory subsystem in the way the benchmark authors intended (a mix of bulk memory access and pointer chasing).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160427T074831Z" creationid="Zhan" creationdate="20160427T074831Z">
@@ -2119,6 +2215,14 @@ http://storagemojo.com/2016/05/09/scale-and-the-all-flash-datacenter/</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160505T235921Z" creationid="Zhan" creationdate="20160505T235921Z">
         <seg>同步之于异步执行： 计算能否立即停止而无须等候全局屏障？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tags: Big Data Privacy, Data Science, Deep Learning, Zachary Lipton</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160520T005348Z" creationid="Zhan" creationdate="20160520T005348Z">
+        <seg>标签 ︰ 大数据隐私，数据科学、 深入学习，Zachary Lipton</seg>
       </tuv>
     </tu>
     <tu>
@@ -2669,6 +2773,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Theorist: Big data is an underspecified term.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160520T010856Z" creationid="Zhan" creationdate="20160520T010856Z">
+        <seg>理论家 ︰ 大数据是一个未详细说明的术语。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are already multiple companies (in stealth) who are building platforms to easily manage and deploy TensorFlow applications.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160504T031131Z" creationid="Zhan" creationdate="20160504T031131Z">
@@ -3169,6 +3281,14 @@ As Gödel proved, any formal system that includes arithmetic, either allows for 
       </tuv>
       <tuv lang="ZH-CN" changeid="Zhan" changedate="20160506T140350Z" creationid="Zhan" creationdate="20160506T140350Z">
         <seg>参照一般建议列表，你也许来一句 "好吧，干掉锁试试"？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>While many terms of art are well defined, others are buzzwords, ubiquitous in the media but lacking concrete meaning.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Zhan" changedate="20160520T010419Z" creationid="Zhan" creationdate="20160520T010419Z">
+        <seg>尽管有不少术语具备严格定义，还有一些则没那么准确，遍布各类媒体却缺少实际内涵。</seg>
       </tuv>
     </tu>
     <tu>
